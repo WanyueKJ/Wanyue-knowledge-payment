@@ -1,0 +1,1 @@
+{"code":0,"msg":"","info":[{"chatserver":"https:\/\/demo.sdwanyue.com:19967","pull":"","stream":"1_249_0","livetype":"5","ppts":[],"roomtoken":"","uuid":"","sound_appid":"Y==73T=_ii1fY1i=0_Y3YffU70iifpY7","netless_appid":"","islive":"1","shutup_me":"0","shutup_room":"0","intr":"\u7b80\u4ecb","user_type":"0","livemode":"0","pptindex":"0","url":"","nums":"2"}]}
