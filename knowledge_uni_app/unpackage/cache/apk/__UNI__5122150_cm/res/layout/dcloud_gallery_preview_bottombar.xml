@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/footer" android:background="#ff21282c" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/check_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/check_image" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="7.0dip" android:src="@drawable/dcloud_gallery_btn_selected" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/default_text_color" android:layout_gravity="center_vertical" android:id="@id/select_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/dcloud_gallery_select" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

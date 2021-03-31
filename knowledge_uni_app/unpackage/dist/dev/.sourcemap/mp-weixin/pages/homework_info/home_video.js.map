@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,+G;AACAA,UAAU,CAACC,mBAAD,CAAV,C","file":"pages/homework_info/home_video.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/homework_info/home_video.vue'\ncreatePage(Page)"],"sourceRoot":""}

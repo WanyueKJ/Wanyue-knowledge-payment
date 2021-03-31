@@ -1,0 +1,55 @@
+
+.icon {
+	width: 60rpx;
+	height: 60rpx;
+	margin-top: 10rpx;
+	margin-left: 30rpx;
+}
+.iconBg {
+	width: 14.2%;
+	height: 80rpx;
+}
+.swiper-box2 {
+	width: 100%;
+	height: 240rpx;
+	position: absolute;
+	top: 0rpx;
+	background-color: #E7EBED;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.swiper-box {
+	width: 100%;
+	height: 330rpx;
+	position: absolute;
+	top: 0rpx;
+	background-color: #E7EBED;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	/* background-color: #007AFF; */
+}
+.bottom {
+	height: 130rpx;
+}
+.send {
+	position: absolute;
+	right: 20rpx;
+	bottom: 20rpx;
+	width: 80rpx;
+	height: 40rpx;
+	-webkit-border-radius: 50px;
+	        border-radius: 50px;
+	font-size: 12px;
+	line-height: 40rpx;
+	text-align: center;
+	margin-top: 20rpx;
+	background: #38DAA6;
+	color: #FFFFFF;
+}
+

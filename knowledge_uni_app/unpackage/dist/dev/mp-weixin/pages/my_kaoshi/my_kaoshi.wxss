@@ -1,0 +1,124 @@
+
+.kaoshi-all-wrap {
+	width: 92%;
+	margin: 0 auto;
+}
+.left-page-title {
+	width: 300rpx !important;
+	font-size: 32rpx;
+	display: inline-block;
+	font-weight: bold;
+}
+
+/* 在线刷题框 */
+.online-brush-topic {
+	height: 170rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	margin: 0 auto;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear, left top, right top, from(#38E1AB), to(#1BD1B1));
+	background: -webkit-linear-gradient(left, #38E1AB, #1BD1B1);
+	background: linear-gradient(to right, #38E1AB, #1BD1B1);
+}
+.online-brush-img {
+	width: 48rpx;
+	height: 52rpx;
+	margin-right: 25rpx;
+}
+.online-brush-txt {
+	display: inline-block;
+	width: 74%;
+}
+
+/* 考试区域 */
+.exam-type-wrap {
+	margin-top: 24rpx;
+}
+
+/* 滑动标签 */
+.course-tab {
+	margin-bottom: 36rpx;
+	width: 100%;
+	overflow: hidden;
+}
+.tab-item {
+	width: 140rpx;
+	height: 54rpx;
+	line-height: 54rpx;
+	margin-right: 48rpx;
+	display: inline-block;
+	-webkit-border-radius: 30rpx;
+	        border-radius: 30rpx;
+	text-align: center;
+	background-color: #F5F5F5;
+	font-size: 20rpx;
+}
+.tab-item:last-child {
+	margin-right: 0;
+}
+.scroll-view_H {
+	width: 100%;
+	white-space: nowrap;
+}
+ .uni-scroll-view::-webkit-scrollbar {
+	/* 隐藏滚动条，但依旧具备可以滚动的功能 */
+	display: none
+}
+.text-main {
+	color: #FFFFFF !important;
+	background: -webkit-gradient(linear,left top, right top,from(#3D98FF) ,to(#7A76FA) );
+	background: -webkit-linear-gradient(left,#3D98FF ,#7A76FA );
+	background: linear-gradient(to right,#3D98FF ,#7A76FA );
+}
+.text-main::after {
+	/* 隐藏下划线 */
+	bottom: -9999rpx !important;
+}
+.exam-item {
+	margin-bottom: 25rpx;
+}
+.exam-item::after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+.exam-item-img {
+	width: 200rpx;
+	height: 150rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: left;
+}
+.exam-item-right {
+	float: left;
+	width: 65%;
+	margin-left: 10rpx;
+}
+.exam-item-title {
+	line-height: 30rpx;
+	margin-bottom: 10rpx;
+	font-size: 28rpx;
+	color: #323232;
+}
+.exam-item-num {
+	color: #969696;
+	font-size: 20rpx;
+}
+.exam-item-end-num {
+	color: #969696;
+	font-size: 20rpx;
+}
+

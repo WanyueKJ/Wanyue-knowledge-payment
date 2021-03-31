@@ -1,0 +1,97 @@
+
+.coushu {
+	display: block;
+	position: absolute;
+	right: 100rpx;
+	left: 200rpx;
+	height: 100rpx;
+}
+.itemline {
+	position: absolute;
+	left: 20rpx;
+	right: 20rpx;
+	height: 2rpx;
+	background-color: #EBEEF5;
+	margin-top: -30rpx;
+}
+.colour {
+	color: #FFFFFF;
+	width: 100rpx;
+	height: 30rpx;
+
+	display: inline-block;
+	width: 110rpx;
+	height: 32rpx;
+	line-height: 32rpx;
+	text-align: center;
+	margin-left: 10rpx;
+	background-color: #07C160;
+	color: #FFFFFF;
+	-webkit-border-radius: 6rpx;
+	        border-radius: 6rpx;
+	font-size: 20rpx;
+}
+.famous-all-wrap {
+	border-top: 3rpx solid #F5F5F5;
+	padding: 15rpx 23rpx 0;
+}
+.famous-item {
+	height: 84rpx;
+	margin-bottom: 50rpx;
+}
+.ft-avatar {
+	height: 100%;
+	width: 90rpx;
+	float: left;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.t-data-wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	height: 40rpx;
+	width: 85%;
+	float: left;
+	font-size: 28rpx;
+	color: #000000;
+}
+.t-title {
+	margin-left: 20rpx;
+}
+.t-zhicheng-wrap {
+	width: 64%;
+	float: left;
+	padding-left: 8rpx;
+}
+.jiantou {
+	position: absolute;
+	right: 20rpx;
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 20rpx;
+}
+.xiangziwrap {
+	position: absolute;
+	left: calc(50% - 80px);
+	top: calc(50% - 100px);
+	width: 300rpx;
+	height: 100rpx;
+}
+.xiangzi {
+	margin-left: 100rpx;
+	width: 100rpx;
+	height: 100rpx;
+}
+.xiangzi_txt {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 18rpx;
+	color: #C7C7C7;
+}
+

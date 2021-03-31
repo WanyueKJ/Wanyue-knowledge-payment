@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_notification" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/image">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/ll_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:textSize="10.0sp" android:textColor="#ffaaaaaa" android:layout_gravity="center_vertical" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:layout_alignParentRight="true" style="@style/NotificationText" />
+            <TextView android:textSize="13.5sp" android:textColor="@color/ffffff" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_alignLeft="@id/time" android:layout_alignParentLeft="true" style="@style/NotificationTitle" />
+        </RelativeLayout>
+        <TextView android:textSize="11.0sp" android:textColor="#ffaaaaaa" android:ellipsize="end" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/ll_title_bar" style="@style/NotificationText" />
+    </LinearLayout>
+</RelativeLayout>

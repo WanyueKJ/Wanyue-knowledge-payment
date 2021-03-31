@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dcloud_choose_an_action">Choose an action</string>
+    <string name="dcloud_gallery_all_dir_name">All Pictures &amp; Videos</string>
+    <string name="dcloud_gallery_all_image">All Photos</string>
+    <string name="dcloud_gallery_all_video">All Videos</string>
+    <string name="dcloud_gallery_cant_play_video">No programs to play</string>
+    <string name="dcloud_gallery_count_string" />
+    <string name="dcloud_gallery_done">Done</string>
+    <string name="dcloud_gallery_library_name">媒体选择器</string>
+    <string name="dcloud_gallery_msg_amount_limit">Maximum number of photos or videos</string>
+    <string name="dcloud_gallery_msg_size_limit">Please upload after compressing and cutting, the largest file only supports</string>
+    <string name="dcloud_gallery_preview">Preview</string>
+    <string name="dcloud_gallery_read_external_storage">Need to open storage permission</string>
+    <string name="dcloud_gallery_select">Select</string>
+    <string name="dcloud_gallery_select_image_title">Photos</string>
+    <string name="dcloud_gallery_select_null">You must select at least one file before previewing</string>
+    <string name="dcloud_gallery_select_title">Photos/Videos</string>
+    <string name="dcloud_gallery_select_video_title">Videos</string>
+    <string name="dcloud_gallery_video">Video</string>
+    <string name="dcloud_gallery_video_dir_name">All Videos</string>
+</resources>

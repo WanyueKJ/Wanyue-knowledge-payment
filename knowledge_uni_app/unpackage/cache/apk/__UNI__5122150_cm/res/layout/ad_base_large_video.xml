@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ff454545" android:ellipsize="end" android:id="@id/tv_listitem_ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="" android:maxLines="1" android:singleLine="false" android:layout_below="@id/icon_source_layout" android:lineSpacingMultiplier="1.0" />
+    <FrameLayout android:id="@id/iv_listitem_video" android:layout_width="fill_parent" android:layout_height="200.0dip" android:scaleType="centerCrop" android:layout_below="@id/tv_listitem_ad_desc" />
+    <include android:id="@id/adText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/iv_listitem_video" layout="@layout/ad_include_ad_text" />
+    <include android:id="@id/ad_title_creative_btn_layout" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_below="@id/iv_listitem_video" layout="@layout/ad_include_title_creative_btn" />
+    <include android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ad_title_creative_btn_layout" layout="@layout/ad_include_download_btn" />
+</RelativeLayout>

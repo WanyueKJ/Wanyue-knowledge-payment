@@ -1,0 +1,66 @@
+
+.page {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.time {
+	color: #999999;
+	font-size: smaller;
+	/* left: calc(50% - 10px); */
+	text-align: center;
+	width: 100%;
+	margin-top: 10rpx;
+}
+.neirong {
+	margin-top: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-left: 20rpx;
+	margin-bottom: 20rpx;
+}
+.tubiao {
+	width: 70rpx;
+	height: 70rpx;
+}
+.content {
+	margin-left: 20rpx;
+	max-width: 400rpx;
+	background-color: #F2F6FC;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+	border: 2rpx solid #D3D3D3;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+}
+.xiangziwrap {
+	position: absolute;
+	left: calc(50% - 80px);
+	top: calc(50% - 100px);
+	width: 300rpx;
+	height: 100rpx;
+}
+.xiangzi {
+	margin-left: 100rpx;
+	width: 100rpx;
+	height: 100rpx;
+}
+.xiangzi_txt {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 18rpx;
+	color: #C7C7C7;
+}
+

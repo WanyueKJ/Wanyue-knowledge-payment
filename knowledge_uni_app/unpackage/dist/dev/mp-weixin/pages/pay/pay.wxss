@@ -1,0 +1,528 @@
+/* 课程列表区域 */
+.course-list-wrap {
+	margin-top: 40rpx;
+}
+.live-title {
+	font-size: 30rpx;
+	font-weight: bold;
+	margin-left: 10rpx;
+}
+.live-more {
+	font-size: small;
+	position: absolute;
+	right: 40rpx;
+	color: #969696;
+	margin-top: 7rpx;
+}
+.more_image{
+	width: 20rpx;
+	height: 20rpx;
+	position: absolute;
+	right: 22rpx;
+	margin-top: 20rpx;
+}
+.content-more {
+	position: absolute;
+	right: 50rpx;
+	display: inline;
+	color: #969696;
+	font-size: 20rpx;
+}
+.live-list {
+	margin-bottom: 20rpx;
+	padding-left: 8rpx;
+}
+.live-list::after {
+	display: block;
+	clear: both;
+	height: 0;
+	content: "";
+	visibility: hidden;
+	overflow: hidden;
+}
+.live-list-img-wrap {
+	position: relative;
+	width: 31%;
+	height: 160rpx;
+	float: left;
+	margin-right: 6rpx;
+	margin-top: 20rpx;
+}
+
+
+/* 课程图片 */
+.live-list-img {
+	width: 100%;
+	height: 100%;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+}
+.course-title-icon {
+	position: absolute;
+	left: 0rpx;
+	top: 2rpx;
+	width: 60rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	text-align: center;
+	-webkit-border-radius: 8rpx 0 8rpx 0;
+	        border-radius: 8rpx 0 8rpx 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 18rpx;
+	color: #DBDBDB;
+}
+
+
+/* 课程内容 */
+.live-list-info {
+	float: left;
+	width: 65%;
+	height: 160rpx;
+	margin-left: 15rpx;
+}
+.live-teacher-avatar {
+	width: 35rpx;
+	height: 35rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-top: 20rpx;
+}
+
+
+/* 直播列表标题 */
+.live-c-title {
+	font-weight: bold;
+	overflow: hidden;
+	height: 70rpx;
+	line-height: 1.2em;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	margin-top: 20rpx;
+}
+.live-status {
+	font-size: 10px;
+	padding-top: 0rpx;
+	color: #969696;
+}
+.live-status-tuwen {
+	font-size: 18rpx;
+	color: #969696;
+	width: 80rpx;
+	text-align: center;
+	border: 2rpx solid #969696;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+}
+.living-status {
+	padding-top: 0rpx;
+	color: #2C62EF;
+}
+
+
+/* 价格 */
+.live-teacher-price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.price-wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	 color: #2C62EF; 
+	/* background: linear-gradient(to right,#3D98FF ,#7A76FA ); */
+	/* -webkit-background-clip: text;
+	color: transparent; */
+	position: absolute;
+	right: 20px;
+	margin-top: 10rpx;
+	font-size: 26rpx;
+	
+	/* padding-right: 50rpx; */
+}
+.free {
+	color: #2C62EF;
+}
+.numPrice {
+	color: #FF1B20;
+}
+.pass {
+	color: #4385FF;
+}
+.teacher-name {
+
+	margin-left: 15rpx;
+	font-size: 20rpx;
+	color: #323232;
+	width: auto;
+	margin-top: 22rpx;
+}
+page {
+		background-color: #F5F5F5;
+}
+.car_sele {
+		position: absolute;
+		margin-top: 20rpx;
+		right: 20rpx;
+		width: 40rpx;
+		height: 40rpx;
+}
+.jinfentitle {
+		width: 400rpx;
+		height: 100rpx;
+		color: #323232;
+		margin-left: 20rpx;
+		margin-top: 15rpx;
+}
+.jifenbottom {
+		text-align: center;
+		position: absolute;
+		bottom: 102rpx;
+		width: 100%;
+		height: 2rpx;
+		background-color: #F5F5F5;
+}
+.jifentop {
+		text-align: center;
+		position: fixed;
+		bottom: 190rpx;
+		width: 100%;
+		height: 10rpx;
+		background-color: #F5F5F5;
+}
+.jifen {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		position: fixed;
+		bottom: 100rpx;
+		width: 100%;
+		height: 80rpx;
+		background-color: #FFFFFF;
+}
+.integral {
+		margin-top: 20rpx;
+		margin-left: 40rpx;
+		width: 40rpx;
+		height: 40rpx;
+}
+.cancle1 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+}
+.cancle {
+		position: absolute;
+		right: 30rpx;
+		color: #6D6D72;
+		margin-top: 15rpx;
+}
+.paytitle {
+		text-align: center;
+		width: 100%;
+		height: 40rpx;
+		margin-top: 20rpx;
+}
+.showyes {
+		position: absolute;
+		right: 40rpx;
+		width: 40rpx;
+		height: 40rpx;
+		margin-top: 30rpx;
+}
+.payinfo {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		height: 100rpx;
+		background-color: #FFFFFF;
+}
+.paytitle2 {
+		color: #1FDCA9;
+		padding-top: 40rpx;
+		height: 100rpx;
+		background-color: #FFFFFF;
+}
+.subpayline {
+		position: absolute;
+		width: 100%;
+		height: 2rpx;
+		margin-top: 100rpx;
+		background-color: #CCCCCC;
+}
+.space {
+		width: 100%;
+		/* height: 10rpx; */
+}
+.paysubtitle {
+		text-align: left;
+		margin-left: 100rpx;
+		width: 150rpx;
+		margin-top: 30rpx;
+}
+.payicin {
+		position: absolute;
+		width: 50rpx;
+		height: 50rpx;
+		margin-top: 30rpx;
+		margin-left: 40rpx;
+}
+.payline {
+		width: 100%;
+		height: 1rpx;
+		margin-top: 20rpx;
+		background-color: #CCCCCC;
+}
+.payview {
+		text-align: center;
+		position: absolute;
+		bottom: 0rpx;
+		width: 100%;
+		height: 400rpx;
+		background-color: #F0F0F0;
+		-webkit-border-radius: 30rpx;
+		        border-radius: 30rpx;
+}
+.address {
+		width: 100%;
+		height: 140rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.hasaddress {
+		position: absolute;
+		top: 40rpx;
+		left: 120rpx;
+}
+.address2 {
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		padding-left: 20rpx;
+		padding-right: 20rpx;
+		height: 100rpx;
+		margin-top: 20px;
+}
+.add {
+		margin-left: 10px;
+		width: 40rpx;
+		height: 40rpx;
+		margin-top: 5rpx;
+}
+.add2 {
+		position: absolute;
+		right: 40rpx;
+		width: 30rpx;
+		height: 30rpx;
+}
+.title {
+		margin-left: 10rpx;
+		color: #000000;
+		font-size: medium;
+}
+.des {
+		margin-left: 10rpx;
+		font-size: small;
+		color: #7A7E83;
+		margin-top: 2rpx;
+}
+.des2 {
+		margin-left: 20rpx;
+		font-size: small;
+		color: #7A7E83;
+		margin-top: 2rpx;
+}
+.lineaddress {
+		background-color: #E7EBED;
+		width: 100%;
+		height: 30rpx;
+		margin-top: 0rpx;
+}
+
+
+/* 大班课/内容列表公共样式 */
+
+
+/* @import url("/static/css/course_list.css"); */
+
+
+/* 大班课单独样式 */
+.liveinfo-wrap {
+		margin-top: 2rpx;
+		padding-top: 10rpx;
+		min-height: 1500rpx;
+		background-color: #FFFFFF;
+}
+.shopdetail {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		margin-left: 10rpx;
+}
+.course-title-icon {
+		position: absolute;
+		left: 0rpx;
+		top: 2rpx;
+		width: 60rpx;
+		height: 30rpx;
+		line-height: 30rpx;
+		text-align: center;
+		-webkit-border-radius: 8rpx 0 8rpx 0;
+		        border-radius: 8rpx 0 8rpx 0;
+		background-color: rgba(0, 0, 0, 0.6);
+		font-size: 18rpx;
+		color: #DBDBDB;
+}
+
+
+/* .live-list-info {
+		float: left;
+		width: 65%;
+		height: 140rpx;
+		
+	} */
+
+
+/* .live-teacher-avatar {
+		width: 35rpx;
+		height: 35rpx;
+		border-radius: 50%;
+
+	} */
+
+
+/* .live-status {
+		font-size: 20rpx;
+		padding-top: 5rpx;
+		color: #969696;
+		height: 40rpx;
+	}
+
+	.living-status {
+		padding-top: 10rpx;
+		color: #64D3AD;
+	}
+ */
+
+
+/* 价格 */
+
+
+/* .live-teacher-price {
+		display: flex;
+
+	}
+
+	.price-wrap {
+		display: flex;
+		color: #64D3AD;
+		position: absolute;
+		right: 0px;
+		padding-right: 50rpx;
+	} */
+.free {
+		color: #64D3AD;
+}
+.numPrice {
+		color: #FF1B20;
+}
+.pass {
+		color: #4385FF;
+}
+
+
+/* .teacher-name {
+
+		margin-left: 15rpx;
+		font-size: 20rpx;
+		color: #323232;
+		width: auto;
+	} */
+.carView {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		bottom: 0rpx;
+		background-color: #FFFFFF;
+		height: 90rpx;
+		position: fixed;
+		width: 100%;
+}
+.alltitle {
+		color: #DDDDDD;
+		margin-left: 30rpx;
+		margin-top: 10rpx;
+		font-size: medium;
+}
+.allsi {
+		margin-left: 70rpx;
+		margin-top: 10rpx;
+		font-size: medium;
+		color: #000000;
+}
+.allmoney {
+		margin-left: 10rpx;
+		margin-top: 10rpx;
+		font-size: medium;
+		color: #FF1B20;
+}
+.checkbottom {
+		width: 40rpx;
+		height: 40rpx;
+		margin-top: 20rpx;
+		margin-left: 10rpx;
+}
+.buy {
+		padding-top: 20rpx;
+		height: 80rpx;
+		text-align: center;
+		font-size: larger;
+		width: 180rpx;
+		color: #FFFFFF;
+		background-color: #FF623E;
+		position: absolute;
+		right: 0;
+}
+.line {
+		background-color: #F0F0F0;
+		height: 1rpx;
+		width: 100%;
+		bottom: 91rpx;
+		position: fixed;
+}
+

@@ -1,0 +1,71 @@
+
+.course-list-wrap {
+	margin: 40rpx 0 50rpx 0;
+	padding: 0 20rpx;
+}
+
+/* 清除浮动 */
+.course-list-wrap::after {
+	display:block;
+	clear:both;
+	height:0;
+	content: "";
+	visibility: hidden;
+	overflow:hidden;
+}
+.course-list-img {
+	width: 28%;
+	height: 220rpx;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	float: left;
+	margin-right: 26rpx;
+}
+.course-list-img image {
+	width: 100%;
+	height: 100%;
+}
+.course-list-main {
+	width: 68%;
+	float: left;
+}
+
+/* 内容标题 */
+.clm-title {
+	margin-bottom: 10rpx;	
+	font-weight: bold;
+}
+.clm-classhour {
+	color: #969696;
+	font-size: 20rpx;
+	margin-bottom: 10rpx;
+}
+
+/* 竖线 */
+.vertical-line {
+	display: inline-block;
+	margin: 0 10rpx;
+}
+.clm-teacher-status {
+	font-size: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.clm-teacher-status image{
+	width: 40rpx;
+	height: 40rpx;
+	-webkit-border-radius: 100%;
+	        border-radius: 100%;
+	margin-right: 10rpx;
+}
+.course-pay-status {
+	display: inline-block;
+	width: 68%;
+	text-align: right;
+}
+
+

@@ -1,0 +1,104 @@
+
+@font-face {
+	font-family: 'icon';
+	src: url('//at.alicdn.com/t/font_1104838_fxzimc34xw.eot');
+	src: url('//at.alicdn.com/t/font_1104838_fxzimc34xw.eot?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_1104838_fxzimc34xw.woff2') format('woff2'),
+		url('//at.alicdn.com/t/font_1104838_fxzimc34xw.woff') format('woff'),
+		url('//at.alicdn.com/t/font_1104838_fxzimc34xw.ttf') format('truetype'),
+		url('//at.alicdn.com/t/font_1104838_fxzimc34xw.svg#iconfont') format('svg');
+}
+/* 改变滚动球起始位置 */
+.data-v-41184438 uni-slider .uni-slider-thumb {
+		left: 0%;
+}
+.imt-audio.data-v-41184438 {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	/* padding: 30upx 0; */
+	background: #fff;
+	/* border-radius: 20upx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background-color: #FAFAFA;
+	/* background-color: #007AFF; */
+}
+.audio-control-wrapper.data-v-41184438 {
+	/* margin-top: 10rpx; */
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-family: "icon" !important;
+	float: left;
+	width: 15%;
+}
+.audio-wrapper.data-v-41184438 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: 85%;
+	float: left;
+}
+.audio-number.data-v-41184438 {
+	width: 120rpx;
+	font-size: 24rpx;
+	line-height: 1;
+	color: #333;
+	text-align: center;
+}
+.audio-slider.data-v-41184438 {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin: 0;
+}
+.audio-control-wrapper .audio-control.data-v-41184438 {
+	font-size: 20rpx !important;
+	line-height: 1;
+	border: 4rpx solid;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	padding: 16rpx;
+}
+.audio-control-next.data-v-41184438 {
+	-webkit-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+.audio-control-switch.data-v-41184438 {
+	font-size: 40rpx;
+	margin: 0 100rpx;
+}
+.audioLoading.data-v-41184438 {
+	-webkit-animation: loading-data-v-41184438 2s;
+	        animation: loading-data-v-41184438 2s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+}
+@-webkit-keyframes loading-data-v-41184438 {
+to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+@keyframes loading-data-v-41184438 {
+to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+

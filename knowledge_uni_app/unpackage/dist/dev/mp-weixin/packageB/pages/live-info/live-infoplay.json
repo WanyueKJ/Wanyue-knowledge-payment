@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "imt-audio": "/components/imt-audio/imt-audio",
+    "emojy": "/components/emojy/emojy",
+    "uni-nav-bar": "/components/uni-ui/uni-nav-bar/uni-nav-live-bar"
+  }
+}

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b4adbdf-5fb8-4169-bd98-4bcf0e53ac15" name="Default Changelist" comment="# task 目录更新">
+      <change afterPath="$PROJECT_DIR$/pages/renzheng/renzheng.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/about.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/about.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about/banner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about/banner.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/address/AddressData.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/address/AddressData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/address/AddressPicker.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/address/AddressPicker.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/address/add-address.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/address/add-address.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/address/address.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/address/address.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/attenteacher/attenteacher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/attenteacher/attenteacher.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/content-more/content-more.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/content-more/content-more.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/course.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/course.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course_class_list/course_class_list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course_class_list/course_class_list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/coursemore/coursemore.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/coursemore/coursemore.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/edit_cv/edit_cv.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/edit_cv/edit_cv.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/edit_user/edit_user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/edit_user/edit_user.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forget_pass/forget_pass.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forget_pass/forget_pass.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/hasbuy/hasbuy.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hasbuy/hasbuy.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/kejian/kejian.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lianxi-we/lianxi-we.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lianxi-we/lianxi-we.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/live-more/live-more.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/live-more/live-more.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login/xieyi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login/xieyi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/moreteacher/moreteacher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/moreteacher/moreteacher.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/msg/msg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/msg/msg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/msg/msglist.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/msg/msglist.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/my/my.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my/my.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/myclass/myclass.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/myclass/myclass.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mystu/mystu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mystu/mystu.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pay/pay.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pay/pay.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pinglun/pinglun.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pinglun/pinglun.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/qidai/qidai.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/qidai/qidai.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/reg/reg.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/reg/reg.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/search/search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search/search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/setting/setting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/setting/setting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/shop-car/shop-car.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/shop-car/shop-car.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teacher/teacher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacher/teacher.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teacherinfo/teacherinfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacherinfo/teacherinfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/yijian-fankui/yijian-fankui.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/yijian-fankui/yijian-fankui.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/myheader.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="1oFRGsb6xVVlWqfqiHNgfenwd7V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b4adbdf-5fb8-4169-bd98-4bcf0e53ac15" name="Default Changelist" comment="" />
+      <created>1604741999976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604741999976</updated>
+      <workItem from="1604742001077" duration="79000" />
+      <workItem from="1604742405757" duration="745000" />
+      <workItem from="1604888894235" duration="103000" />
+      <workItem from="1604894397200" duration="24000" />
+      <workItem from="1604910684983" duration="16000" />
+      <workItem from="1604915522024" duration="692000" />
+      <workItem from="1605001376669" duration="174000" />
+      <workItem from="1605087432585" duration="1233000" />
+      <workItem from="1605260752648" duration="255000" />
+      <workItem from="1605261047241" duration="158000" />
+      <workItem from="1605347355458" duration="691000" />
+      <workItem from="1605520628537" duration="587000" />
+      <workItem from="1605689732501" duration="44000" />
+      <workItem from="1607331301764" duration="12000" />
+      <workItem from="1607939839563" duration="155000" />
+      <workItem from="1607992352307" duration="47000" />
+      <workItem from="1608026867683" duration="149000" />
+      <workItem from="1608078502111" duration="769000" />
+      <workItem from="1608113558448" duration="84000" />
+      <workItem from="1608165620784" duration="41000" />
+      <workItem from="1608199924352" duration="89000" />
+      <workItem from="1608285874027" duration="142000" />
+      <workItem from="1608372070057" duration="527000" />
+      <workItem from="1608510936643" duration="304000" />
+      <workItem from="1608535229177" duration="12000" />
+      <workItem from="1608549577885" duration="185000" />
+      <workItem from="1608635951515" duration="871000" />
+      <workItem from="1608683696142" duration="88000" />
+      <workItem from="1608691773227" duration="1232000" />
+      <workItem from="1608719977581" duration="155000" />
+      <workItem from="1608806926071" duration="103000" />
+      <workItem from="1608856250703" duration="1661000" />
+      <workItem from="1608858951442" duration="408000" />
+      <workItem from="1608859449250" duration="11574000" />
+      <workItem from="1612854717287" duration="754000" />
+      <workItem from="1612855587285" duration="15000" />
+      <workItem from="1612856455957" duration="12000" />
+      <workItem from="1612880260904" duration="564000" />
+      <workItem from="1612883959788" duration="696000" />
+      <workItem from="1612917124533" duration="67000" />
+      <workItem from="1612948766886" duration="79000" />
+      <workItem from="1612948846586" duration="168000" />
+      <workItem from="1612949070899" duration="348000" />
+    </task>
+    <task id="LOCAL-00001" summary="# task 初次提交">
+      <created>1604742487084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604742487084</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# task 二次提交">
+      <created>1604894413793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604894413793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="# task 消息页 课程页">
+      <created>1604915563922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604915563922</updated>
+    </task>
+    <task id="LOCAL-00004" summary="# task 首页">
+      <created>1605001400318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605001400318</updated>
+    </task>
+    <task id="LOCAL-00005" summary="# task 课程详情页">
+      <created>1605088638252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605088638253</updated>
+    </task>
+    <task id="LOCAL-00006" summary="# task 讲师端页面 socket.io">
+      <created>1605260869447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605260869447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="# task socket.io">
+      <created>1605261013008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261013008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="# task socket.io">
+      <created>1605261194298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261194298</updated>
+    </task>
+    <task id="LOCAL-00009" summary="# task 聊天室页面逻辑">
+      <created>1605347443064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605347443064</updated>
+    </task>
+    <task id="LOCAL-00010" summary="# task 登录逻辑">
+      <created>1605520703243</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605520703243</updated>
+    </task>
+    <task id="LOCAL-00011" summary="# task 登录逻辑">
+      <created>1605689756960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605689756960</updated>
+    </task>
+    <task id="LOCAL-00012" summary="# task 聊天逻辑">
+      <created>1607939955604</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607939955604</updated>
+    </task>
+    <task id="LOCAL-00013" summary="# task 登录注册">
+      <created>1608026958777</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608026958777</updated>
+    </task>
+    <task id="LOCAL-00014" summary="# task 注册">
+      <created>1608113628180</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608113628181</updated>
+    </task>
+    <task id="LOCAL-00015" summary="# task 2222">
+      <created>1608199991190</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608199991191</updated>
+    </task>
+    <task id="LOCAL-00016" summary="# task 333">
+      <created>1608286018719</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608286018719</updated>
+    </task>
+    <task id="LOCAL-00017" summary="# task 5555">
+      <created>1608372249096</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608372249096</updated>
+    </task>
+    <task id="LOCAL-00018" summary="# task 6666">
+      <created>1608372545326</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608372545326</updated>
+    </task>
+    <task id="LOCAL-00019" summary="# task 5555">
+      <created>1608549637905</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1608549637905</updated>
+    </task>
+    <task id="LOCAL-00020" summary="# task 6666">
+      <created>1608644634666</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1608644634666</updated>
+    </task>
+    <task id="LOCAL-00021" summary="# task 6666">
+      <created>1608720109593</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608720109593</updated>
+    </task>
+    <task id="LOCAL-00022" summary="# task 6666">
+      <created>1608807005722</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1608807005722</updated>
+    </task>
+    <task id="LOCAL-00023" summary="# task 万岳知识付费">
+      <created>1612855165330</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612855165330</updated>
+    </task>
+    <task id="LOCAL-00024" summary="# task 目录更新">
+      <created>1612880546324</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612880546324</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="# task 初次提交" />
+    <MESSAGE value="# task 二次提交" />
+    <MESSAGE value="# task 消息页 课程页" />
+    <MESSAGE value="# task 首页" />
+    <MESSAGE value="# task 课程详情页" />
+    <MESSAGE value="# task 讲师端页面 socket.io" />
+    <MESSAGE value="# task socket.io" />
+    <MESSAGE value="# task 聊天室页面逻辑" />
+    <MESSAGE value="# task 登录逻辑" />
+    <MESSAGE value="# task 聊天逻辑" />
+    <MESSAGE value="# task 登录注册" />
+    <MESSAGE value="# task 注册" />
+    <MESSAGE value="# task 2222" />
+    <MESSAGE value="# task 333" />
+    <MESSAGE value="# task 5555" />
+    <MESSAGE value="# task 6666" />
+    <MESSAGE value="# task 万岳知识付费" />
+    <MESSAGE value="# task 目录更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="# task 目录更新" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612949012728">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612949012728" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612880550078">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612880550078" />
+  </component>
+</project>

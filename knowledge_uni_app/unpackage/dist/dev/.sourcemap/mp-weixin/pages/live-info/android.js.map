@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,sG;AACAA,UAAU,CAACC,gBAAD,CAAV,C","file":"pages/live-info/android.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/live-info/android.nvue'\ncreatePage(Page)"],"sourceRoot":""}

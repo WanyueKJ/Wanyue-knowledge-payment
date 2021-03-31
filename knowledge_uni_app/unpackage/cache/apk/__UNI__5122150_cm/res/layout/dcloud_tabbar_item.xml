@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="100.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/contentWrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/tabIV" android:layout_width="40.0dip" android:layout_height="40.0dip" />
+        <TextView android:id="@id/tabTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/itemDot" android:visibility="invisible" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginLeft="-5.0dip" android:layout_marginTop="-5.0dip" android:src="@drawable/dcloud_tabbar_dot" android:layout_toRightOf="@id/contentWrapper" android:layout_alignTop="@id/contentWrapper" />
+    <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/itemBadge" android:background="@drawable/dcloud_tabbar_badge" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-9.0dip" android:layout_marginTop="-5.0dip" android:minWidth="18.0dip" android:minHeight="18.0dip" android:text="" android:maxLines="1" android:maxEms="3" android:includeFontPadding="false" android:layout_toRightOf="@id/contentWrapper" android:layout_alignTop="@id/contentWrapper" />
+</RelativeLayout>

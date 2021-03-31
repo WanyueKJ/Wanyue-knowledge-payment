@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textColor="#ff6c6c6c" android:id="@id/tvTitleText" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcloud_gallery_app_name" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff6c6c6c" android:layout_gravity="center" android:id="@id/titleBtn" android:background="@drawable/dcloud_image_pick_title_sel" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <GridView android:id="@id/gridGallery" android:scrollbars="@null" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:horizontalSpacing="2.0dip" android:verticalSpacing="2.0dip" android:stretchMode="columnWidth" android:numColumns="3" />
+        <ImageView android:layout_gravity="center" android:id="@id/imgNoMedia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dcloud_image_pick_no_media" android:contentDescription="@string/dcloud_gallery_app_name" />
+    </FrameLayout>
+</LinearLayout>

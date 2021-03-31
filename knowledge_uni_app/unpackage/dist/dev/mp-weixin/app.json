@@ -1,0 +1,95 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my_kaoshi/my_kaoshi",
+    "pages/course_class_list/course_class_list",
+    "pages/about/banner",
+    "pages/course/course",
+    "pages/msg/msg",
+    "pages/msg/msglist",
+    "pages/search/search",
+    "pages/pinglun/pinglun",
+    "pages/live-more/live-more",
+    "pages/coursemore/coursemore",
+    "pages/content-more/content-more",
+    "pages/shop-car/shop-car",
+    "pages/pay/pay",
+    "pages/address/address",
+    "pages/address/add-address",
+    "pages/my/my",
+    "pages/edit_cv/edit_cv",
+    "pages/attenteacher/attenteacher",
+    "pages/about/about",
+    "pages/setting/setting",
+    "pages/yijian-fankui/yijian-fankui",
+    "pages/myclass/myclass",
+    "pages/lianxi-we/lianxi-we",
+    "pages/hasbuy/hasbuy",
+    "pages/teacher/teacher",
+    "pages/moreteacher/moreteacher",
+    "pages/teacherinfo/teacherinfo",
+    "pages/mystu/mystu",
+    "pages/login/login",
+    "pages/forget_pass/forget_pass",
+    "pages/reg/reg",
+    "pages/login/xieyi",
+    "pages/edit_user/edit_user",
+    "pages/qidai/qidai"
+  ],
+  "subPackages": [
+    {
+      "root": "packageB",
+      "pages": [
+        "pages/content-detail/content-detail",
+        "pages/live-info/live-infoplay",
+        "pages/live_course_info/live_course_info",
+        "pages/content-info/content-info",
+        "pages/courseinfo/courseinfo"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#323232",
+    "selectedColor": "#2C62EF",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabbar-wechat/index_tabbar-wechat.png",
+        "iconWidth": "16px",
+        "selectedIconPath": "static/tabbar-wechat/index_tabbar_selected-wechat.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "我的课程",
+        "iconPath": "static/tabbar-wechat/my_course_-wechat.png",
+        "selectedIconPath": "static/tabbar-wechat/my_course_selected-wechat.png"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "text": "消息",
+        "iconPath": "static/tabbar-wechat/message_-wechat.png",
+        "selectedIconPath": "static/tabbar-wechat/message-selected-wechat.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "个人中心",
+        "iconPath": "static/tabbar-wechat/my_tabbar_-wechat.png",
+        "selectedIconPath": "static/tabbar-wechat/my_tabbar_selected-wechat.png"
+      }
+    ]
+  },
+  "runmode": "liberate",
+  "usingComponents": {
+    "divider": "/components/common/divider",
+    "no-thing": "/components/common/no-thing"
+  },
+  "sitemapLocation": "sitemap55.json"
+}

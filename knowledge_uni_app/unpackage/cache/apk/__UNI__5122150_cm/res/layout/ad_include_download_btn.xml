@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ad_title_creative_btn_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="#ff3c93cd" android:id="@id/btn_listitem_stop" android:background="#ffff0000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:text="暂停下载" android:layout_marginEnd="20.0dip" />
+    <Button android:textColor="#fff85959" android:id="@id/btn_listitem_remove" android:background="#ff00ff00" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="删除下载" />
+</LinearLayout>

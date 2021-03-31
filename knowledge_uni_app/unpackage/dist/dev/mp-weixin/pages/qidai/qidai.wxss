@@ -1,0 +1,14 @@
+
+.qidai-img {
+	-webkit-border-radius: 20px;
+	        border-radius: 20px;
+	width: 380rpx;
+	height: 380rpx;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+
+

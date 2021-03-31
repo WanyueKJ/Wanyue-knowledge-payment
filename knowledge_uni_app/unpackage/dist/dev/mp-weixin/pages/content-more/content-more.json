@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "精选内容",
+  "usingComponents": {
+    "course-list": "/components/common/course-list"
+  }
+}

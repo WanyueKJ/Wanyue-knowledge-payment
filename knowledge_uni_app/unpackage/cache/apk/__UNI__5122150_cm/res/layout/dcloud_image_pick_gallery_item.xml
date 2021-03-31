@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgQueue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dcloud_image_pick_no_media" android:scaleType="centerCrop" android:contentDescription="@string/dcloud_gallery_app_name" />
+    <ImageView android:id="@id/imgQueueMask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/dcloud_image_pick_mask" android:scaleType="centerCrop" />
+</RelativeLayout>

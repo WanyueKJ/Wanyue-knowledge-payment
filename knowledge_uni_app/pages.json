@@ -1,0 +1,396 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//首页课程列表
+		{
+			"path": "pages/course_class_list/course_class_list",
+			"style": {
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		},
+		//banner图
+		{
+			"path": "pages/about/banner",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		//课程
+		{
+			"path": "pages/course/course",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+
+		//我的消息
+		{
+			"path": "pages/msg/msg",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//消息列表
+		{
+			"path": "pages/msg/msglist",
+			"style": {
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		},
+		//搜索
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView":false
+				}
+			}
+		}
+		//---------------------直播间-----------------------------------------//
+
+		//评价
+		, {
+			"path": "pages/pinglun/pinglun",
+			"style": {
+				"navigationBarTitleText": "评价"
+			}
+		},
+		//---------------------直播间详情页-----------------------------------------//	
+
+		{
+			"path": "pages/live-more/live-more",
+			"style": {
+				"navigationBarTitleText": "直播课堂",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}, {
+			"path": "pages/coursemore/coursemore",
+			"style": {
+				"navigationBarTitleText": "好课推荐"
+			}
+		},
+		{
+			"path": "pages/content-more/content-more",
+			"style": {
+				"navigationBarTitleText": "精选内容",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+
+		//购物车
+		{
+			"path": "pages/shop-car/shop-car",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//付款
+		{
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "付款"
+			}
+		},
+		//地址
+		{
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "地址"
+			}
+		},
+		//新建地址
+		{
+			"path": "pages/address/add-address",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "新建地址"
+			}
+		},
+
+		//个人中心
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//编辑资料
+		{
+			"path": "pages/edit_cv/edit_cv",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//关注讲师
+		{
+			"path": "pages/attenteacher/attenteacher",
+			"style": {
+				"navigationBarTitleText": "关注讲师",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//关于我们
+		{
+			"path": "pages/about/about",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//设置
+		{
+			"path": "pages/setting/setting",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//意见反馈
+		{
+			"path": "pages/yijian-fankui/yijian-fankui",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//我的课程
+		{
+			"path": "pages/myclass/myclass",
+			"style": {
+				"navigationBarTitleText": "我的课程"
+			}
+		},
+		//联系我们
+		{
+			"path": "pages/lianxi-we/lianxi-we",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+
+		},
+		//已购买
+		{
+			"path": "pages/hasbuy/hasbuy",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+
+		},
+		//教师
+		{
+			"path": "pages/teacher/teacher",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//更多教师
+		{
+			"path": "pages/moreteacher/moreteacher",
+			"style": {
+				"navigationBarTitleText": "相关老师",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//教师主页
+		{
+			"path": "pages/teacherinfo/teacherinfo",
+			"style": {
+				"navigationBarTitleText": "老师主页",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		//我的学员
+		{
+			"path": "pages/mystu/mystu",
+			"style": {
+				"navigationBarTitleText": "我的学员"
+			}
+
+		},
+
+		//登录
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		//忘记密码
+		{
+			"path": "pages/forget_pass/forget_pass",
+			"style": {}
+		},
+		//注册
+		{
+			"path": "pages/reg/reg",
+			"style": {}
+		},
+		//登录协议
+		{
+			"path": "pages/login/xieyi",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path": "pages/edit_user/edit_user",
+			"style": {
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/qidai/qidai",
+            "style" : {
+				"navigationBarTitleText": "敬请期待"
+			}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText": "新闻列表",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+        ,{
+            "path" : "pages/news_detail/news_detail",
+            "style" : {
+				"navigationBarTitleText": "新闻详情",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+        }
+    ],
+	"subpackages": [
+		{
+			"root": "packageB",
+			"pages": [
+				{
+					"path": "pages/content-detail/content-detail",
+					"style": {
+						"navigationBarTitleText": "内容详情",
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+				},
+				{
+					"path": "pages/live-info/live-infoplay",
+					"style": {
+						"navigationBarTitleText": "直播详情",
+						"app-plus": {
+							"titleNView": false
+						}
+					}
+				},
+
+				{
+					"path": "pages/live_course_info/live_course_info",
+					"style": {
+						"navigationBarTitleText": "直播详情",
+						"app-plus": {
+							"titleNView":false
+						}
+					}
+
+				}, {
+					"path": "pages/content-info/content-info",
+					"style": {
+						"navigationBarTitleText": "内容详情",
+						"app-plus": {
+							"titleNView":false
+						}
+					}
+				}, {
+					"path": "pages/courseinfo/courseinfo",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "课程详情"
+					}
+				}
+				//更多
+			]
+		}
+	],
+
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#323232",
+		"selectedColor": "#2C62EF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar-wechat/index_tabbar-wechat.png",
+				"iconWidth": "16px" ,
+				"selectedIconPath": "static/tabbar-wechat/index_tabbar_selected-wechat.png"
+			},
+			{
+				"pagePath": "pages/course/course",
+				"text": "课程",
+				"iconPath": "static/tabbar-wechat/my_course_-wechat.png",
+				"selectedIconPath": "static/tabbar-wechat/my_course_selected-wechat.png"
+			},
+			{
+				"pagePath": "pages/msg/msg",
+				"text": "消息",
+				"iconPath": "static/tabbar-wechat/message_-wechat.png",
+				"selectedIconPath": "static/tabbar-wechat/message-selected-wechat.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "个人中心",
+				"iconPath": "static/tabbar-wechat/my_tabbar_-wechat.png",
+				"selectedIconPath": "static/tabbar-wechat/my_tabbar_selected-wechat.png"
+			}
+		]
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}

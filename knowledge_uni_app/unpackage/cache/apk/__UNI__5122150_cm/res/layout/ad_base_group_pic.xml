@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="#ff454545" android:ellipsize="end" android:id="@id/tv_listitem_ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="" android:maxLines="1" android:layout_below="@id/icon_source_layout" android:lineSpacingMultiplier="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layout_image_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_listitem_ad_desc" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/iv_listitem_image1" android:layout_width="0.0dip" android:layout_height="100.0dip" android:layout_marginRight="5.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+        <ImageView android:id="@id/iv_listitem_image2" android:layout_width="0.0dip" android:layout_height="100.0dip" android:layout_marginRight="5.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginEnd="5.0dip" />
+        <ImageView android:id="@id/iv_listitem_image3" android:layout_width="0.0dip" android:layout_height="100.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:id="@id/adText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/layout_image_group" layout="@layout/ad_include_ad_text" />
+    <include android:id="@id/ad_title_creative_btn_layout" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="4.0dip" android:layout_below="@id/layout_image_group" layout="@layout/ad_include_title_creative_btn" />
+    <include android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ad_title_creative_btn_layout" layout="@layout/ad_include_download_btn" />
+</RelativeLayout>

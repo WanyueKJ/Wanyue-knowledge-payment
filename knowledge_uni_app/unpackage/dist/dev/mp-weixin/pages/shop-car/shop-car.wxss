@@ -1,0 +1,680 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 大班课/内容列表公共样式 */
+/* @import url("/static/css/course_list.css"); */
+/* 大班课单独样式 */
+page {
+	background-color: #F5F5F5;
+}
+.edit {
+	color: #2C62EF;
+}
+.liveinfo-wrap {
+	margin-top: 2rpx;
+	padding-top: 2rpx;
+	min-height: 1500rpx;
+	background-color: #FFFFFF;
+}
+.live-list {
+	margin-top: 10rpx;
+	width: 100%;
+	height: 190rpx;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.shopdetail {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin-left: 10rpx;
+}
+.live-c-title {
+	font-weight: bold;
+	overflow: hidden;
+	height: 70rpx;
+	line-height: 1.2em;
+	-webkit-line-clamp: 2;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+.live-list-img-wrap {
+	position: relative;
+	width: 200rpx;
+	height: 160rpx;
+	float: left;
+	margin-right: 6rpx;
+}
+.live-list-img {
+	width: 200rpx;
+	height: 160rpx;
+	-webkit-border-radius: 8rpx;
+	        border-radius: 8rpx;
+}
+.check {
+	width: 60rpx;
+	height: 60rpx;
+	/* color: #ED1C24; */
+	margin-top: 60rpx;
+	margin-left: 10rpx;
+}
+.checkimage {
+	width: 40rpx;
+	height: 40rpx;
+	margin-left: 10rpx;
+}
+.course-title-icon {
+	position: absolute;
+	left: 0rpx;
+	top: 2rpx;
+	width: 60rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	text-align: center;
+	-webkit-border-radius: 8rpx 0 8rpx 0;
+	        border-radius: 8rpx 0 8rpx 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	font-size: 18rpx;
+	color: #DBDBDB;
+}
+.live-list-info {
+	float: left;
+	width: 65%;
+	height: 140rpx;
+	/* margin-left: 220rpx; */
+}
+.live-teacher-avatar {
+	width: 35rpx;
+	height: 35rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.live-status {
+	font-size: 20rpx;
+	padding-top: 5rpx;
+	color: #969696;
+	height: 40rpx;
+}
+.living-status {
+	padding-top: 10rpx;
+	color: #64D3AD;
+}
+/* 价格 */
+.live-teacher-price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	/* height: 80rpx; */
+	margin-top: 5rpx;
+}
+.price-wrap {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #64D3AD;
+	position: absolute;
+	right: 0px;
+	padding-right: 50rpx;
+}
+.free {
+	color: #64D3AD;
+}
+.numPrice {
+	color: #FF1B20;
+}
+.pass {
+	color: #4385FF;
+}
+.teacher-name {
+	margin-left: 15rpx;
+	font-size: 20rpx;
+	color: #323232;
+	width: auto;
+}
+.carView {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	bottom: 0rpx;
+	background-color: #FFFFFF;
+	height: 90rpx;
+	position: fixed;
+	width: 100%;
+}
+.alltitle {
+	color: #DDDDDD;
+	margin-left: 30rpx;
+	margin-top: 10rpx;
+	font-size: medium;
+}
+.allsi {
+	margin-left: 70rpx;
+	margin-top: 10rpx;
+	font-size: medium;
+	color: #000000;
+}
+.allmoney {
+	margin-left: 10rpx;
+	margin-top: 10rpx;
+	font-size: medium;
+	color: #FF1B20;
+}
+.checkbottom {
+	width: 40rpx;
+	height: 40rpx;
+	margin-top: 20rpx;
+	margin-left: 10rpx;
+}
+.buy {
+	padding-top: 20rpx;
+	height: 80rpx;
+	text-align: center;
+	font-size: larger;
+	width: 180rpx;
+	color: #FFFFFF;
+
+	position: absolute;
+	right: 0;
+}
+.line {
+	background-color: #F0F0F0;
+	height: 1rpx;
+	width: 100%;
+	bottom: 91rpx;
+	position: fixed;
+}
+.xiangziwrap {
+	position: absolute;
+	left: calc(50% - 80px);
+	top: calc(50% - 100px);
+	width: 300rpx;
+	height: 100rpx;
+}
+.xiangzi {
+	margin-left: 100rpx;
+	width: 100rpx;
+	height: 100rpx;
+}
+.xiangzi_txt {
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 18rpx;
+	color: #C7C7C7;
+}
+

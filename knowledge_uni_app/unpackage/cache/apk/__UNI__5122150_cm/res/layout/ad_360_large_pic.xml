@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.ak.torch.core.view.TorchNativeRootView android:id="@id/native_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/rootWrapper_360" layout="@layout/ad_base_large_pic" />
+    </com.ak.torch.core.view.TorchNativeRootView>
+</FrameLayout>

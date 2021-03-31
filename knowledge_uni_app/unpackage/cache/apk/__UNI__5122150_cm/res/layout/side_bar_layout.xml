@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/side_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sideBarHomeLayout" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/side_bar_home" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/sideBarOpenOrCloseLayout" android:layout_width="30.0dip" android:layout_height="35.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/sideBarOpenOrCloseIV" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/side_bar_closebar" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/sideBarOpenOrCloseTipIV" android:visibility="invisible" android:layout_width="4.5dip" android:layout_height="4.5dip" android:layout_marginTop="10.0dip" android:layout_marginRight="1.5dip" android:src="@drawable/dcloud_point_f32720" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sideBarButtonsLayout" android:layout_width="fill_parent" android:layout_height="35.0dip" android:layout_toLeftOf="@id/sideBarOpenOrCloseLayout" android:layout_toRightOf="@id/sideBarHomeLayout" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sideBarFavoriteLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/favoriteIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/side_bar_favorite" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sideBarShareLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/side_bar_share" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sideBarReFreshLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/side_bar_refresh" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sideBarCloseLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/side_bar_close" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

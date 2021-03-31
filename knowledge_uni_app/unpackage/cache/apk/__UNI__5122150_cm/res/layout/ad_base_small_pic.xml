@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ad_contentPanel" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginBottom="10.0dip">
+        <ImageView android:id="@id/iv_listitem_image" android:layout_width="130.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/iv_listitem_image" android:layout_centerVertical="true" android:layout_toStartOf="@id/iv_listitem_image">
+            <TextView android:textSize="18.0sp" android:textColor="#ff454545" android:ellipsize="end" android:id="@id/tv_listitem_ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:maxLines="2" android:lineSpacingMultiplier="1.1" />
+            <RelativeLayout android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:paddingEnd="10.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:id="@id/adText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@id/ad_contentPanel" android:layout_alignBottom="@id/ad_contentPanel" layout="@layout/ad_include_ad_text" />
+    <include android:id="@id/ad_title_creative_btn_layout" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_below="@id/ad_contentPanel" layout="@layout/ad_include_title_creative_btn" />
+    <include android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/ad_title_creative_btn_layout" layout="@layout/ad_include_download_btn" />
+</RelativeLayout>

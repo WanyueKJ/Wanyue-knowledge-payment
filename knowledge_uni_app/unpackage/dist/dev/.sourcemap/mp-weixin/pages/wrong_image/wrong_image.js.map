@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,+G;AACAA,UAAU,CAACC,oBAAD,CAAV,C","file":"pages/wrong_image/wrong_image.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/wrong_image/wrong_image.vue'\ncreatePage(Page)"],"sourceRoot":""}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/dcloud_record_border" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/dcloud_record_arrows" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/dcloud_record_arrow_left_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/dcloud_record_arrow_left" android:padding="2.0dip" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/dcloud_left_arrow" />
+        </LinearLayout>
+        <View android:background="@drawable/dcloud_record_view_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/dcloud_record_arrow_right_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/dcloud_record_arrow_right" android:padding="2.0dip" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/dcloud_right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/dcloud_record_scroll_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/dcloud_record_arrows" android:layout_alignParentLeft="true">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp" android:textColor="#ff0b0b0b" android:layout_gravity="center" android:id="@id/dcloud_record_view_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+            <View android:id="@id/dcloud_record_line_1" android:background="@drawable/dcloud_record_view_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff0b0b0b" android:layout_gravity="center" android:id="@id/dcloud_record_view_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
