@@ -1,0 +1,24 @@
+2021-02-13 02:43:17|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('136', '', '1', '1', '1')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-13 02:43:17|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('136', '', '1', '1', '1')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}

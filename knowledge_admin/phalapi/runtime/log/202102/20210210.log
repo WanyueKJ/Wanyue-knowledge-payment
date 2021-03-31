@@ -1,0 +1,312 @@
+2021-02-10 11:16:06|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:10|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:11|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:11|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:44|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:45|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:45|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:45|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:46|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:16:46|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:18:05|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:18:42|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:19:12|ERROR|App.Knowledge.GetList|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT id,uid,s...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(47): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(125): App\Model\Course->getList(Array, 'list_order asc,...', '1', 20)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(202): App\Domain\Knowledge->getList('1', Array)
+#6 [internal function]: App\Api\Knowledge->getList()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:30|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '1')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:30|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '1')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:31|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '2')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:31|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '2')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:31|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '3')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 11:41:31|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(572): App\Domain\Knowledge->getMyCourse('33', '', '1', '2', '3')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:37:11|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('133', '', '1', '10', '1')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:37:11|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('133', '', '1', '10', '2')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:37:11|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('133', '', '1', '10', '3')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:37:11|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('133', '', '1', '10', '4')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:37:11|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('133', '', '1', '10', '4')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:49:17|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('134', '', '1', '1', '2')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-02-10 16:49:17|ERROR|App.Knowledge.GetMyCourse|PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'know_sort' in 'where clause' in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(914): NotORM_Result->query('SELECT * FROM c...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(999): NotORM_Result->execute()
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Course.php(116): NotORM_Result->fetchAll()
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Knowledge.php(524): App\Model\Course->getBuyList('1', Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Knowledge.php(582): App\Domain\Knowledge->getMyCourse('134', '', '1', '1', '2')
+#6 [internal function]: App\Api\Knowledge->getMyCourse()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}

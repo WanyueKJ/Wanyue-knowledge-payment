@@ -1,0 +1,36 @@
+2021-01-19 11:56:45|ERROR|App.Live.SetChat|PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'length' at row 1 in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(397): NotORM_Result->query('INSERT  INTO cm...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(414): NotORM_Result->insert_multi(Array)
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Live.php(102): NotORM_Result->insert(Array)
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Live.php(315): App\Model\Live->setChat(Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Live.php(376): App\Domain\Live->setChat(Array)
+#6 [internal function]: App\Api\Live->setChat()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-01-19 11:56:54|ERROR|App.Live.SetChat|PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'length' at row 1 in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(397): NotORM_Result->query('INSERT  INTO cm...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(414): NotORM_Result->insert_multi(Array)
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Live.php(102): NotORM_Result->insert(Array)
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Live.php(315): App\Model\Live->setChat(Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Live.php(376): App\Domain\Live->setChat(Array)
+#6 [internal function]: App\Api\Live->setChat()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
+2021-01-19 11:57:21|ERROR|App.Live.SetChat|PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'length' at row 1 in /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php:271
+Stack trace:
+#0 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(271): PDOStatement->execute()
+#1 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(397): NotORM_Result->query('INSERT  INTO cm...', Array)
+#2 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/notorm/src/NotORM/Result.php(414): NotORM_Result->insert_multi(Array)
+#3 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Model/Live.php(102): NotORM_Result->insert(Array)
+#4 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Domain/Live.php(315): App\Model\Live->setChat(Array)
+#5 /www/wwwroot/demo.sdwanyue.com/phalapi/src/app/Api/Live.php(376): App\Domain\Live->setChat(Array)
+#6 [internal function]: App\Api\Live->setChat()
+#7 /www/wwwroot/demo.sdwanyue.com/phalapi/vendor/phalapi/kernal/src/PhalApi.php(53): call_user_func(Array)
+#8 /www/wwwroot/demo.sdwanyue.com/public/api/index.php(9): PhalApi\PhalApi->response()
+#9 {main}
