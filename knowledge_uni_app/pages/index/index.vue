@@ -486,7 +486,6 @@
 			},
 			bannerTo(item) {
 				//此方法只能在真机端运行
-				// plus.runtime.openURL(item.url);
 				uni.navigateTo({
 					url: '../about/banner?url=' + encodeURIComponent(JSON.stringify(item.url)) + '&title=' + item.title,
 				});
