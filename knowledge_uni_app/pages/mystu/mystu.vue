@@ -32,7 +32,6 @@
 			}
 		},
 		onLoad(option) {
-			console.log(option);
 			let gData = app.globalData;
 			uni.request({
 				url: gData.site_url + 'User.GetFans',
