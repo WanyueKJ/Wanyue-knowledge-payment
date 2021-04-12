@@ -54,7 +54,6 @@
 								'token': getApp().globalData.userinfo.token
 							},
 							success: res => {
-								console.log(res);
 								uni.hideLoading();
 								if (res.data.data.code == 0) {
 									this.QiNiutoken = this.decypt(res.data.data.info[0].token);
@@ -68,8 +67,6 @@
 								
 										qiniuUploader.upload(path, res => {
 											uni.hideLoading();
-											console.log('上传成功');
-											console.log(res);
 											this.imgPath = res.imageURL;
 										}, error => {
 									uni.hideLoading();
