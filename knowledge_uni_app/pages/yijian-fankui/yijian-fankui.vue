@@ -130,7 +130,6 @@
 					    'content': this.yijian,
 					},
 					success: res => {
-						console.log(res);
 						uni.showToast({
 							icon: 'none',
 							title: res.data.data.msg
