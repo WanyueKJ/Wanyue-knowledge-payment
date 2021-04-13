@@ -42,7 +42,6 @@
 					'p' : 0
 				},
 				success: res => {
-					console.log(res);
 					if(res.data.ret != 200) {
 						uni.showToast({
 							icon: 'none',
