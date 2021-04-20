@@ -35,7 +35,6 @@
 		onLoad() {
 		   this.imgPath = '../../static/creatRoomThumb.png';
 		   
-		   
 		},
 		methods: {
 			

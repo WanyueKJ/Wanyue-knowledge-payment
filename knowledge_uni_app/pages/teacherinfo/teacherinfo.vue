@@ -231,7 +231,6 @@
 			},
 			//关注/取消老师
 			focus(touid){
-				console.log(3333);
 				let gData = app.globalData;
 				uni.request({
 					url: gData.site_url + 'User.SetAttent',
