@@ -297,7 +297,6 @@
 			},
 			// 查看学员
 			viewstu(touid){
-				console.log(touid);
 				uni.navigateTo({
 					url: '../mystu/mystu?touid=' + touid,
 				});

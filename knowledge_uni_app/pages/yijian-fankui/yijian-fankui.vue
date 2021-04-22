@@ -45,6 +45,15 @@
 				    sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
 				    sourceType: ['album', 'camera'], //从相机/相册选择
 				    success: function (res) {
+
+						if(app.globalData.qiniuimageurl == '') {
+							uni.showToast({
+								title: '请配置七牛云上传地址',
+								icon:'none'
+							});
+							return;
+						}
+
 						uni.request({
 							url: getApp().globalData.site_url + 'Upload.GetQiniuToken',
 							method: 'POST',
@@ -75,7 +84,7 @@
 									});
 										}, {
 											region: 'ECN',
-											domain: getApp().globalData.qiniuimageurl,
+											domain: app.globalData.qiniuimageurl,
 											key: name,
 											uptoken: this.QiNiutoken,
 										});					
