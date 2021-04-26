@@ -172,7 +172,6 @@
 						'type':subIndex
 					},
 					success: res => {
-						// console.log(res);
 						if(parseInt(res.data.data.code) !== 0) {
 							uni.showToast({
 								icon: 'none',
@@ -219,7 +218,7 @@
 			},
 			
 			viewLiveInfo(liveCourseId, sorttype) {
-				if (getApp().globalData.userinfo == '') {
+				if (app.globalData.userinfo == '') {
 					uni.navigateTo({
 						url: '../login/login'
 					})
