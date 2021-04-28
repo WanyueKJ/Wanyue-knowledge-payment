@@ -331,12 +331,6 @@
 					this.loadmore = '上拉加载更多';
 				}, 2000)
 			},
-			// openSearch() {
-			// 	uni.navigateTo({
-			// 		url: '../search/search?type=topic',
-
-			// 	});
-			// },
 			viewLiveInfo(liveCourseId, sorttype) {
 				if (getApp().globalData.userinfo == '') {
 					uni.navigateTo({
