@@ -61,7 +61,6 @@
 					sourceType: ['album', 'camera'], //从相机/相册选择
 					success: function(res) {
 
-
 						//上传图片到服务器并返回图片地址(这里用七牛)
 						let tempFilePaths = res.tempFilePaths;
 
