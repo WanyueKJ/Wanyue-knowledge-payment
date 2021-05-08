@@ -15,10 +15,15 @@
 			}
 		},
 		onLoad(option) {
-			uni.setNavigationBarTitle({
-				title:option.title
-			})
-			this.url = JSON.parse(decodeURIComponent(option.url));
+
+			if(option != undefined) {
+				uni.setNavigationBarTitle({
+					title:option.title
+				})
+				this.url = JSON.parse(decodeURIComponent(option.url));
+			}
+
+
 		}
 	}
 </script>
