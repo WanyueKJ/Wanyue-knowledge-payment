@@ -222,7 +222,7 @@
 					url: app.globalData.site_url + 'Homeknowledge.GetIndex',
 					// 此处代表分类id 没有年级id
 					data: {
-						'gradeid': getApp().globalData.grade_class.id
+						'gradeid': app.globalData.grade_class.id
 					},
 					success: (res) => {
 						let data = res.data.data;

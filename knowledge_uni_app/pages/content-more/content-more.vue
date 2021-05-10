@@ -119,11 +119,9 @@
 			}
 		},
 		onShow() {
-			
-			
+
 		},
 		onReady() {
-		
 			let that = this;
 			uni.getSystemInfo({
 				success: function(res) {
