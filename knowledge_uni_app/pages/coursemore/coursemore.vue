@@ -93,8 +93,6 @@
 		background-color: #F5F5F5;
 	}
 	.conetentinfo-wrap {
-		/* margin-top: 2rpx; */
-		/* padding-top: 2rpx; */
 		min-height: 1500rpx;
 		background-color: #FFFFFF;
 	}
