@@ -199,7 +199,7 @@
 					code: this.code,
 					pass: this.password, 
 					// #ifdef MP-WEIXIN
-					env: 'weixin'	
+					env: 'weixin',
 					// #endif
 					// #ifdef H5
 					env: 'H5'
