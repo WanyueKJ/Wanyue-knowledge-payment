@@ -292,7 +292,7 @@
 
 										var openid = res2.data.data.openid;
 
-										getApp().globalData.openid = openid;
+										app.globalData.openid = openid;
 
 										uni.setStorage({
 											key: 'openid',

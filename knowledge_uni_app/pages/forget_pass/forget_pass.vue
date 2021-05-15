@@ -150,8 +150,7 @@
 					})
 			    }
 			});
-			
-			
+
 			let timer = setInterval(()=>{
 				if(this.codeTime >= 1){
 					this.codeTime--;
