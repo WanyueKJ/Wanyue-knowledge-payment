@@ -81,19 +81,12 @@
 			this.getinfo();
 		},
 		onShow() {
-			// if (app.globalData.userinfo == '') {
-			// 	uni.navigateTo({
-			// 		url: '../login/login'
-			// 	})
-			// 	return;
-			// }
+
 			this.getinfo();
 		},
 		computed: {
 			getAvatar() {
-				console.log(this.userInfo);
 				if(this.userInfo.length > 0 && this.userInfo.avatar != '') {
-					console.log(444);
 					return this.userInfo.avatar;
 				} else {
 					return this.default_avatar;
