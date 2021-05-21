@@ -112,12 +112,10 @@
 						'token': gData.userinfo.token
 					},
 					success: res => {
-						console.log(res);
-						
+
 						if (parseInt(res.data.data.code) !== 0) {
 							return;
 						}
-						
 						this.favnums = res.data.data.info[0].favnums;
 						this.follows = res.data.data.info[0].follows;
 						this.examnums = parseInt(res.data.data.info[0].examnums);
