@@ -61,6 +61,6 @@
      QQ群：995910672
     
 > QQ群：995910672
-    
+ <img class="kefu_weixin" style="float:left;" src="https://images.gitee.com/uploads/images/2021/0524/181101_c6bda503_2242923.jpeg" width="102" height="102"/>    
     
 ![展示图](https://images.gitee.com/uploads/images/2021/0317/120154_112f6c82_8543696.png "公众号.png")
