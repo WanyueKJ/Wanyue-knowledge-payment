@@ -146,11 +146,10 @@
 						url: '../yijian-fankui/yijian-fankui',
 					});
 				} else if (ID == 4) {
-					var urls =  getApp().globalData.site_h5url +'appapi/page/detail?id=1&lang=zh-cn';
-					console.log(urls);
+					var urls =  app.globalData.site_h5url +'appapi/page/detail?id=1&lang=zh-cn';
+
 					//关于我们
 					uni.navigateTo({
-						
 						url: '../about/about?url=' + encodeURIComponent(JSON.stringify(urls)) + '&title=' + '关于我们',
 					});
 				} else if (ID == 6) {
@@ -177,7 +176,7 @@
 			showTeacherInfo(touid) {
 				//跳转教师详情页并传入基本信息
 				uni.navigateTo({
-					url: '../teacherinfo/teacherinfo?touid=' + getApp().globalData.userinfo.id,
+					url: '../teacherinfo/teacherinfo?touid=' + app.globalData.userinfo.id,
 				});
 
 			},
