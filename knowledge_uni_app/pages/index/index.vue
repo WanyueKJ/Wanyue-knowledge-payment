@@ -548,7 +548,6 @@
 			
 			//好课推荐
 			coursemore() {
-				
 				uni.navigateTo({
 					url: '../live-more/live-more',
 				});
