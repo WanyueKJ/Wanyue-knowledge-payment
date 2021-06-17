@@ -472,10 +472,10 @@
 			},
 			//官方滚动方法
 			scroll: function(e) {
-				this.old.scrollTop = e.detail.scrollTop
+				this.old.scrollTop = e.detail.scrollTop;
 			},
 			goTop: function(e) {
-				this.scrollTop = this.old.scrollTop
+				this.scrollTop = this.old.scrollTop;
 				this.$nextTick(function() {
 					this.scrollTop = 0
 				});
