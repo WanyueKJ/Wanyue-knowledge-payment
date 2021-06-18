@@ -591,7 +591,6 @@
 							});
 						}, 0);
 					},fail() {
-						uni.hideLoading();
 						uni.showToast({
 							title: '网络错误',
 							icon:'none'
