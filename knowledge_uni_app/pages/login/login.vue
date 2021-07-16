@@ -589,7 +589,7 @@
 							uni.reLaunch({
 								url: url,
 							});
-						}, 0);
+						}, 500);
 					},fail() {
 						uni.showToast({
 							title: '网络错误',
