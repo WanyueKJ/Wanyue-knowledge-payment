@@ -329,7 +329,7 @@
 					this.list = [...this.list, ...this.list];
 					//设置加载状态
 					this.loadmore = '上拉加载更多';
-				}, 2000)
+				}, 1000)
 			},
 			viewLiveInfo(liveCourseId, sorttype) {
 				if (getApp().globalData.userinfo == '') {

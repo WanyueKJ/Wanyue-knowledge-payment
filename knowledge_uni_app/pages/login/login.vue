@@ -479,7 +479,7 @@
 						this.codeTime = 0;
 						clearInterval(timer);
 					}
-				}, 1000)
+				}, 500)
 			},
 			//验证
 			validate() {
