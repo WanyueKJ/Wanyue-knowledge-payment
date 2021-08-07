@@ -146,7 +146,7 @@
 								var that = this;
 								setTimeout(function() {
 									that.cancle();
-								}, 1000);
+								}, 800);
 
 							} else {
 								uni.showToast({
