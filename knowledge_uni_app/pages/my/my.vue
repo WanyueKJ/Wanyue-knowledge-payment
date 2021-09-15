@@ -99,12 +99,11 @@
 					uni.navigateTo({
 						url: '../login/login'
 					})
-					return;
-				
 			},
 			getinfo() {
 				let gData = app.globalData;
 				uni.request({
+
 					url: gData.site_url + 'User.GetBaseInfoUniapp',
 					method: 'GET',
 					data: {
