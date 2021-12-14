@@ -1,8 +1,8 @@
 <template>
 	<view>
-		
+
 	<web-view :src="url"></web-view>
-		
+
 	</view>
 </template>
 
@@ -11,7 +11,7 @@
 		data(){
 			return{
 				url:''
-				
+
 			}
 		},
 		onLoad(option) {
@@ -23,11 +23,10 @@
 				this.url = JSON.parse(decodeURIComponent(option.url));
 			}
 
-
 		}
 	}
 </script>
 
 <style>
-	
+
 </style>
