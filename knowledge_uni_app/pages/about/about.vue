@@ -11,11 +11,9 @@
 		data(){
 			return{
 				url:''
-
 			}
 		},
 		onLoad(option) {
-
 			if(option != undefined) {
 				uni.setNavigationBarTitle({
 					title:option.title
