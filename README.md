@@ -52,7 +52,7 @@ Uni-app + socker. IO +WebRtc core technology is adopted at the front of the syst
   ### Contact us (add customer service manager wechat or QQ, free access to THE SQL script)
     
 <div style='height: 130px'>
-        <img class="kefu_weixin" style="float:left;" src="https://images.gitee.com/uploads/images/2021/0317/120101_76088f0a_8543696.png" width="602" height="123"/>
+        <img class="kefu_weixin" style="float:left;" src="https://gitee.com/WanYueKeJi/wanyue_education_uniapp/raw/newone/pages/%E5%BC%A0%E7%9A%93%E5%BC%80%E6%BA%90.png" width="602" height="123"/>
         <div style="float:left;">
             <p>QQ：2770722087</p>
         </div>
