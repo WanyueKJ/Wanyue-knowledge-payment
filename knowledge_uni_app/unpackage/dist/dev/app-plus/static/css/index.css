@@ -5,11 +5,13 @@
 	.index-all-wrap {
 		width: 94%;
 		margin: 0 auto;
+	
 	}
 	
 	
 	page{
 		background-color: #FFFFFF;
+		overflow: hidden;
 	}
 	
 	
@@ -84,11 +86,11 @@
 	}
 	
 	/* 新闻资讯 */	.news-wrap {		width: 97%;
-		height: 70rpx;
-		margin: 10rpx auto 80rpx;
+		height: 80rpx;
+		margin: 10rpx auto 0;
 		padding-left: 3%;
-		line-height: 70rpx;
-		border-radius: 30rpx;
+		line-height: 80rpx;
+		border-radius: 34rpx;
 		background-color: #F6F6F6;	}
 	
 	.news-wrap-title-img {
@@ -107,26 +109,29 @@
 		float: left;
 		width: 70%;
 		color: #333333;
-		font-size: 20rpx;
+		font-size: 26rpx;
 	}
 	
 	.news-arow {
 		color: #CCCCCC;
-		font-size: 20rpx;
+		font-size: 28rpx;
+		position: relative;
+		right: 20rpx;
 	}
 	
 	
 	/* 热门精选 */
 	.hot-title-wrap {
 		display: flex;
-		height: 60rpx;
+		height: 100%;
 		align-items: center;
-		margin-bottom: 58rpx;
+		margin-bottom: 40rpx;
+		border: none !important;
 	}
 	
 	.hot-title-img {
-		width: 50rpx;
-		height: 50rpx;
+		width: 40rpx;
+		height: 40rpx;
 		display: inline-block;
 		margin-right: 20rpx;
 	}
@@ -135,32 +140,33 @@
 		font-size: 38rpx;
 		font-weight: bold;
 	}
+	.icon-title-wrap {
+		display: flex;
+		align-items: center;
+	}
 	
 	.hot-img-wrap {
 		height: 400rpx !important;
+		border: none !important;
 	}
 	
 	.hot-left-img {
 		width: 48%;
 		height: 100%;
-		background-color: #0BE8A7;
 		float: left;
 		border-radius: 14rpx;
 	}
 	
 	.hot-right-top-img {
-		width: 51%;
+		width: 50%;
 		height: 48%;
-		margin-bottom: 10rpx;
+		margin-bottom: 16rpx;
 		float: right;
-		background-color: #000000;
 		border-radius: 14rpx;
-		
 	}
 	
 	.hot-right-bottom-img {
-		background-color: #333333;
-		width: 51%;
+		width: 50%;
 		height: 49%;
 		float: right;
 		border-radius: 14rpx;
@@ -170,18 +176,21 @@
 	.live-ketang-item {
 		width: 43%;
 		height: 386rpx;
+		margin-right: 15rpx;
 		display: inline-block;
 		background: #fff;
 		border-radius: 14rpx 14rpx 0 0;
-		margin-top: 40rpx;
 	}
 	
 	.live-ketang-title-wrap {
 		display: flex;
 		align-items: center;
+		margin-bottom: 40rpx;
 	}
 	
-	.live-ketang-title-wrap .live-ketang-title {
+	
+	
+	.live-ketang-title {
 		font-size: 38rpx !important;
 	}
 	
@@ -194,6 +203,9 @@
 	.live-ketang-more {
 		right: 10rpx !important;
 		margin-top: 0;
+		height: 50%;
+		display: flex;
+		align-items: center;
 	}
 	
 	/* 强制换行 */
@@ -249,18 +261,33 @@
 	.live-content-title-wrap {
 		display: flex;
 		align-items: center;
+		position: relative;
 	}
 	
 	.content-list-wrap {
-		min-height: 900rpx;
+		min-height: 1180rpx;
+	}
+	
+	.course-wrap {
+		margin-top: 20rpx;
+	}
+	
+	.content-more-btn {
+		position: absolute;
+		right: 10rpx !important;
+		height: 50%;
+		display: flex;
+		align-items: center;
+	}
+	
+	.c-more-btn-icon {
+		font-size: 28rpx;
 	}
 	
 	.live-content-title {
 		font-size: 38rpx !important;
 	}
-	
-	
-			.ftt-item {		float: left;		width: 48%;		height: 100%;		display: flex;		align-items: center;		color: #FFFFFF;		font-size: 28rpx;		border-radius: 10rpx;	}		.famous-teacher-btn {		margin-right: 28rpx;		background: url(../../static/images/mingshimingke.png) no-repeat center;	}			.task-btn {		background: url(../../static/images/zuoyecenter.png) no-repeat center;	}	.ftt-item text {		padding-left: 50rpx;	}		.fttinfo-img-item {		width: 80rpx;		height: 70rpx;		margin-left: 60rpx;	}
+		.ftt-item {		float: left;		width: 48%;		height: 100%;		display: flex;		align-items: center;		color: #FFFFFF;		font-size: 28rpx;		border-radius: 10rpx;	}		.ftt-item text {		padding-left: 50rpx;	}		.fttinfo-img-item {		width: 80rpx;		height: 70rpx;		margin-left: 60rpx;	}
 	.xiangziwrap {
 		margin-left: calc(50% - 50px);
 		width: 200rpx;

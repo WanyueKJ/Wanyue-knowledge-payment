@@ -27,8 +27,7 @@
 	margin-left: 10rpx;
 	background-color: #07C160;
 	color: #FFFFFF;
-	-webkit-border-radius: 6rpx;
-	        border-radius: 6rpx;
+	border-radius: 6rpx;
 	font-size: 20rpx;
 }
 .famous-all-wrap {
@@ -43,17 +42,11 @@
 	height: 100%;
 	width: 90rpx;
 	float: left;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .t-data-wrap {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	height: 40rpx;
 	width: 85%;
 	float: left;

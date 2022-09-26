@@ -69,7 +69,7 @@
 		{
 			"path": "pages/live-more/live-more",
 			"style": {
-				"navigationBarTitleText": "直播课堂",
+				"navigationBarTitleText": "推荐列表",
 				"app-plus":{
 					"titleNView":false
 				}
@@ -351,6 +351,7 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
+
 	},
 	"tabBar": {
 		"color": "#323232",

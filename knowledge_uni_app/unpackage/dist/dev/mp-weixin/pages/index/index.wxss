@@ -1,6 +1,44 @@
-
+.kefuitem{
+	height: 100rpx;
+	line-height: 100rpx;
+	background-color: #F5F5F5;
+	font-weight: bold;
+	padding-left: 20rpx;
+	margin-top: 10rpx;
+	display: flex;
+	flex-direction: row;
+}
+.kefuitem1{
+	height: 100rpx;
+	line-height: 100rpx;
+	font-weight: bold;
+}
+.kefuitem2{
+	height: 100rpx;
+	line-height: 100rpx;
+	font-weight: bold;
+	position: absolute;
+	right: 20rpx;
+}
+.kefukaoshi{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.kaoshi-kefu{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 40%;
+}
+.kefu-course{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 40%;
+	text-align: center;
+}
 /************* 首页样式 ***********/
-
 /* 总包装 */
 .index-all-wrap {
 		width: 94%;
@@ -8,8 +46,8 @@
 }
 page{
 		background-color: #FFFFFF;
+		overflow: hidden;
 }
-
 /* 首页轮播图 */
 .index-banner-wrap {
 		width: 100%;
@@ -19,10 +57,8 @@ page{
 .index-banner image {
 		width: 100%;
 		height: 100%;
-		-webkit-border-radius: 12rpx;
-		        border-radius: 12rpx;
+		border-radius: 12rpx;
 }
-
 /* 课程标签 */
 .index-course-wrap {
 		margin-top: 20rpx;
@@ -43,7 +79,6 @@ page{
 		margin-right: 35rpx;
 		display: inline-block;
 }
-
 /* 课程标签样式 */
 .course-item:nth-child(5n) {
 		margin-right: 0;
@@ -52,8 +87,7 @@ page{
 		display: block;
 		width: 100%;
 		height: 89rpx;
-		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		border-radius: 50%;
 }
 .course-item text {
 		display: block;
@@ -65,25 +99,21 @@ page{
 		height: 2rpx;
 		background-color: #F5F5F5;
 }
-
 /* 课程列表外包装 */
 .course-list-wrap {
-		-webkit-border-radius: 10rpx;
-		        border-radius: 10rpx;
+		border-radius: 10rpx;
 }
 .course-list-wrap .course-wrap .live-list:last-child {
 		margin-bottom: 0;
 }
-
 /* 新闻资讯 */
 .news-wrap {
 		width: 97%;
-		height: 70rpx;
-		margin: 10rpx auto 80rpx;
+		height: 80rpx;
+		margin: 10rpx auto 0;
 		padding-left: 3%;
-		line-height: 70rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		line-height: 80rpx;
+		border-radius: 34rpx;
 		background-color: #F6F6F6;
 }
 .news-wrap-title-img {
@@ -100,27 +130,25 @@ page{
 		float: left;
 		width: 70%;
 		color: #333333;
-		font-size: 20rpx;
+		font-size: 26rpx;
 }
 .news-arow {
 		color: #CCCCCC;
-		font-size: 20rpx;
+		font-size: 28rpx;
+		position: relative;
+		right: 20rpx;
 }
-
 /* 热门精选 */
 .hot-title-wrap {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		height: 60rpx;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
-		margin-bottom: 58rpx;
+		height: 100%;
+		align-items: center;
+		margin-bottom: 40rpx;
+		border: none !important;
 }
 .hot-title-img {
-		width: 50rpx;
-		height: 50rpx;
+		width: 40rpx;
+		height: 40rpx;
 		display: inline-block;
 		margin-right: 20rpx;
 }
@@ -128,67 +156,62 @@ page{
 		font-size: 38rpx;
 		font-weight: bold;
 }
+.icon-title-wrap {
+		display: flex;
+		align-items: center;
+}
 .hot-img-wrap {
 		height: 400rpx !important;
+		border: none !important;
 }
 .hot-left-img {
 		width: 48%;
 		height: 100%;
-		background-color: #0BE8A7;
 		float: left;
-		-webkit-border-radius: 14rpx;
-		        border-radius: 14rpx;
+		border-radius: 14rpx;
 }
 .hot-right-top-img {
-		width: 51%;
+		width: 50%;
 		height: 48%;
-		margin-bottom: 10rpx;
+		margin-bottom: 16rpx;
 		float: right;
-		background-color: #000000;
-		-webkit-border-radius: 14rpx;
-		        border-radius: 14rpx;
+		border-radius: 14rpx;
 }
 .hot-right-bottom-img {
-		background-color: #333333;
-		width: 51%;
+		width: 50%;
 		height: 49%;
 		float: right;
-		-webkit-border-radius: 14rpx;
-		        border-radius: 14rpx;
+		border-radius: 14rpx;
 }
-
 /* 直播课堂 */
 .live-ketang-item {
 		width: 43%;
 		height: 386rpx;
+		margin-right: 15rpx;
 		display: inline-block;
 		background: #fff;
-		-webkit-border-radius: 14rpx 14rpx 0 0;
-		        border-radius: 14rpx 14rpx 0 0;
-		margin-top: 40rpx;
+		border-radius: 14rpx 14rpx 0 0;
 }
 .live-ketang-title-wrap {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
+		margin-bottom: 40rpx;
 }
-.live-ketang-title-wrap .live-ketang-title {
+.live-ketang-title {
 		font-size: 38rpx !important;
 }
 .live-ketang-img {
 		width: 96%;
 		height: 214rpx;
-		-webkit-border-radius: 14rpx;
-		        border-radius: 14rpx;
+		border-radius: 14rpx;
 }
 .live-ketang-more {
 		right: 10rpx !important;
 		margin-top: 0;
+		height: 50%;
+		display: flex;
+		align-items: center;
 }
-
 /* 强制换行 */
 .live-ketang-name {
 		width: 100%;
@@ -201,17 +224,12 @@ page{
 .live-ketang-status {
 		padding-left: 10rpx;
 }
-
 /* 老师名头像 课程价格 */
 .live-ketang-t-price {
 		padding-left: 10rpx;
 		height: 50rpx;
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
 }
 .live-ketang-price-wrap {
 		width: 30%;
@@ -227,8 +245,7 @@ page{
 .live-ketang-teacher-avatar {
 		width: 34rpx;
 		height: 34rpx;
-		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		border-radius: 50%;
 }
 .live-ketang-price {
 		font-weight: bold !important;
@@ -236,18 +253,27 @@ page{
 .free-ketang {
 		color: #2C62EF;
 }
-
 /* 精选内容 */
 .live-content-title-wrap {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
+		position: relative;
 }
 .content-list-wrap {
-		min-height: 900rpx;
+		min-height: 1180rpx;
+}
+.course-wrap {
+		margin-top: 20rpx;
+}
+.content-more-btn {
+		position: absolute;
+		right: 10rpx !important;
+		height: 50%;
+		display: flex;
+		align-items: center;
+}
+.c-more-btn-icon {
+		font-size: 28rpx;
 }
 .live-content-title {
 		font-size: 38rpx !important;
@@ -256,15 +282,10 @@ page{
 		float: left;
 		width: 48%;
 		height: 100%;
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
 		align-items: center;
 		color: #FFFFFF;
 		font-size: 28rpx;
-		-webkit-border-radius: 10rpx;
 		border-radius: 10rpx;
 }
 .ftt-item text {
@@ -283,7 +304,6 @@ page{
 .xiangzispace{
 		height: 30px;
 }
-
 /* .xiangzi {
 		width: 100%;
 		height: 100%;
@@ -301,7 +321,6 @@ page{
 		font-size: 18rpx;
 		color: #C7C7C7;
 }
-
 /* 课程列表区域 */
 .course-list-wrap {
 	margin-top: 40rpx;
@@ -352,13 +371,11 @@ page{
 	margin-right: 6rpx;
 	margin-top: 20rpx;
 }
-
 /* 课程图片 */
 .live-list-img {
 	width: 100%;
 	height: 100%;
-	-webkit-border-radius: 8rpx;
-	        border-radius: 8rpx;
+	border-radius: 8rpx;
 }
 .course-title-icon {
 	position: absolute;
@@ -368,13 +385,11 @@ page{
 	height: 30rpx;
 	line-height: 30rpx;
 	text-align: center;
-	-webkit-border-radius: 8rpx 0 8rpx 0;
-	        border-radius: 8rpx 0 8rpx 0;
+	border-radius: 8rpx 0 8rpx 0;
 	background-color: rgba(0, 0, 0, 0.6);
 	font-size: 18rpx;
 	color: #DBDBDB;
 }
-
 /* 课程内容 */
 .live-list-info {
 	float: left;
@@ -385,17 +400,15 @@ page{
 .live-teacher-avatar {
 	width: 35rpx;
 	height: 35rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	margin-top: 20rpx;
 }
-
 /* 直播列表标题 */
 .live-c-title {
 	font-weight: bold;
 	overflow: hidden;
 	height: 70rpx;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	-webkit-line-clamp: 2;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -408,39 +421,33 @@ page{
 	color: #969696;
 }
 .live-status-tuwen {
-	font-size: 18rpx;
+	font-size: 20rpx;
 	color: #969696;
-	width: 80rpx;
+	width: 60rpx;
 	text-align: center;
 	border: 2rpx solid #969696;
-	-webkit-border-radius: 8rpx;
-	        border-radius: 8rpx;
+	border-radius: 8rpx;
+	position: relative;
+    top: 10rpx;
 }
 .living-status {
 	padding-top: 0rpx;
 	color: #2C62EF;
 }
-
 /* 价格 */
 .live-teacher-price {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 }
 .price-wrap {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	 color: #2C62EF; 
 	/* background: linear-gradient(to right,#3D98FF ,#7A76FA ); */
 	/* -webkit-background-clip: text;
 	color: transparent; */
 	position: absolute;
-	right: 20px;
+	right: 35rpx;
 	margin-top: 10rpx;
 	font-size: 26rpx;
-	
-	/* padding-right: 50rpx; */
 }
 .free {
 	color: #2C62EF;
@@ -449,7 +456,7 @@ page{
 	color: #FF1B20;
 }
 .pass {
-	color: #4385FF;
+	color: #969696;
 }
 .teacher-name {
 
@@ -471,7 +478,7 @@ page{
 	height: 100rpx;
 	padding-top: 30rpx;
 
-	padding-top: 100rpx;
+	padding-top: 140rpx;
 
 	position: fixed;
 	top: 0;
@@ -479,7 +486,22 @@ page{
 	z-index: 999;
 }
 .index-banner-wrap {
-	margin-top: 140rpx;
+	overflow: hidden;
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	/* margin-top: 55rpx; */
+}
+.index-banner-wrap2 {
+	overflow: overlay;
+	-webkit-transform: translateY(0);
+	        transform: translateY(0);
+	margin-top: 20rpx;
+	height: 240rpx;
+}
+.index-banner-wrap2 .index-banner-img2  {
+
+	height: 90%;
+	display: unset;
 }
 .s-all-wrap {
 	position: relative;
@@ -490,21 +512,13 @@ page{
 	right: 130rpx;
 	left: 220rpx;
 	width: 400rpx;
-	height: 38rpx;
-	line-height: 38rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	height: 48rpx;
 }
 .search-wrap {
 	width: 100%;
 	height: 100%;
-	line-height: 38rpx;
-	-webkit-border-radius: 30rpx;
-	        border-radius: 30rpx;
+	line-height: 48rpx;
+	border-radius: 30rpx;
 	margin-left: 20rpx;
 	padding-left: 20rpx;
 	background-color: #F5F5F5;
@@ -534,8 +548,7 @@ page{
 	background-color: #DC2929;
 	width: 26rpx;
 	height: 26rpx;
-	-webkit-border-radius: 13rpx;
-	        border-radius: 13rpx;
+	border-radius: 13rpx;
 	margin-left: 40rpx;
 	margin-top: 10rpx;
 }
@@ -560,8 +573,62 @@ page{
 .index-course-wrap .know-item:nth-child(5n) {
 	margin-right: 0 !important;
 }
-
-
+.live-ketang-img {
+	display: inline-block;
+	width: 295rpx;
+	height: 214rpx;
+	background-color: green;
+}
+ .uni-scroll-view ::-webkit-scrollbar {
+	 /* 隐藏滚动条，但依旧具备可以滚动的功能 */
+	 display: none;
+	 width: 0;
+	 height: 0;
+	 color: transparent;
+	 background: transparent;
+}
+ ::-webkit-scrollbar {
+	 display: none;
+	 width: 0;
+	 height: 0;
+	 color: transparent;
+	 background: transparent;
+}
+.price-wrap {
+	right: 10rpx !important;
+}
+.live-list-know {
+	padding-left: 0 !important;
+}
+.live-ketang-name {
+	padding-left: 0 !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.live-c-title {
+	line-height: 38rpx;
+}
+.news-wrap {
+	display: flex;
+	align-items: center;
+}
+.news-title {
+	display: inline-block;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.swiper-wrap {
+	width: 68%;
+	height: 70rpx;
+	line-height: 70rpx;
+}
+.news-arow {
+	position: absolute !important;
+	right: 22rpx !important;
+}
 
 
 

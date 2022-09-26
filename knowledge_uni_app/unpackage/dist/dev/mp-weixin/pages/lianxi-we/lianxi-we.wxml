@@ -1,1 +1,3 @@
-<view class="lianxi-all-wrap"><text class="lianxi-content">联系我们获取相关最新活动版本~</text></view>
+<view class="lianxi-all-wrap"><text class="lianxi-content">联系我们【加客服经理微信或QQ，可获取专业版演示和报价】QQ：2770722087
+		QQ群：995910672
+		QQ群：681418688<image src="{{$root.m0}}" alt="Paris" width="600" height="150" class="_img"></image></text></view>

@@ -3,21 +3,11 @@
 }
 
 .search-all-wrap {
-	/* #ifdef MP-WEIXIN */
-	/* margin-top: 165rpx; */
-	/* #endif */
-	/* #ifndef MP-WEIXIN */
-	margin-top: 80rpx;
-	/* #endif */
-	/* #ifdef H5 */
 	margin-top: 10rpx;
-	/* #endif */
 	width: 100%;
 	height: 65rpx;
 	line-height: 65rpx;
-
 }
-
 .search-wrap {
 	width: 80%;
 	height: 100%;
@@ -50,7 +40,7 @@
 	width: 10%;
 	margin-left: 20rpx;
 	float: left;
-	color: #64D3AD;
+	color: #2C62EF;
 }
 
 /* 显示搜索结果区域 */
@@ -76,18 +66,49 @@
 	font-size: 28rpx;
 }
 
+.teachername {
+	color: #000000;
+	margin-left: 20rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+
 /* 老师搜索结果 */
 .search-teacher-info {
-	width: 95%;
-	padding-left: 7%;
+	width: 100%;
 	margin: 0 auto 50rpx;
+}
+
+.search_home {
+	float: left;
+	margin-left: 5rpx;
+	margin-top: 16rpx;
+	width: 35rpx;
+	height: 35rpx;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+}
+
+.line {
+	background-color: #F5F5F5;
+	height: 2rpx;
+	width: 98%;
+	left: calc(1%);
+	margin-top: 10rpx;
 }
 
 .s-more-view {
 	float: right;
 	margin-top: 10rpx;
-	margin-right: 40rpx;
-	font-size: small;
+	margin-right: 30rpx;
+	font-size: smaller;
+	color: #969696;
+
 }
 
 /* 教师头像 */
@@ -95,19 +116,29 @@
 	width: 100%;
 	height: 100rpx;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	margin-top: 20rpx;
+}
 
+.back_image {
+	width: 30rpx;
+	height: 30rpx;
+	position: absolute;
+	right: 30rpx;
+	margin-top: 20rpx;
 }
 
 .teacher-avatar {
 	width: 90rpx;
 	height: 90rpx;
-	margin-right: 30rpx;
+	margin-left: 30rpx;
 	border-radius: 50%;
 }
 
 .teacher-inner-arow {
-	margin-left: 60%;
+	position: absolute;
+	right: 40rpx;
 }
 
 /* page{
@@ -160,7 +191,7 @@
 
 
 .xiangziwrap {
-	margin-top: calc(50% - 60px);
+	margin-top: calc(50%);
 	position: relative;
 	left: calc(50% - 80px);
 	/* top: calc(50%); */

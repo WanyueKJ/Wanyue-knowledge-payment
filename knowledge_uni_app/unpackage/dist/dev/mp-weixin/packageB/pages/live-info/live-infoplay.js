@@ -1,35 +1,35 @@
 require('../../common/vendor.js');(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["packageB/pages/live-info/live-infoplay"],{
 
-/***/ 300:
-/*!***************************************************************************************************!*\
-  !*** D:/My_project/zhishi_fufei1/main.js?{"page":"packageB%2Fpages%2Flive-info%2Flive-infoplay"} ***!
-  \***************************************************************************************************/
+/***/ 316:
+/*!*******************************************************************************************************************************************!*\
+  !*** D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/main.js?{"page":"packageB%2Fpages%2Flive-info%2Flive-infoplay"} ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 4);
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 2));
-var _liveInfoplay = _interopRequireDefault(__webpack_require__(/*! ./packageB/pages/live-info/live-infoplay.vue */ 301));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ 5);
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
+var _liveInfoplay = _interopRequireDefault(__webpack_require__(/*! ./packageB/pages/live-info/live-infoplay.vue */ 317));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;
 createPage(_liveInfoplay.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createPage"]))
 
 /***/ }),
 
-/***/ 301:
-/*!******************************************************************************!*\
-  !*** D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue ***!
-  \******************************************************************************/
+/***/ 317:
+/*!**********************************************************************************************************************!*\
+  !*** D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=template&id=041918b3& */ 302);
-/* harmony import */ var _live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=script&lang=js& */ 304);
+/* harmony import */ var _live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=template&id=041918b3& */ 318);
+/* harmony import */ var _live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=script&lang=js& */ 320);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=style&index=0&lang=css& */ 311);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 10);
+/* harmony import */ var _live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./live-infoplay.vue?vue&type=style&index=0&lang=css& */ 331);
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/runtime/componentNormalizer.js */ 11);
 
 var renderjs
 
@@ -39,7 +39,7 @@ var renderjs
 
 /* normalize component */
 
-var component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+var component = Object(_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
   _live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
   _live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["render"],
   _live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
@@ -57,32 +57,32 @@ component.options.__file = "packageB/pages/live-info/live-infoplay.vue"
 
 /***/ }),
 
-/***/ 302:
-/*!*************************************************************************************************************!*\
-  !*** D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=template&id=041918b3& ***!
-  \*************************************************************************************************************/
+/***/ 318:
+/*!*****************************************************************************************************************************************************!*\
+  !*** D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=template&id=041918b3& ***!
+  \*****************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=template&id=041918b3& */ 303);
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=template&id=041918b3& */ 319);
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["recyclableRender"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["components"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "components", function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_16_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_uni_app_loader_page_meta_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_template_id_041918b3___WEBPACK_IMPORTED_MODULE_0__["components"]; });
 
 
 
 /***/ }),
 
-/***/ 303:
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=template&id=041918b3& ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 319:
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--16-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=template&id=041918b3& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -92,12 +92,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
-var components = {
-  imtAudio: function() {
-    return __webpack_require__.e(/*! import() | components/imt-audio/imt-audio */ "components/imt-audio/imt-audio").then(__webpack_require__.bind(null, /*! @/components/imt-audio/imt-audio.vue */ 426))
-  },
-  emojy: function() {
-    return __webpack_require__.e(/*! import() | components/emojy/emojy */ "components/emojy/emojy").then(__webpack_require__.bind(null, /*! @/components/emojy/emojy.vue */ 433))
+var components
+try {
+  components = {
+    imtAudio: function() {
+      return __webpack_require__.e(/*! import() | components/imt-audio/imt-audio */ "components/imt-audio/imt-audio").then(__webpack_require__.bind(null, /*! @/components/imt-audio/imt-audio.vue */ 441))
+    }
+  }
+} catch (e) {
+  if (
+    e.message.indexOf("Cannot find module") !== -1 &&
+    e.message.indexOf(".vue") !== -1
+  ) {
+    console.error(e.message)
+    console.error("1. 排查组件名称拼写是否正确")
+    console.error(
+      "2. 排查组件是否符合 easycom 规范，文档：https://uniapp.dcloud.net.cn/collocation/pages?id=easycom"
+    )
+    console.error(
+      "3. 若组件不符合 easycom 规范，需手动引入，并在 components 中注册该组件"
+    )
+  } else {
+    throw e
   }
 }
 var render = function() {
@@ -113,31 +129,31 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ 304:
-/*!*******************************************************************************************************!*\
-  !*** D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************************************/
+/***/ 320:
+/*!***********************************************************************************************************************************************!*\
+  !*** D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=script&lang=js& */ 305);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=script&lang=js& */ 321);
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 305:
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 321:
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 306));
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 322));
 
 
 
@@ -369,22 +385,70 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _uniappSocketio = _interopRequireDefault(__webpack_require__(/*! ./uniapp.socketio.js */ 309));
-var _md = _interopRequireDefault(__webpack_require__(/*! ../../../static/js/md5.js */ 251));
 
 
 
 
-var _Agora_Miniapp_SDK_for_wechat = _interopRequireDefault(__webpack_require__(/*! ./Agora_Miniapp_SDK_for_WeChat.js */ 310));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var uniNavBar = function uniNavBar() {__webpack_require__.e(/*! require.ensure | components/uni-ui/uni-nav-bar/uni-nav-live-bar */ "components/uni-ui/uni-nav-bar/uni-nav-live-bar").then((function () {return resolve(__webpack_require__(/*! @/components/uni-ui/uni-nav-bar/uni-nav-live-bar.vue */ 440));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var imtAudio = function imtAudio() {__webpack_require__.e(/*! require.ensure | components/imt-audio/imt-audio */ "components/imt-audio/imt-audio").then((function () {return resolve(__webpack_require__(/*! @/components/imt-audio/imt-audio.vue */ 426));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Emojy = function Emojy() {__webpack_require__.e(/*! require.ensure | components/emojy/emojy */ "components/emojy/emojy").then((function () {return resolve(__webpack_require__(/*! @/components/emojy/emojy.vue */ 433));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var _qiniuUploader = _interopRequireDefault(__webpack_require__(/*! ../../../qiniuUploader.js */ 186));
+
+
+var _uniappSocketio = _interopRequireDefault(__webpack_require__(/*! ./uniapp.socketio.js */ 325));
+var _md = _interopRequireDefault(__webpack_require__(/*! ../../../static/js/md53.js */ 326));
+
+
+
+
+var _Agora_Miniapp_SDK_for_WeChat = _interopRequireDefault(__webpack_require__(/*! ./Agora_Miniapp_SDK_for_WeChat.js */ 330));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}var uniNavBar = function uniNavBar() {__webpack_require__.e(/*! require.ensure | components/uni-ui/uni-nav-bar/uni-nav-bar */ "components/uni-ui/uni-nav-bar/uni-nav-bar").then((function () {return resolve(__webpack_require__(/*! @/components/uni-ui/uni-nav-bar/uni-nav-bar.vue */ 381));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var imtAudio = function imtAudio() {__webpack_require__.e(/*! require.ensure | components/imt-audio/imt-audio */ "components/imt-audio/imt-audio").then((function () {return resolve(__webpack_require__(/*! @/components/imt-audio/imt-audio.vue */ 441));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Emojy = function Emojy() {__webpack_require__.e(/*! require.ensure | packageB/emojy/emojy */ "packageB/emojy/emojy").then((function () {return resolve(__webpack_require__(/*! @/packageB/emojy/emojy.vue */ 448));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
 
 
 var app = getApp();
-var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
-  query: {},
-  transports: ['websocket', 'polling'],
-  timeout: 5000 });var _default =
-
+var socket = '';
+var wechatAgora = '';
+var H5Client = '';var _default =
 {
   components: {
     uniNavBar: uniNavBar,
@@ -393,7 +457,26 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
 
   data: function data() {
     return {
+      livemode: 0,
+      fromPPt: false,
+      fromshare: false,
+      ShareScreenUid: 999999999,
+      Recorder: uni.getRecorderManager(),
+      chat_audio: uni.createInnerAudioContext(),
+      recording: false, //标识是否正在录音
+      isStopVoice: false, //加锁 防止点击过快引起的当录音正在准备(还没有开始录音)的时候,却调用了stop方法但并不能阻止录音的问题
+      voiceInterval: null,
+      voiceTime: 0, //总共录音时长
+      canSend: true, //是否可以发送
+      PointY: 0, //坐标位置
+      voiceIconText: "正在录音...",
+      voiceimagestatus: true,
+      voiceTitle: '按住说话',
+      chat_voice: "../../static/chat_voice@3x.png",
+      isvoice: false,
+      show_big_ppt: false,
       scrollH: 0,
+      system_ppt_top: 0,
       tabIndex: 0,
       tabBars: [{
         name: "讲师区" },
@@ -419,11 +502,13 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
       agorauid: '',
       phonetype: 0,
       wechatliveurl: '',
+      res_url: '',
+      wechatliveurl_small: '',
       myID: '',
       content: '',
       islive: '已结束',
       Usercount: 0,
-      diancolor: '#2C62EF',
+      diancolor: '#969696',
       timer: '',
       livetype: '',
       intr: '',
@@ -440,6 +525,8 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
       noppt: false,
       pptindex: 0,
       showppt_index: 0,
+      show_big_ppt_index: 1,
+      show_big_ppt_index2: 0,
       emojylist: [],
       showemojy: false,
       inputbuttom: 0,
@@ -452,28 +539,45 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
       show_nothing_image: true,
       show_nothing_image2: false,
       input_adjust: false,
-      video_zhezhao: true };
+      video_zhezhao: true,
+      voice_list: [],
+      intervl: '',
+      voice_index: -1,
+      QiNiutoken: '',
+      voice_url: '',
+      voice_length: '',
+      animation: [],
+      showpic: '',
+      hidepic: '',
+      setInter1: '',
+      num: 0,
+      picmaxnum: 6,
+      isaudioerror: false,
+      showsmallvideo: false,
+      showShareScreen: false,
+      showBigScreen: true };
 
-  },
-
-  onHide: function onHide() {
-    socket.disconnect();
   },
   onReady: function onReady() {
     var that = this;
+    that.system_ppt_top = 25;
     uni.getSystemInfo({
       success: function success(res) {
-        that.scrollH = res.windowHeight * 750 / res.windowWidth - 540 - 84;
+        that.scrollH = res.windowHeight * 750 / res.windowWidth - 540 - 100;
 
-        // this.system_top = ;
-        that.scrollH = res.windowHeight * 750 / res.windowWidth - 550 - 134 - parseInt(res.safeArea.top) - 60;
+        that.system_ppt_top = parseInt(res.safeArea.top) + 10;
+        that.scrollH = res.windowHeight * 750 / res.windowWidth - 550 - 124 - parseInt(res.safeArea.top) - 20;
 
+        that.liveLive(that.liveInfo.liveuid, that.liveInfo.courseid, that.liveInfo.lessonid);
       } });
 
-    this.pageToBottom();
+    // this.pageToBottom();
   },
-  // sort unde 套餐 0 内容 1课程2直播
-  //1图文2视频3音频 4ppt直播 5视频直播6音频直播 7授课直播（白板）
+  onUnload: function onUnload() {
+    this.chat_audio.stop();
+    socket.disconnect();
+    socket.close();
+  },
   onLoad: function onLoad(option) {var _this2 = this;
 
     console.log("运行在小程序");
@@ -492,16 +596,15 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
 
 
 
+    this.ppts = [];
     this.userInfo = app.globalData.userinfo;
     this.liveInfo.liveuid = option.liveuid;
     this.liveInfo.courseid = option.courseid;
     this.liveInfo.lessonid = option.lessonid;
     this.thumb = option.thumb;
-    this.addNodeListen();
     this.myID = app.globalData.userinfo.id;
     this.GetChat();
     uni.onKeyboardHeightChange(function (res) {
-
       if (res.height > 0) {
         if (_this2.showemojy == true) {
           _this2.showemojy = false;
@@ -518,197 +621,543 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
         }
       }
     });
+    //音频播放事件
+    this.chat_audio.onPlay(function () {
+      _this2.isaudioerror = false;
+      // console.log('开始播放');
+    });
+    this.chat_audio.onStop(function () {
+      _this2.isaudioerror = false;
+      _this2.voice_index = -1;
+      // console.log('播放结束-onStop');
+      clearInterval(_this2.intervl);
+      for (var i = 0; i < _this2.voice_list.length; i++) {
+        _this2.voice_list[i] = '../../static/receiver_voice@3x.png';
+        _this2.$set(_this2.voice_list, i, _this2.voice_list[i]);
+      }
+    });
+    //音频结束事件
+    this.chat_audio.onEnded(function () {
+      _this2.isaudioerror = false;
+      _this2.voice_index = -1;
+      // console.log('播放结束-onEnded');
+      clearInterval(_this2.intervl);
+      for (var i = 0; i < _this2.voice_list.length; i++) {
+        _this2.voice_list[i] = '../../static/receiver_voice@3x.png';
+        _this2.$set(_this2.voice_list, i, _this2.voice_list[i]);
+      }
+    });
+    this.chat_audio.onError(function (res) {
+      _this2.chat_audio.stop();
+      _this2.isaudioerror = true;
+      clearInterval(_this2.intervl);
+      // console.log('播放错误');
+      // console.log(res.errMsg);
+      // console.log(res.errCode);
+    });
+    //录音开始事件
+    this.Recorder.onStart(function (e) {
+      _this2.beginVoice();
+    });
+    //录音结束事件
+    this.Recorder.onStop(function (res) {
+      clearInterval(_this2.voiceInterval);
+      _this2.handleRecorder(res);
+    });
   },
   methods: {
-    backlive: function backlive() {
+    stopPic: function stopPic() {
+      clearInterval(this.setInter1);
+    },
+    changePic: function changePic() {//轮播方法
+      clearInterval(this.setInter1);
+      var animation = uni.createAnimation({
+        timingFunction: 'ease',
+        duration: 4000,
+        delay: 0 });
+
+      this.animation = animation;
+      this.setInter1 = setInterval(function () {//循环
+        this.num++;
+        if (this.num == this.picmaxnum) {
+          this.num = 0;
+        }
+        //淡入
+        animation.opacity(1).step({
+          duration: 3000,
+          delay: 1000 });
+        //描述动画
+        this.showpic = animation.export(); //输出动画
+        //淡出
+        animation.opacity(0).step({
+          duration: 3000,
+          delay: 1000 });
+
+        this.hidepic = animation.export();
+      }, 4000);
+    },
+    //准备开始录音
+    startVoice: function startVoice(e) {var _this3 = this;
+      this.chat_audio.pause();
+      clearInterval(this.intervl);
+      for (var i = 0; i < this.voice_list.length; i++) {
+        this.voice_list[i] = '../../static/receiver_voice@3x.png';
+        this.$set(this.voice_list, i, this.voice_list[i]);
+      }
+      uni.request({
+        url: getApp().globalData.site_url + 'Upload.GetQiniuToken',
+        method: 'POST',
+        data: {
+          'uid': getApp().globalData.userinfo.id,
+          'token': getApp().globalData.userinfo.token },
+
+        success: function success(res) {
+          uni.hideLoading();
+          if (res.data.data.code == 0) {
+            _this3.QiNiutoken = _this3.decypt(res.data.data.info[0].token);
+            _this3.recording = true;
+            _this3.isStopVoice = false;
+            _this3.canSend = true;
+            _this3.voiceIconText = "正在录音...";
+            _this3.voiceimagestatus = true;
+            _this3.PointY = e.touches[0].clientY;
+            _this3.Recorder.start({
+              format: 'mp3' });
+
+          } else {
+            uni.showToast({
+              title: '请重试',
+              icon: 'none' });
+
+          }
+        } });
+
+    },
+    //录音已经开始
+    beginVoice: function beginVoice() {var _this4 = this;
+      if (this.isStopVoice) {
+        this.Recorder.stop();
+        return;
+      }
+      this.voiceTitle = '松开 结束';
+      this.voiceInterval = setInterval(function () {
+        _this4.voiceTime++;
+      }, 1000);
+    },
+    //move 正在录音中
+    moveVoice: function moveVoice(e) {
+      var PointY = e.touches[0].clientY;
+      var slideY = this.PointY - PointY;
+      if (slideY > uni.upx2px(120)) {
+        this.canSend = false;
+        this.voiceIconText = '松开手指 取消发送 ';
+        this.voiceTitle = '手指上滑 取消发送 ';
+        this.voiceimagestatus = false;
+        this.stopPic();
+      } else if (slideY > uni.upx2px(60)) {
+        this.canSend = false;
+        this.voiceTitle = '手指上滑 取消发送 ';
+        this.voiceIconText = '手指上滑 取消发送 ';
+        this.voiceimagestatus = false;
+        this.stopPic();
+      } else {
+        this.canSend = true;
+        this.voiceIconText = '正在录音...';
+        this.voiceTitle = '松开结束';
+        this.voiceimagestatus = true;
+        this.changePic();
+      }
+    },
+    //结束录音
+    endVoice: function endVoice() {
+      this.stopPic();
+      this.inputbuttom = 0;
+      this.isStopVoice = true; //加锁 确保已经结束录音并不会录制
+      this.Recorder.stop();
+      this.voiceTitle = '按住 说话';
+      this.recording = false;
+    },
+    //录音被打断
+    cancelVoice: function cancelVoice(e) {
+      this.stopPic();
+      this.inputbuttom = 0;
+      this.recording = false;
+      this.voiceTime = 0;
+      this.voiceTitle = '按住 说话';
+      this.canSend = false;
+      this.Recorder.stop();
+    },
+    //处理录音文件
+    handleRecorder: function handleRecorder(_ref)
+
+
+    {var _this5 = this;var tempFilePath = _ref.tempFilePath,duration = _ref.duration;
+      if (this.canSend == false) {
+        return;
+      }
+      var contentDuration;
+
+      this.voiceTime = 0;
+      console.log(duration);
+      if (duration < 1500) {
+        this.voiceIconText = "说话时间过短";
+        this.recording = false;
+        this.inputbuttom = 0;
+        this.recording = false;
+        this.voiceTime = 0;
+        this.voiceTitle = '按住 说话';
+        this.canSend = false;
+        this.Recorder.stop();
+        return;
+      }
+      contentDuration = duration / 1000;
+
+
+
+
+
+
+
+
+
+
+
+
+      this.recording = false;
+      var name = 'voice_knowledge' + this.getTime() + '.wav';
+      _qiniuUploader.default.upload(tempFilePath, function (res) {
+        // if (res.fileUrl.indexOf("undefined") != -1) {
+        // console.log('上传成功，但url含 undefined');
+        // uni.showToast({
+        // 	title: '出现错误，请重新录制语音',
+        // 	icon: 'none'
+        // });
+        // return;
+        // }
+        // console.log('上传成功');
+        // console.log(res);
+        _this5.voice_url = res.fileUrl;
+        _this5.voice_length = Math.ceil(contentDuration);
+        _this5.send();
+      }, function (error) {
+        console.log('上传失败');
+      }, {
+        region: 'ECN',
+        domain: app.globalData.qiniuimageurl,
+        key: name,
+        uptoken: this.QiNiutoken });
+
+    },
+    big_change: function big_change(event) {
+      this.show_big_ppt_index = parseInt(event.detail.current) + 1;
+      this.show_big_ppt_index2 = parseInt(event.detail.current);
+    },
+    big_ppt_back: function big_ppt_back() {
+      this.show_big_ppt = false;
+    },
+    getTime: function getTime() {
+      var yy = new Date().getFullYear();
+      var mm = new Date().getMonth() + 1;
+      var dd = new Date().getDate();
+      var hh = new Date().getHours();
+      var mf = new Date().getMinutes() < 10 ? '0' + new Date().getMinutes() : new Date().getMinutes();
+      var ss = new Date().getSeconds() < 10 ? '0' + new Date().getSeconds() : new Date().getSeconds();
+      return yy + mm + dd + hh + mf + ss;
+    },
+    backCourseList: function backCourseList() {
       uni.showModal({
-        title: '确定要退出直播间吗',
+        title: '是否要退出直播间',
         content: '',
         showCancel: true,
         cancelText: '取消',
         confirmText: '确定',
+        confirmColor: '#2C62EF',
         success: function success(res) {
           if (res.confirm) {
-            uni.showLoading({
-              title: '',
-              mask: false });
-
-            // socket.disconnect();	
+            // uni.showLoading({
+            // 	title:null
+            // })
+            socket.disconnect();
+            socket.close();
             setTimeout(function () {
               uni.hideLoading();
               uni.navigateBack({
                 delta: 1 });
 
-            }, 500);
+            }, 0);
           }
         },
         fail: function fail() {},
         complete: function complete() {} });
 
     },
-    addNodeListen: function addNodeListen() {var _this3 = this;
-      //连接socket
+    open_voice: function open_voice(url, index) {var _this6 = this;
+      this.chat_audio.pause();
+      clearInterval(this.intervl);
+      for (var i = 0; i < this.voice_list.length; i++) {
+        this.voice_list[i] = '../../static/receiver_voice@3x.png';
+        this.$set(this.voice_list, i, this.voice_list[i]);
+      }
+      if (this.voice_index == index) {
+        this.voice_index = -1;
+        console.log('手动停止');
+        this.chat_audio.pause();
+        clearInterval(this.intervl);
+      } else {
+        console.log(url);
+        if (url.indexOf("undefined") != -1) {
+          this.voice_index = -1;
+          console.log('url出现错误，停止播放');
+          this.chat_audio.pause();
+          clearInterval(this.intervl);
+          return;
+        }
+        this.chat_audio.src = url;
+        this.chat_audio.play();
+        this.voice_index = index;
+        this.intervl = setInterval(function () {
+          console.log('启动');
+          _this6.voice_list[index] = '../../static/receiver_voice_play_1@3x.png';
+          _this6.$set(_this6.voice_list, index, _this6.voice_list[index]);
+          setTimeout(function () {
+            _this6.voice_list[index] = '../../static/receiver_voice_play_2@3x.png';
+            _this6.$set(_this6.voice_list, index, _this6.voice_list[index]);
+          }, 200);
+          setTimeout(function () {
+            _this6.voice_list[index] = '../../static/receiver_voice_play_3@3x.png';
+            _this6.$set(_this6.voice_list, index, _this6.voice_list[index]);
+          }, 400);
+        }, 600);
+      }
+      if (this.isaudioerror == true) {
+        uni.showToast({
+          title: '1' });
+
+        this.chat_audio.stop();
+        clearInterval(this.intervl);
+      }
+    },
+    addNodeListen: function addNodeListen() {var _this7 = this;
+      socket = new _uniappSocketio.default(app.globalData.socket_url, {
+        query: {},
+        transports: ['websocket', 'polling'],
+        timeout: 5000 });
+
       socket.emit('conn', {
         uid: this.userInfo.id, //进入该房间的学生id 假如等于下面的房间id, 那即为老师进入房间
         roomnum: this.liveInfo.liveuid, //房间号,即老师id
         nickname: this.userInfo.user_nickname,
-        stream: this.liveInfo.liveuid + '_' + this.liveInfo.courseid + '_0', //老师id_课程id_课时id
-        equipment: 'uni-app', //环境
-        token: this.userInfo.token,
-        avatar: this.userInfo.avatar,
-        sign: 0, //签名 默认为0
-        usertype: this.userInfo.type //0学生, 1老师
-      });
+        stream: this.liveInfo.liveuid + '_' + this.liveInfo.courseid + '_' + this.liveInfo.lessonid, //老师id_课程id_课时id
+        token: this.userInfo.token });
 
+      socket.on('error', function (data) {
+        console.log('ws 失败 ' + data);
+      });
       socket.on('conn', function (data) {
         console.log('ws 已连接 ' + data);
-        _this3.isConnectSocket = true; //已连接
-        _this3.liveLive(_this3.liveInfo.liveuid, _this3.liveInfo.courseid, _this3.liveInfo.lessonid);
+        if (data == 'no') {
+          uni.showModal({
+            title: '聊天服务器连接失败',
+            content: '请尝试退出直播间重新进入',
+            showCancel: false,
+            cancelText: '',
+            confirmText: '确定',
+            confirmColor: '#38DAA6',
+            success: function success(res) {
+              uni.navigateBack({
+                delta: 1 });
+
+            },
+            fail: function fail() {},
+            complete: function complete() {} });
+
+          return;
+        }
+        _this7.isConnectSocket = true; //已连接
       });
       var that = this;
-      //监听服务端消息
       socket.on('broadcastingListen', function (data) {
-        var msgInfo = JSON.parse(data).msg[0];
-        console.log(JSON.parse(JSON.stringify(msgInfo)));
-        if (msgInfo.content != undefined) {
-          var pinyinArray = getApp().globalData.pinyinArray;
-          var emojiArray = getApp().globalData.emojiArray;
-          var biaoqing_url = getApp().globalData.biaoqingurl;
-          var content = msgInfo.content;
-          for (var j = 0; j < 2; j++) {
-            for (var i = 0; i < emojiArray.length; i++) {
-              var path = getApp().globalData.biaoqingurl + pinyinArray[i];
-              content = content.replace(emojiArray[i],
-              '<img style="width: 20px; height: 20px;" src ="' + path + '"/>');
+        console.log(data);
+        for (var i = 0; i < data.length; i++) {
+          var msgInfo = JSON.parse(data[i]).msg[0];
+          //console.log(JSON.parse(JSON.stringify(msgInfo)));
+          if (msgInfo._method_ == "changeMode") {
+            if (msgInfo.action == 1) {
+              console.log('切换到PPt');
+              _this7.livetype = 4;
+              _this7.fromPPt = true;
+              _this7.fromshare = false;
+              _this7.showsmallvideo = true;
+              _this7.showShareScreen = false;
+              _this7.scrollH -= 150;
+
+              _this7.wechatliveurl_small = _this7.res_url;
+              _this7.wechatliveurl = '';
+
+
+
+
+
+
+            } else if (msgInfo.action == 0) {
+              console.log('切换到直播');
+              if (_this7.fromshare == false && _this7.fromPPt == true) {
+                _this7.scrollH += 150;
+              }
+              _this7.livetype = 5;
+              _this7.fromPPt = false;
+              _this7.fromshare = false;
+              _this7.showsmallvideo = false;
+              _this7.showShareScreen = false;
+
+              _this7.wechatliveurl_small = '';
+              _this7.wechatliveurl = _this7.res_url;
+
+
+
+
+
+
+            } else if (msgInfo.action == 2) {
+              console.log('切换到屏幕共享');
+              //屏幕共享
+              if (_this7.fromPPt == true) {
+                _this7.scrollH += 150;
+              }
+              _this7.livetype = 5;
+              _this7.fromshare = true;
+              _this7.showShareScreen = true;
+              _this7.showsmallvideo = false;
+
+              _this7.wechatliveurl_small = '';
+              _this7.wechatliveurl = _this7.res_url;
+
+
+
+
+
 
             }
           }
-          msgInfo.content = content;
-          _this3.list.push(msgInfo);
-        }
+          if (msgInfo._method_ == "Kick") {
+            //踢出直播间
+            if (msgInfo.action == 1) {
+              if (msgInfo.touid == getApp().globalData.userinfo.id) {
+                uni.showToast({
+                  title: '你已被讲师踢出房间',
+                  icon: 'none' });
 
-        if (msgInfo._method_ == "changeMode") {
-          if (msgInfo.action == 1) {
-            _this3.livetype = 4;
-          } else {
-            _this3.zhibo_leave = true;
-          }
-        }
-        if (msgInfo._method_ == "Kick") {
-          //踢出直播间
-          if (msgInfo.action == 1) {
-            if (msgInfo.touid == getApp().globalData.userinfo.id) {
-              uni.showToast({
-                title: '你已被讲师踢出房间',
-                icon: 'none' });
+                setTimeout(function () {
+                  uni.navigateBack({
+                    delta: 1 });
 
-              setTimeout(function () {
-                uni.navigateBack({
-                  delta: 1 });
-
-              }, 500);
-
-            }
-          }
-
-        }
-
-        if (msgInfo._method_ == "StartEndLive") {
-          //直播结束
-          _this3.zhibo_leave = true;
-          _this3.show_nothing_image = false;
-          _this3.show_nothing_image2 = true;
-          _this3.zhibo_leave_text = "直播已结束";
-          _this3.zhibo_leave_text_w = "";
-        }
-
-        //全体禁言
-        if (msgInfo._method_ == "roomShutup") {
-          //App.Course.SetLesson
-          //1 禁言 0 解除
-          if (msgInfo.action == 1) {
-            _this3.shut_place = "全体禁言中";
-            _this3.content = "全体禁言中";
-            _this3.isshut = true;
-          } else {
-            _this3.shut_place = "我来说几句～";
-            _this3.content = '';
-            _this3.isshut = false;
-          }
-        }
-        if (msgInfo._method_ == "Shutup") {
-          if (msgInfo.touid == getApp().globalData.userinfo.id) {
-            _this3.shut_place = "你已被禁言";
-            _this3.isshut = true;
-            uni.showToast({
-              title: '你已被禁言',
-              icon: 'none' });
-
-          }
-        }
-
-        if (msgInfo._method_ == "SendMsg") {
-          if (msgInfo.action == 0) {
-            if (msgInfo.ct.uid != getApp().globalData.userinfo.id) {
-              _this3.Usercount += 1;
-              console.log('用户进入');
-            }
-
-          }
-
-        }
-        if (msgInfo._method_ == 'disconnect') {
-          if (_this3.Usercount != 0) {
-            _this3.Usercount -= 1;
-          }
-          console.log('用户离开');
-        }
-        if (msgInfo._method_ == 'setPPT') {
-          if (msgInfo.action == '0') {
-            var item = {
-              'id': msgInfo.pptid,
-              'thumb': msgInfo.thumb };
-
-            _this3.ppts.push(item);
-            console.log('添加ppt');
-          } else if (msgInfo.action == '1') {
-            console.log('ppt删除');
-            var pptlist = _this3.ppts;
-            for (var _i = 0; _i < pptlist.length; _i++) {
-              var item = pptlist[_i];
-              if (item.id == msgInfo.pptid) {
-
-                _this3.ppts.splice(_i, 1);
+                }, 500);
               }
             }
-          } else if (msgInfo.action == '2') {
-            _this3.pptindex = parseInt(msgInfo.index);
-            _this3.showppt_index = _this3.pptindex + 1;
-            console.log('ppt切换索引');
+          }
+          if (msgInfo._method_ == "StartEndLive") {
+            _this7.zhibo_leave = true;
+            _this7.video_zhezhao = true;
+            _this7.show_nothing_image = false;
+            _this7.show_nothing_image2 = true;
+            _this7.zhibo_leave_text = "直播已结束";
+            _this7.zhibo_leave_text_w = "";
+          }
+          if (msgInfo._method_ == "roomShutup") {
+            //App.Course.SetLesson
+            //1 禁言 0 解除
+            if (msgInfo.action == 1) {
+              _this7.shut_place = "全体禁言中";
+              _this7.content = "";
+              _this7.isshut = true;
+            } else {
+              _this7.shut_place = "我来说几句～";
+              _this7.content = '';
+              _this7.isshut = false;
+            }
+          }
+          if (msgInfo._method_ == "Shutup") {
+            if (msgInfo.touid == getApp().globalData.userinfo.id) {
+              _this7.shut_place = "你已被禁言";
+              _this7.isshut = true;
+              uni.showToast({
+                title: '你已被禁言',
+                icon: 'none' });
+
+            }
+          }
+          if (msgInfo._method_ == "SendMsg") {
+            if (msgInfo.action == 0) {
+              // if (msgInfo.ct.uid != getApp().globalData.userinfo.id) {
+              _this7.Usercount += 1;
+              console.log('用户进入');
+              // }
+            } else {
+              var pinyinArray = getApp().globalData.pinyinArray;
+              var emojiArray = getApp().globalData.emojiArray;
+              var biaoqing_url = getApp().globalData.biaoqingurl;
+              var content = msgInfo.content;
+              if (msgInfo.type == 0) {
+                for (var j = 0; j < 50; j++) {
+                  for (var _i = 0; _i < emojiArray.length; _i++) {
+                    var path = getApp().globalData.biaoqingurl + pinyinArray[_i];
+                    content = content.replace(emojiArray[_i],
+                    '<img style="width: 25px; height: 25px; vertical-align: middle;" src ="' + path + '"/>');
+
+                  }
+                }
+              }
+              _this7.voice_list.push('../../static/receiver_voice@3x.png');
+              msgInfo.content = content;
+              _this7.list.push(msgInfo);
+              _this7.pageToBottom();
+            }
+          }
+          if (msgInfo._method_ == 'disconnect') {
+            if (_this7.Usercount != 0) {
+              _this7.Usercount -= 1;
+            }
+            console.log('用户离开');
+          }
+          if (msgInfo._method_ == 'setPPT') {
+            if (msgInfo.action == 0) {
+              var item = {
+                'id': msgInfo.pptid,
+                'thumb': msgInfo.thumb };
+
+              _this7.noppt = false;
+              _this7.ppts.push(item);
+              console.log('添加ppt');
+            } else if (msgInfo.action == 1) {
+              console.log('ppt删除');
+              var pptlist = _this7.ppts;
+              for (var _i2 = 0; _i2 < pptlist.length; _i2++) {
+                var item = pptlist[_i2];
+                if (item.id == msgInfo.pptid) {
+                  _this7.ppts.splice(_i2, 1);
+                }
+              }
+              if (_this7.ppts.length == 0) {
+                _this7.noppt = true;
+              }
+            } else if (msgInfo.action == 2) {
+              _this7.pptindex = parseInt(msgInfo.index);
+              _this7.showppt_index = _this7.pptindex + 1;
+              console.log('ppt切换索引');
+            }
           }
         }
-        _this3.pageToBottom();
       });
     },
     showBigView: function showBigView(index) {
-      var imgsArray = [];
-      for (var i = 0; i < this.ppts.length; i++) {
-        imgsArray.push(this.ppts[i].thumb);
-      }
-      uni.previewImage({
-        current: index,
-        urls: imgsArray,
-        indicator: 'number',
-        loop: false });
-
-
+      this.show_big_ppt = true;
+      this.show_big_ppt_index = index + 1;
+      this.show_big_ppt_index2 = index;
     },
-
     songemojy: function songemojy(data) {
       this.content += data.chinese;
     },
-    GetChat: function GetChat() {var _this4 = this;
-
+    GetChat: function GetChat() {var _this8 = this;
       var gData = app.globalData;
       uni.request({
         url: gData.site_url + 'Live.GetChat',
@@ -719,44 +1168,39 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
           'liveuid': this.liveInfo.liveuid,
           'courseid': this.liveInfo.courseid,
           'lessonid': this.liveInfo.lessonid,
-          'lastid': '0',
+          'lastid': '',
           'type': '0' },
 
         success: function success(res) {
-
           var pinyinArray = getApp().globalData.pinyinArray;
           var emojiArray = getApp().globalData.emojiArray;
-
-          _this4.list = res.data.data.info;
-          for (var j = 0; j < _this4.list.length; j++) {
-            var msg = _this4.list[j];
+          _this8.list = res.data.data.info;
+          for (var j = 0; j < _this8.list.length; j++) {
+            var msg = _this8.list[j];
             var content = msg.content;
-            for (var _j = 0; _j < 2; _j++) {
-              for (var i = 0; i < emojiArray.length; i++) {
-                var path = getApp().globalData.biaoqingurl + pinyinArray[i];
+            if (msg.type == 0) {
+              for (var _j = 0; _j < 50; _j++) {
+                for (var i = 0; i < emojiArray.length; i++) {
+                  var path = getApp().globalData.biaoqingurl + pinyinArray[i];
+                  content = content.replace(emojiArray[i],
+                  '<img style="width: 25px; height: 25px; vertical-align: middle;" src ="' + path + '"/>');
 
-                content = content.replace(emojiArray[i],
-                '<img style="width: 20px; height: 20px;" src ="https://edu-layui.sdwanyue.com/UNIAPP/biaoqing/%5B666%5D.png"/>');
-
+                }
               }
             }
+            _this8.voice_list.push('../../static/receiver_voice@3x.png');
             msg.content = content;
-            _this4.list[j] = msg;
+            _this8.list[j] = msg;
           }
-
-
-
-
         } });
 
     },
-    changeXXK: function changeXXK(index) {var _this5 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
-
-                _this5.tabIndex = index;
+    changeXXK: function changeXXK(index) {var _this9 = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:
+                _this9.tabIndex = index;
                 setTimeout(function () {
-                  _this5.pageToBottom();
+                  _this9.pageToBottom();
                 }, 300);return _context.abrupt("return",
-                _this5.tabIndex);case 3:case "end":return _context.stop();}}}, _callee);}))();
+                _this9.tabIndex);case 3:case "end":return _context.stop();}}}, _callee);}))();
     },
     onChangeTab: function onChangeTab(e) {
       this.tabIndex = e.detail.current;
@@ -780,43 +1224,51 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
       }
       return newcode;
     },
-    agoraWechat: function agoraWechat(agoraappid, agorastream, uid) {var _this6 = this;
+    agoraWechat: function agoraWechat(agoraappid, agorastream, uid) {var _this10 = this;
       this.video_zhezhao = true;
       var _that = this;
       //初始化
-      var client = new _Agora_Miniapp_SDK_for_WeChat.Client();
-      client.setRole('audience');
-      client.init(this.decypt(agoraappid), function () {
+      wechatAgora = new _Agora_Miniapp_SDK_for_WeChat.default.Client();
+      wechatAgora.setRole('audience');
+      wechatAgora.init(this.decypt(agoraappid), function () {
         console.log('小程序初始化成功');
-        _this6.zhibo_leave = true;
         //加入通道
-        client.join('', agorastream, uid, function () {
+        wechatAgora.join('', agorastream, uid, function () {
           console.log('加入通道成功');
+          _this10.zhibo_leave = true;
         }, function (e) {
           console.log('加入通道失败');
+          _this10.zhibo_leave = true;
         });
       },
       function (e) {
+        _this10.zhibo_leave = true;
         console.log('小程序初始化失败');
       });
       //订阅远端流
-      client.on("stream-added", function (e) {
-        client.subscribe(e.uid, function (res) {
-          _this6.zhibo_leave = false;
-          _this6.video_zhezhao = true;
+      wechatAgora.on("stream-added", function (e) {
+        wechatAgora.subscribe(e.uid, function (res) {
+          _this10.zhibo_leave = false;
+          _this10.video_zhezhao = true;
           console.log("订阅视频流成功：" + res);
-          _this6.wechatliveurl = res;
+          _this10.res_url = res;
+          if (_this10.showsmallvideo == true) {
+            _this10.wechatliveurl_small = res;
+          } else {
+            _this10.wechatliveurl = res;
+          }
         }, function (err) {
           console.log("订阅视频流错误", err);
+          _this10.video_zhezhao = false;
+          _this10.zhibo_leave = true;
         });
       });
-      client.on("stream-removed", function (e) {
-        console.log(e);
-        _this6.zhibo_leave = true;
-        _this6.video_zhezhao = fasle;
+      wechatAgora.on("stream-removed", function (e) {
+        _this10.video_zhezhao = false;
+        _this10.zhibo_leave = true;
       });
       //重连机制
-      client.rejoin('', agorastream, uid, '', function () {
+      wechatAgora.rejoin('', agorastream, uid, '', function () {
         console.log('重连加入通道成功');
       }, function (e) {
         console.log('重连加入通道失败');
@@ -868,11 +1320,10 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
 
     },
     // 进入直播
-    liveLive: function liveLive(liveuid, courseid, lessonid) {var _this7 = this;
+    liveLive: function liveLive(liveuid, courseid, lessonid) {var _this11 = this;
       var _this = this;
       var gData = app.globalData;
       _this.agorauid = gData.userinfo.id;
-
       uni.request({
         url: gData.site_url + 'Live.Enter',
         method: 'POST',
@@ -884,73 +1335,122 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
           'uid': gData.userinfo.id },
 
         success: function success(res) {
+          if (res.data.data.code == 700) {
+            uni.navigateTo({
+              url: '../../../pages/login/login',
+              success: function success(res) {},
+              fail: function fail() {},
+              complete: function complete() {} });
+
+            return;
+          }
           if (res.data.data.code == 0) {
-            _this7.pull = _this7.decypt(res.data.data.info[0].pull);
-            _this7.ppts = res.data.data.info[0].ppts || [];
-            if (_this7.ppts.length == 0) {
-              _this7.noppt = true;
+            _this11.addNodeListen();
+            _this11.pull = _this11.decypt(res.data.data.info[0].pull);
+            _this11.ppts = res.data.data.info[0].ppts || [];
+            if (_this11.ppts.length == 0) {
+              _this11.noppt = true;
             } else {
-              _this7.noppt = false;
+              _this11.noppt = false;
             }
-            _this7.pptindex = parseInt(res.data.data.info[0].pptindex);
-            _this7.showppt_index = _this7.pptindex + 1;
-            _this7.userInfo.user_type = res.data.data.info[0].user_type;
+            if (parseInt(res.data.data.info[0].shutup_room) == 1) {
+              _this11.shut_place = "全体禁言中";
+              _this11.content = "";
+              _this11.isshut = true;
+            } else {
+              _this11.shut_place = "我来说几句～";
+              _this11.content = '';
+              _this11.isshut = false;
+            }
+            _this11.pptindex = parseInt(res.data.data.info[0].pptindex);
+            _this11.showppt_index = _this11.pptindex + 1;
+            _this11.userInfo.user_type = res.data.data.info[0].user_type;
             var isLive = res.data.data.info[0].islive;
             if (isLive == 0) {
-              _this7.shownothingVideo = true;
-              _this7.islive = '未开始';
-              _this7.diancolor = '#969696';
+              _this11.shownothingVideo = true;
+              _this11.islive = '未开始';
+              _this11.diancolor = '#969696';
             } else if (isLive == 1) {
-              _this7.shownothingVideo = false;
-              _this7.islive = '直播中';
-              _this7.diancolor = '#2C62EF';
+              _this11.shownothingVideo = false;
+              _this11.islive = '直播中';
+              _this11.diancolor = '#2C62EF';
             } else {
-              _this7.islive = '已结束';
-              _this7.zhibo_leave = true;
-              _this7.show_nothing_image = false;
-              _this7.show_nothing_image2 = true;
-              _this7.zhibo_leave_text = '直播已结束';
-              _this7.zhibo_leave_text_w = "";
-              _this7.diancolor = '#969696';
+              _this11.islive = '已结束';
+              _this11.zhibo_leave = true;
+              _this11.show_nothing_image = false;
+              _this11.show_nothing_image2 = true;
+              _this11.zhibo_leave_text = '直播已结束';
+              _this11.zhibo_leave_text_w = "";
+              _this11.diancolor = '#969696';
             }
-            _this7.intr = res.data.data.info[0].intr;
+            _this11.intr = res.data.data.info[0].intr;
             //1图文2视频3音频 4ppt直播 5视频直播6音频直播 7授课直播（白板）
-            _this7.livetype = res.data.data.info[0].livetype;
-            if (_this7.livetype == 3 || _this7.livetype == 6) {
-              _this7.videoContext = uni.createVideoContext('myVideo');
-              _this7.buttonimage = '../../static/voice2.png';
+            _this11.livetype = res.data.data.info[0].livetype;
+            if (_this11.livetype == 3 || _this11.livetype == 6) {
+              _this11.videoContext = uni.createVideoContext('myVideo');
+              _this11.buttonimage = '../../static/voice2.png';
             }
-            _this7.Usercount = parseInt(res.data.data.info[0].nums);
-            console.log('当前直播间人数：' + _this7.Usercount);
-            _this7.agoraappid = res.data.data.info[0].sound_appid;
-            _this7.agoramRoomName = res.data.data.info[0].stream;
+            _this11.Usercount = parseInt(res.data.data.info[0].nums);
+            _this11.agoraappid = res.data.data.info[0].sound_appid;
+            _this11.agoramRoomName = res.data.data.info[0].stream;
 
-            if (_this7.livetype == 5 || _this7.livetype == 8) {
-              if (_this7.phonetype == 2) {
+            if (_this11.livetype == 5 || _this11.livetype == 8) {
+              if (_this11.livemode == 0) {
+                console.log('直播模式');
+                _this11.livetype = 5;
+                _this11.fromPPt = false;
+                _this11.fromshare = false;
+                _this11.showsmallvideo = false;
 
+
+
+
+              } else if (_this11.livemode == 1) {
+                console.log('PPt模式');
+                _this11.livetype = 4;
+                _this11.fromPPt = true;
+                _this11.fromshare = false;
+                _this11.showsmallvideo = true;
+                _this11.scrollH -= 150;
+
+
+
+
+              } else if (_this11.livemode == 2) {
+                console.log('屏幕共享模式');
+                _this11.livetype = 8;
+                _this11.fromshare = true;
+                _this11.showsmallvideo = false;
+
+
+
+
+              }
+              if (_this11.phonetype == 2) {
                 setTimeout(function () {
-                  _this7.$nextTick(function () {
-                    _this7.$refs.videoIos.focus({
-                      'appid': _this7.agoraappid,
-                      'mRoomName': _this7.agoramRoomName,
+                  _this11.$nextTick(function () {
+                    _this11.$refs.videoIos.focus({
+                      'appid': _this11.agoraappid,
+                      'mRoomName': _this11.agoramRoomName,
                       'uid': gData.userinfo.id });
 
                   });
                 }, 0);
-              } else if (_this7.phonetype == 1) {
+              } else if (_this11.phonetype == 1) {
                 setTimeout(function () {
-                  _this7.$nextTick(function () {
-                    _this7.$refs.videoAdnroid.clearTel(
-                    _this7.agoraappid + '声' + _this7.agoramRoomName + '网' + gData.userinfo.id);
+                  _this11.$nextTick(function () {
+                    _this11.$refs.videoAdnroid.clearTel(
+                    _this11.agoraappid + '声' + _this11.agoramRoomName + '网' + gData.userinfo.id);
 
                   });
                 }, 0);
-              } else if (_this7.phonetype == 3) {
-                _this7.agoraH5(_this7.agoraappid, _this7.agoramRoomName);
-              } else if (_this7.phonetype == 4) {
-                _this7.agoraWechat(_this7.agoraappid, _this7.agoramRoomName, gData.userinfo.id);
+              } else if (_this11.phonetype == 3) {
+                _this11.agoraH5(_this11.agoraappid, _this11.agoramRoomName);
+              } else if (_this11.phonetype == 4) {
+                _this11.agoraWechat(_this11.agoraappid, _this11.agoramRoomName, gData.userinfo.id);
               }
             }
+
           } else {
             uni.showToast({
               title: res.data.data.msg,
@@ -960,10 +1460,20 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
         } });
 
     },
-    inputing: function inputing(event) {},
+    sendvoice: function sendvoice() {
+      if (this.isshut == true) {
+        return;
+      }
+      if (this.isvoice == true) {
+        this.isvoice = false;
+        this.chat_voice = "../../static/chat_voice@3x.png";
+      } else {
+        this.isvoice = true;
+        this.chat_voice = "../../static/chat_keyboard@3x.png";
+      }
+    },
     submitemojy: function submitemojy() {
       if (this.isshut == true) {
-
         return;
       }
       if (this.showemojy == true) {
@@ -977,218 +1487,173 @@ var socket = (0, _uniappSocketio.default)(app.globalData.socket_url, {
     },
     //发送
     new_sendemojy: function new_sendemojy(data) {
-      // this.showemojy == false;
-      // this.content += data.chinese;
+      if (this.isshut == true) {
+        return;
+      }
       this.send();
       this.showemojy = false;
       this.inputbuttom = 0;
     },
-    send: function send(event) {var _this8 = this;
+    send: function send(event) {var _this12 = this;
+      uni.hideKeyboard();
       this.showemojy = false;
-      if (this.content === '') {
-        return uni.showToast({
-          title: '消息不能为空',
-          icon: 'none' });
+      if (this.voice_url.length > 1) {} else {
+        if (this.content === '') {
+          return uni.showToast({
+            title: '消息不能为空',
+            icon: 'none' });
 
+        }
       }
-
-      var userInfo = app.globalData.userinfo;
+      this.tabIndex = 1;
       var status = this.isQue === true ? "1" : "0";
-      //发送消息
-      var obj = {
-        "msg": [{
-          "_method_": "SendMsg",
-          "action": "1",
-          "token": userInfo.token,
-          "uid": '' + userInfo.id,
-          "user_nickname": '' + userInfo.user_nickname,
-          "avatar": '' + userInfo.avatar,
-          "liveuid": '' + this.liveInfo.liveuid,
-          "content": '' + this.content,
-          "equipment": "uni-app",
-          "create_time": Math.floor(new Date().getTime().toString() / 1000),
-          "msgtype": 2,
-          "status": status,
-          "type": "0",
-          "user_type": this.userInfo.type,
-          'lessonid': this.liveInfo.lessonid }],
+      var gData = app.globalData;
+      // 签名
+      var dic = {
+        'uid': this.userInfo.id,
+        'liveuid': this.liveInfo.liveuid,
+        'courseid': this.liveInfo.courseid,
+        'lessonid': this.liveInfo.lessonid,
+        'type': this.voice_url.length > 1 ? '1' : '0',
+        'content': this.content,
+        'url': this.voice_url,
+        'user_type': this.userInfo.type };
 
-        "retcode": "000000",
-        "retmsg": "OK" };
-
-
-      if (this.isConnectSocket == true) {
-        socket.emit('broadcast', obj);
-        this.tabIndex = 1;
-        var gData = app.globalData;
-        var liveuid = this.liveInfo.liveuid;
-        var courseid = this.liveInfo.courseid;
-        var lessonid = this.liveInfo.lessonid;
-        // 签名
-        var sign = this.sort2url({
+      var sign = this.sort2url(dic);
+      //记录聊天信息
+      uni.request({
+        url: gData.site_url + 'Live.SetChat',
+        method: 'POST',
+        data: {
+          'sign': sign,
           'uid': this.userInfo.id,
-          'liveuid': liveuid,
-          'courseid': courseid,
-          'lessonid': this.liveInfo.lessonid,
-          'type': '0',
+          'token': this.userInfo.token,
           'content': this.content,
-          'url': '',
-          'user_type': this.userInfo.type });
+          "length": this.voice_length,
+          'status': status,
+          'user_type': this.userInfo.type,
+          'liveuid': this.liveInfo.liveuid,
+          'courseid': this.liveInfo.courseid,
+          'lessonid': this.liveInfo.lessonid,
+          'type': this.voice_url.length > 1 ? '1' : '0',
+          'url': this.voice_url },
 
-        //记录聊天信息
-        uni.request({
-          url: gData.site_url + 'Live.SetChat',
-          method: 'GET',
-          data: {
-            'uid': this.userInfo.id,
-            'token': this.userInfo.token,
-            'liveuid': liveuid,
-            'courseid': courseid,
-            'lessonid': lessonid,
-            'type': 0,
-            'content': this.content,
-            'url': '',
-            'length': 0,
-            "msgtype": 2,
-            'status': status,
-            'user_type': this.userInfo.type,
-            'sign': sign },
+        success: function success(res) {
+          //	console.log(res);
+          if (res.data.data.code == 0) {
+            //发送消息
+            var obj = {
+              "msg": [{
+                "_method_": "SendMsg",
+                "chatid": res.data.data.info[0].chatid,
+                "action": "1",
+                "token": _this12.userInfo.token,
+                "uid": _this12.userInfo.id,
+                "user_nickname": _this12.userInfo.user_nickname,
+                "avatar": _this12.userInfo.avatar,
+                "liveuid": _this12.liveInfo.liveuid,
+                "content": _this12.content,
+                "url": _this12.voice_url,
+                "length": _this12.voice_length,
+                "equipment": "app",
+                "create_time": Math.floor(new Date().getTime().toString() / 1000),
+                "msgtype": 2,
+                "status": status,
+                "type": _this12.voice_url.length > 1 ? '1' : '0',
+                "user_type": _this12.userInfo.type,
+                'lessonid': _this12.liveInfo.lessonid }],
 
-          success: function success(res) {
+              "retcode": "000000",
+              "retmsg": "OK" };
 
-            _this8.content = '';
-          },
-          fail: function fail() {
+            socket.emit('broadcast', obj);
+            _this12.content = '';
+            _this12.voice_url = '';
+            _this12.voice_length = '';
+          } else {
             uni.showToast({
-              icon: 'none',
-              title: '网络错误' });
+              title: res.data.data.msg,
+              icon: 'none' });
 
-          } });
+          }
+        },
+        fail: function fail() {
+          uni.showToast({
+            icon: 'none',
+            title: '网络错误' });
 
-      }
+        } });
+
     },
     question: function question(isQue) {
-
       if (this.isQue == false) {
         this.isQue = true;
       } else {
         this.isQue = false;
       }
     },
-    // 字典序排序
     sort2url: function sort2url(arr1) {
       var newkey = Object.keys(arr1).sort();
       var newObj = {};
       for (var i = 0; i < newkey.length; i++) {//遍历newkey数组
         newObj[newkey[i]] = arr1[newkey[i]]; //向新创建的对象中按照排好的顺序依次增加键值对
       }
-
       var text = "";
       for (var index in newObj) {
         text = text + index + "=" + newObj[index] + "&";
       }
       text = text.substr(0, text.length - 1);
       text += '&' + app.globalData.sign_key;
-      return _md.default.hex_md5(text);
-    },
 
-    // 滚动到底部
+      return (0, _md.default)(text);
+    },
+    setSign: function setSign(obj) {//排序的函数
+      var str = '';
+      var newkey = Object.keys(obj).sort();
+      //先用Object内置类的keys方法获取要排序对象的属性名，再利用Array原型上的sort方法对获取的属性名进行排序，newkey是一个数组
+      var newObj = {}; //创建一个新的对象，用于存放排好序的键值对
+      for (var i = 0; i < newkey.length; i++) {//遍历newkey数组
+        //newObj[newkey[i]] = obj[newkey[i]];//向新创建的对象中按照排好的顺序依次增加键值对
+        str += newkey[i] + '=' + obj[newkey[i]] + '&';
+      }
+      str += app.globalData.sign_key;
+      var sign = _md.default.hex_md5(str);
+      return sign;
+    },
     pageToBottom: function pageToBottom() {
       var lastIndex = this.list.length - 1;
-
       if (lastIndex < 0) {
         return;
       }
-
-      // 大坑, vue采用虚拟dom, 刚发送消息时最后一条dom元素是取不到的!!! 必须用异步等元素渲染
       var _this = this;
       setTimeout(function () {
         _this.scrollInto = 'chat' + lastIndex;
-      }, 500);
-
-    },
-    pause: function pause() {
-      if (this.status == 0) {
-        this.status = 1;
-        this.videoContext.play();
-        this.buttonimage = '../../static/voice2.png';
-      } else {
-        this.status = 0;
-        this.videoContext.pause();
-        this.buttonimage = '../../static/voice.png';
-      }
-
-
-    },
-    timeupdate: function timeupdate(event) {
-
-      if (event.detail.detail) {
-        this.currentTime = event.detail.detail.currentTime;
-        this.duration = event.detail.detail.duration;
-        this.start = this.calcTimer(this.currentTime);
-        this.end = this.calcTimer(this.duration);
-      } else {
-        this.currentTime = event.detail.currentTime;
-        this.duration = event.detail.duration;
-        this.start = this.calcTimer(event.detail.currentTime);
-        this.end = this.calcTimer(event.detail.duration);
-      }
-    },
-
-    // 拖动进度条
-    sliderChange: function sliderChange(data) {
-      this.videoContext.seek(data.detail.value);
-    },
-
-    //拖动中
-    sliderChanging: function sliderChanging(data) {
-      this.currentTime = data.detail.value;
-      this.start = this.calcTimer(data.detail.value);
-    },
-
-    loadedmetadata: function loadedmetadata(data) {
-      this.duration = data.detail.duration;
-      this.start = this.calcTimer(data.detail.duration);
-
-    },
-    calcTimer: function calcTimer(timer) {
-      if (timer === 0 || typeof timer !== 'number') {
-        return '00:00';
-      }
-      var mm = Math.floor(timer / 60);
-      var ss = Math.floor(timer % 60);
-      if (mm < 10) {
-        mm = '0' + mm;
-      }
-      if (ss < 10) {
-        ss = '0' + ss;
-      }
-      return mm + ':' + ss;
+      }, 200);
     } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
 
-/***/ 311:
-/*!***************************************************************************************************************!*\
-  !*** D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=style&index=0&lang=css& ***!
-  \***************************************************************************************************************/
+/***/ 331:
+/*!*******************************************************************************************************************************************************!*\
+  !*** D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=style&index=0&lang=css& ***!
+  \*******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=style&index=0&lang=css& */ 312);
-/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!../../../../../../360安全浏览器下载/HBuilderX_V2.7.9/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./live-infoplay.vue?vue&type=style&index=0&lang=css& */ 332);
+/* harmony import */ var _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_loaders_stylePostLoader_js_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_2_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_vue_loader_lib_index_js_vue_loader_options_360_HBuilderX_V2_7_9_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_style_js_live_infoplay_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
-/***/ 312:
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/My_project/zhishi_fufei1/packageB/pages/live-info/live-infoplay.vue?vue&type=style&index=0&lang=css& ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ 332:
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/开源相关资料/Wanyue-knowledge-payment-UNI-APP-master/knowledge_uni_app/packageB/pages/live-info/live-infoplay.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1198,5 +1663,5 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-},[[300,"common/runtime","common/vendor","packageB/common/vendor"]]]);
+},[[316,"common/runtime","common/vendor","packageB/common/vendor"]]]);
 //# sourceMappingURL=../../../../.sourcemap/mp-weixin/packageB/pages/live-info/live-infoplay.js.map

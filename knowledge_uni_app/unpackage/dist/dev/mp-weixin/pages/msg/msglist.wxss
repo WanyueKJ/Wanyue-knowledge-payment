@@ -1,12 +1,7 @@
 
 .page {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .time {
 	color: #999999;
@@ -18,13 +13,8 @@
 }
 .neirong {
 	margin-top: 20rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	margin-left: 20rpx;
 	margin-bottom: 20rpx;
 }
@@ -41,8 +31,7 @@
 	padding-left: 10rpx;
 	padding-right: 10rpx;
 	border: 2rpx solid #D3D3D3;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 }
 .xiangziwrap {
 	position: absolute;

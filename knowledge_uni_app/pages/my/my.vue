@@ -1,11 +1,58 @@
 <template>
 	<view class="page">
 		<!-- 头部 -->
-		<view class="p-3 border-bottom avatar-wrap">
- 			<!-- 老师名字ID区域	 -->
+		<!-- 老师名字ID区域新改	 -->
+		<div class="myHeader">
+		  <div class="my_1">
+		    <!-- <img src="static/images/5.jpg" class="tx"> -->
 			<view class="title-wrap">
+			  <template v-if="userInfo.avatar">
+			    <image @click="editmeans(userInfo.id)" mode="aspectFill" :src="userInfo.avatar.length >0? userInfo.avatar:default_avatar" style="width: 120rpx; height: 120rpx;position: relative;top: 40rpx;" class="tx">
+			    </image>
+			  </template>
+			  <template v-else>
+			  	<image :src="default_avatar" style="width: 120rpx; height: 120rpx;" class="tx">
+			  	</image>
+			  </template>
+			</view>
+		    <!-- <span>王晓理</span> -->
+			<view class="name-id-wrap login">
+			   <view v-if="userInfo.id != undefined">
+				
+				<text>{{userInfo.user_nickname}}</text>
+				<text class="id-wrap">ID:{{userInfo.id}}</text>
+				<view class="guan-wrap" @click="attenteacher">
+				 <text class="guanzhu-title">关注讲师 {{follows}}</text>
+			<!-- <text class="guanzhu-num"> {{follows}}</text> -->
+				</view>
+			   </view>
+			   <view v-else class="tx">
+			   	<view @click="openLoginReg" class="name-id-wrap name-id-wrap-loginreg">
+			   		<text>登录/注册</text>
+			   	</view>
+			   	<!-- <image @click="editmeans(userInfo.id)" class='right' src="../../static/mine_right.png"></image> -->
+			   </view>
+			</view>
+			
+			
+		    <!-- <img src="static/images/go2.png" class="more"> -->
+			<img @click="editmeans(userInfo.id)" class="more" src="static/images/go2.png">
+		  </div>
+		  <view class="my_2">
+		    <view @click="lian" class="L">商用授权</view>
+	
+		    <view @click="lian" class="R">专业版本</view>
+			
+			
+		  </view>
+		</div>
+<!-- 		<view class="p-3 border-bottom avatar-wrap"> -->
+ 			<!-- 老师名字ID区域	 -->
+			
+			<!-- <view class="title-wrap">
+				
 				<template v-if="userInfo.avatar">
-				<image mode="aspectFill" :src="userInfo.avatar.length >0? userInfo.avatar:default_avatar" style="width: 120rpx; height: 120rpx;" class="rounded-circle title-avatar">
+				<image mode="aspectFill" :src="userInfo.avatar.length >0? userInfo.avatar:default_avatar" style="width: 120rpx; height: 120rpx;position: relative;top: 40rpx;" class="rounded-circle title-avatar">
 				</image>
 				</template>
 				<template v-else>
@@ -17,11 +64,12 @@
 					<view class="name-id-wrap">
 						<text>{{userInfo.user_nickname}}</text>
 						<text class="id-wrap">ID:{{userInfo.id}}</text>
+		                <view class="guan-wrap" @click="attenteacher">
+		                	<text class="guanzhu-title">关注讲师 {{follows}}</text>
+		                	<text class="guanzhu-num"> {{follows}}</text>
+		                </view>
 					</view>
-					<view class="guan-wrap" @click="attenteacher">
-						<text class="guanzhu-title">关注讲师</text>
-						<text class="guanzhu-num"> {{follows}}</text>
-					</view>
+					
 					<image @click="editmeans(userInfo.id)" class='right' src="../../static/mine_right.png"></image>
 					<view class="dier">
 						<view v-if="isTeacherInfo == '1'" class="teacherhome" @click="showTeacherInfo">讲师主页</view>
@@ -34,10 +82,27 @@
 					<image @click="editmeans(userInfo.id)" class='right' src="../../static/mine_right.png"></image>
 				</view>
 				
-			</view>
-		</view>
-		
+			</view> -->
+<!-- 		</view> -->
+	
 		<!-- 点击列表页 -->
+		<view class="mybox_3">
+		  <ul style="list-style-type:none">
+		    <li><view @click="mykecheng"><img src="../../static/images/icon7.png"><p>购买课程</p></view></li>
+		    <li><view @click="yijianfan"><img src="../../static/images/icon1.png"><p>意见反馈</p></view></li>
+		    <li><view @click="lianxiwe"><img src="../../static/images/icon2.png"><p>关于我们</p></view></li>
+		    <li><view @click="lian"><img src="../../static/images/icon3.png"><p>联系我们</p></view></li>
+		    <li><view @click="shezhi"><img src="../../static/images/icon5.png"><p>设置</p></view></li>
+		    <li><view @click="guanggao"><img src="../../static/images/icon6.png"><p>常见问题</p></view></li>
+		    <li><view @click="gouwuche"><img src="../../static/images/icon4.png"><p>购物车</p></view></li>
+		  </ul>
+		</view>
+		<!-- 广告位 -->
+		<view @click="guanggao" class="index-banner-wrap2">
+			
+			<image class="index-banner-img2"  src="../../static/images/huodong.png" mode="aspectFill"></image>
+					
+		</view>
 		<view class="animated fast fadeIn userinfo-list">
 			<view class="p-3">
 				<view v-for="(item,index) in list" class="my-item" @click="mylist(item.id,item.href)">
@@ -50,6 +115,7 @@
 				</view>
 			</view>
 		</view>
+		
 	</view>
 </template>
 <script>
@@ -81,7 +147,6 @@
 			this.getinfo();
 		},
 		onShow() {
-
 			this.getinfo();
 		},
 		computed: {
@@ -99,11 +164,71 @@
 					uni.navigateTo({
 						url: '../login/login'
 					})
+					return;
+			},
+			
+			mykecheng() {
+					uni.navigateTo({
+						url: '../course_class_list/course_class_list'
+					})
+					return;
+			},
+			
+			yijianfan() {
+					uni.navigateTo({
+						url: '../yijian-fankui/yijian-fankui'
+					})
+					return;
+			},
+			guanggao() {
+				uni.navigateTo({
+					url: '../news/news',
+				});
+			},
+			lian() {
+					uni.navigateTo({
+						url: '../login/xieyi?type=93',
+					});
+			},
+			lianxiwe() {
+					uni.navigateTo({
+						url: '../lianxi-we/lianxi-we'
+					})
+					return;
+			},
+			shezhi() {
+					uni.navigateTo({
+						url: '../setting/setting'
+					})
+					return;
+			},
+			xinwen() {
+					uni.navigateTo({
+						url: '../news/news'
+					})
+					return;
+			},
+			xiaoxi() {
+					uni.navigateTo({
+						url: '../setting/setting'
+					})
+					return;
+			},
+			gouwuche() {
+				if (app.globalData.userinfo == '') {
+					uni.navigateTo({
+						url: '../login/login'
+					})
+					return;
+				}
+			
+				uni.navigateTo({
+					url: '../shop-car/shop-car',
+				});
 			},
 			getinfo() {
 				let gData = app.globalData;
 				uni.request({
-
 					url: gData.site_url + 'User.GetBaseInfoUniapp',
 					method: 'GET',
 					data: {
@@ -115,6 +240,7 @@
 						if (parseInt(res.data.data.code) !== 0) {
 							return;
 						}
+						
 						this.favnums = res.data.data.info[0].favnums;
 						this.follows = res.data.data.info[0].follows;
 						this.examnums = parseInt(res.data.data.info[0].examnums);
@@ -146,9 +272,10 @@
 					});
 				} else if (ID == 4) {
 					var urls =  app.globalData.site_h5url +'appapi/page/detail?id=1&lang=zh-cn';
-
+					console.log(urls);
 					//关于我们
 					uni.navigateTo({
+						
 						url: '../about/about?url=' + encodeURIComponent(JSON.stringify(urls)) + '&title=' + '关于我们',
 					});
 				} else if (ID == 6) {
@@ -189,7 +316,129 @@
 </script>
 
 <style>
+	.index-banner-wrap2 {
+		overflow: overlay;
+		transform: translateY(0);
+		/* margin-top: 20rpx; */
+		height: 230rpx;
+		width: 100%;
 	
+	}
+	.index-banner-wrap2 .index-banner-img2  {
+	
+		height: 100%;
+		/* width: 100%; */
+		display: flex;
+		margin: auto;
+	
+	}
+	.myHeader {
+		width: 100%;
+		max-width: 512px;
+		background: url(../../static/images/mybg.jpg) no-repeat;
+		background-size: 100% 100%
+	}
+	.myHeader .my_1 {
+		display: flex;
+		padding: 40px 0 30px;
+		width: 100%;
+		height: 76px;
+		line-height: 76px;
+		color: #fff;
+	}
+	.myHeader .my_1 .tx {
+		float: left;
+		display: table;
+		margin-right: 10px;
+	/* 	width: 70px; */
+		height: 70px;
+		/* border: 3px solid #fff; */
+		border-radius: 100%;
+		margin-left: 20px;
+	}
+	.myHeader .my_1 span {
+		flex: 1;
+		display: block;
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+	.myHeader .my_1 .more {
+		display: block;
+		float: right;
+		margin-right: 20px;
+		height: 24px;
+		margin-top: 26px
+	}
+	.myHeader .my_2 {
+		padding: 0 35px 20px;
+		overflow: hidden
+	}
+/* 	.myHeader .my_2 a {
+		border: 1px solid #fff;
+		border-radius: 25px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		color: #fff;
+		letter-spacing: 1px;
+		font-size: 14px;
+		display: block;
+		width: 40%
+	} */
+	.myHeader .my_2 .L {
+		float: left;
+		border: 1px solid #fff;
+		border-radius: 25px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		color: #fff;
+		letter-spacing: 1px;
+		font-size: 14px;
+		display: block;
+		width: 40%
+	}
+	.myHeader .my_2 .R {
+		float: right;
+		border: 1px solid #fff;
+		border-radius: 25px;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+		color: #fff;
+		letter-spacing: 1px;
+		font-size: 14px;
+		display: block;
+		width: 40%
+	}
+	.mybox_3 {
+		overflow: hidden;
+		padding: 10px 15px
+		
+	}
+	.mybox_3 ul {
+		box-shadow: #eee 0px 0px 10px 2px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+		padding: 10px 0;
+		overflow: hidden
+	}
+	.mybox_3 ul li {
+		float: left;
+		width: 25%;
+		padding: 5px 0
+	}
+	.mybox_3 ul li img {
+		display: block;
+		width: 28px;
+		margin: 0 auto;
+		height: 28px
+	}
+	.mybox_3 ul li p {
+		text-align: center;
+		letter-spacing: 1px;
+		line-height: 26px
+	}
 	.wechat {
 		width: 100%;
 		height: 120rpx;
@@ -216,8 +465,9 @@
 
 	.right {
 		margin-left: 70rpx;
-		width: 30rpx;
-		height: 30rpx;
+		width: 40rpx;
+		height: 40rpx;
+		margin-top: 40rpx;
 	}
 
 	.forteacher {
@@ -248,7 +498,7 @@
 
 	.title-wrap {
 		display: flex;
-		align-items: center;
+		/* align-items: center; */
 		width: 100%;
 		height: 61%;
 		margin: 0 auto;
@@ -256,7 +506,7 @@
 		font-weight: bold;
 	}
 	.avatar-wrap {
-		height: 180rpx;
+		height: 200rpx;
 		padding-top: 80rpx;
 		background-image: url('https://edu-qiniu.sdwanyue.com/knowledge_myheader.png');	
 		/* #ifdef MP-WEIXIN */
@@ -271,25 +521,28 @@
 	}
 
 	.name-id-wrap {
-		width: 79%;
+		width: 100%;
 		height: 100%;
 		float: left;
 		position: relative;
+		/* top: 10rpx; */
 		color: #FFFFFF;
-		margin-left: 20rpx;
+		margin-left: 10rpx;
 		font-size: medium;
 	}
 
 	.name-id-wrap text:first-child {
 		display: block;
-		font-size: medium;
+		/* font-size: medium; */
 		font-weight: bold;
+		margin-top: 10rpx;
 	}
 
 	.name-id-wrap text:nth-child(2) {
 		display: block;
 		margin-top: 10rpx;
 		font-weight: bold;
+		
 	}
 
 	.name-id-wrap text:nth-child(3) {
@@ -300,9 +553,16 @@
 		font-weight: bold;
 	}
 	
+	
 	/* 登录注册按钮 */
 	.name-id-wrap-loginreg {
 		padding-left: 10rpx;
+	/* 	margin-top: 20px; */
+		width: 200rpx;
+	}
+	.name-id-wrap.login {
+	    width: 200%;
+		margin-right: 100rpx;
 	}
 
 	.id-wrap {
@@ -312,23 +572,25 @@
 		font-size: small;
 	}
 	/* 关注教师 */
-	.guan-wrap {
+	.name-id-wrap.guan-wrap {
 		width: 100%;
-		height: 50rpx;
+		height: 0rpx;
 		float: left;
-		margin-top: 90rpx;
+		margin-top: 150rpx;
 		color: #FFFFFF;
 		position: absolute;
 		margin-left: 20rpx;
+
+		
 	}
-	.guanzhu-title{
+	.name-id-wrap.guanzhu-title {
 		font-size: small;
 	}
-	.guanzhu-num{
+	/* .name-id-wrap.guanzhu-num {
 		font-size: medium;
 		padding-left: 20rpx;
 		padding-top: 2rpx;
-	}
+	} */
 	
 	
 	.teacher-info-btn {

@@ -7,13 +7,8 @@
 	margin-top: 30rpx;
 }
 .city {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	font-size: small;
 	position: absolute;
 
@@ -45,13 +40,8 @@
 	padding-top: 10rpx;
 	height: 100rpx;
 	color: #888888;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .line2 {
 	margin-top: 60rpx;
@@ -72,13 +62,8 @@
 	top: 200rpx;
 }
 .addresstext {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .title {
 	color: #888888;

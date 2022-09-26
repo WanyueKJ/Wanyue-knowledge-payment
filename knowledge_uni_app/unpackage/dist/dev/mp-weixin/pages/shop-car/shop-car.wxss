@@ -461,6 +461,9 @@
 
 
 
+
+
+
 /* 大班课/内容列表公共样式 */
 /* @import url("/static/css/course_list.css"); */
 /* 大班课单独样式 */
@@ -481,22 +484,12 @@ page {
 	width: 100%;
 	height: 190rpx;
 	background-color: #FFFFFF;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .shopdetail {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	margin-left: 10rpx;
 }
 .live-c-title {
@@ -519,8 +512,7 @@ page {
 .live-list-img {
 	width: 200rpx;
 	height: 160rpx;
-	-webkit-border-radius: 8rpx;
-	        border-radius: 8rpx;
+	border-radius: 8rpx;
 }
 .check {
 	width: 60rpx;
@@ -542,8 +534,7 @@ page {
 	height: 30rpx;
 	line-height: 30rpx;
 	text-align: center;
-	-webkit-border-radius: 8rpx 0 8rpx 0;
-	        border-radius: 8rpx 0 8rpx 0;
+	border-radius: 8rpx 0 8rpx 0;
 	background-color: rgba(0, 0, 0, 0.6);
 	font-size: 18rpx;
 	color: #DBDBDB;
@@ -557,8 +548,7 @@ page {
 .live-teacher-avatar {
 	width: 35rpx;
 	height: 35rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .live-status {
 	font-size: 20rpx;
@@ -572,15 +562,11 @@ page {
 }
 /* 价格 */
 .live-teacher-price {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	/* height: 80rpx; */
 	margin-top: 5rpx;
 }
 .price-wrap {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	color: #64D3AD;
 	position: absolute;
@@ -603,13 +589,8 @@ page {
 	width: auto;
 }
 .carView {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	bottom: 0rpx;
 	background-color: #FFFFFF;
 	height: 90rpx;
@@ -677,4 +658,26 @@ page {
 	font-size: 18rpx;
 	color: #C7C7C7;
 }
+.top {
+		width: 100%;
+		background-color: #FFFFFF;
+		height: 80rpx;
+		display: flex;
+		flex-direction: row;
+}
+.top_shuliang {
+		margin-left: 40rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		color: #323232;
+}
+.top_edit {
+		color: #2C62EF;
+		position: absolute;
+		right: 40rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+}
+
+
 

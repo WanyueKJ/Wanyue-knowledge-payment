@@ -35,6 +35,7 @@
 		onLoad() {
 		   this.imgPath = '../../static/creatRoomThumb.png';
 		   
+		   
 		},
 		methods: {
 			
@@ -45,15 +46,6 @@
 				    sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
 				    sourceType: ['album', 'camera'], //从相机/相册选择
 				    success: function (res) {
-
-						if(app.globalData.qiniuimageurl == '') {
-							uni.showToast({
-								title: '请配置七牛云上传地址',
-								icon:'none'
-							});
-							return;
-						}
-
 						uni.request({
 							url: getApp().globalData.site_url + 'Upload.GetQiniuToken',
 							method: 'POST',
@@ -62,6 +54,7 @@
 								'token': getApp().globalData.userinfo.token
 							},
 							success: res => {
+								console.log(res);
 								uni.hideLoading();
 								if (res.data.data.code == 0) {
 									this.QiNiutoken = this.decypt(res.data.data.info[0].token);
@@ -75,6 +68,8 @@
 								
 										qiniuUploader.upload(path, res => {
 											uni.hideLoading();
+											console.log('上传成功');
+											console.log(res);
 											this.imgPath = res.imageURL;
 										}, error => {
 									uni.hideLoading();
@@ -84,7 +79,7 @@
 									});
 										}, {
 											region: 'ECN',
-											domain: app.globalData.qiniuimageurl,
+											domain: getApp().globalData.qiniuimageurl,
 											key: name,
 											uptoken: this.QiNiutoken,
 										});					
@@ -96,12 +91,13 @@
 			},
 			
 			getTime() {
-				let yy = new Date().getFullYear();
-				let mm = new Date().getMonth() + 1;
-				let dd = new Date().getDate();
-				let hh = new Date().getHours();
-				let mf = new Date().getMinutes() < 10 ? '0' + new Date().getMinutes() : new Date().getMinutes();
-				let ss = new Date().getSeconds() < 10 ? '0' + new Date().getSeconds() : new Date().getSeconds();
+				let dateObj = new Date();
+				let yy = dateObj.getFullYear();
+				let mm = dateObj.getMonth() + 1;
+				let dd = dateObj.getDate();
+				let hh = dateObj.getHours();
+				let mf = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+				let ss = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
 				return yy + mm + dd + hh + mf + ss;
 			},
 			decypt(code) {

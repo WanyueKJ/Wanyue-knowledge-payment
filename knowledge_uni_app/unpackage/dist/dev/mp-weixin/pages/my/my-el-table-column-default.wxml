@@ -1,0 +1,1 @@
+<el-link class="buttonText" vue-id="704e9d00-2" href="{{row.link}}" target="_blank" type="primary" underline="{{false}}" bind:__l="__l" vue-slots="{{['default']}}">{{row.link}}</el-link>

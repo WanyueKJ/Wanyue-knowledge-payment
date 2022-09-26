@@ -23,19 +23,14 @@
 .search-student-item {
 	width: 100%;	
 	height: 100rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 }
 .student-avatar {
 	width: 90rpx;
 	height: 90rpx;
 	margin-right: 30rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .student-inner-arow {
 	margin-left: 60%;

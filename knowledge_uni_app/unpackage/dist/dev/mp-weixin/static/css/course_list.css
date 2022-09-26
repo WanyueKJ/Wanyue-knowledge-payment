@@ -99,7 +99,7 @@
 	font-weight: bold;
 	overflow: hidden;
 	height: 70rpx;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	-webkit-line-clamp: 2;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -114,12 +114,14 @@
 }
 
 .live-status-tuwen {
-	font-size: 18rpx;
+	font-size: 20rpx;
 	color: #969696;
-	width: 80rpx;
+	width: 60rpx;
 	text-align: center;
 	border: 2rpx solid #969696;
 	border-radius: 8rpx;
+	position: relative;
+    top: 10rpx;
 
 }
 
@@ -131,7 +133,6 @@
 /* 价格 */
 .live-teacher-price {
 	display: flex;
-	
 }
 
 .price-wrap {
@@ -141,11 +142,10 @@
 	/* -webkit-background-clip: text;
 	color: transparent; */
 	position: absolute;
-	right: 20px;
+	right: 35rpx;
 	margin-top: 10rpx;
 	font-size: 26rpx;
 	
-	/* padding-right: 50rpx; */
 }
 
 
@@ -160,7 +160,7 @@
 }
 
 .pass {
-	color: #4385FF;
+	color: #969696;
 }
 
 .teacher-name {

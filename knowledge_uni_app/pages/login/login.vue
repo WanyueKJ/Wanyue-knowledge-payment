@@ -211,7 +211,6 @@
 						url: '../login/xieyi?type=5',
 						success: res => {},
 						fail: () => {},
-						complete: () => {}
 					});
 				}
 
@@ -232,7 +231,6 @@
 					provider: 'qq',
 					success: function(loginRes) {
 						// 获取用户信息
-
 						uni.getUserInfo({
 							provider: 'qq',
 							success: function(infoRes) {
@@ -248,8 +246,6 @@
 					}
 				});
 				// #endif
-
-
 
 			},
 			wechatlogin() {
@@ -367,6 +363,7 @@
 							title: res.data.data.msg,
 							duration: 2000
 						});
+
 						if (parseInt(res.data.data.code) !== 0) {
 							return;
 						}
@@ -479,7 +476,7 @@
 						this.codeTime = 0;
 						clearInterval(timer);
 					}
-				}, 500)
+				}, 1000)
 			},
 			//验证
 			validate() {
@@ -589,8 +586,9 @@
 							uni.reLaunch({
 								url: url,
 							});
-						}, 500);
+						}, 0);
 					},fail() {
+						uni.hideLoading();
 						uni.showToast({
 							title: '网络错误',
 							icon:'none'
@@ -737,7 +735,7 @@
 
 	.xieyi {
 		color: #2C62EF;
-		font-size: small !important;
+/* 		font-size: small !important; */
 	}
 
 	/* 忘记密码 */

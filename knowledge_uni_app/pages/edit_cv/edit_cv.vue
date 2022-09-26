@@ -56,21 +56,20 @@
 					url: gData.site_url + 'User.UpUserInfo',
 					method: 'GET',
 					data: {
-						// uid token fields
 						'uid' : gData.userinfo.id,
 						'token' : gData.userinfo.token,
 						'fields' : JSON.stringify({
-										'school' : this.school,
-										'experience' : this.experience,
-										'feature' : this.feature,
-								   }),
+								'school' : this.school,
+								'experience' : this.experience,
+								'feature' : this.feature,
+					   	}),
 					},
 					success: res => {
 						uni.showToast({
 							icon: 'none',
 							title: res.data.data.msg,
 						});
-						if(parseInt(res.data.data.code) != 0) {
+						if(parseInt(res.data.data.code) !== 0) {
 							return;
 						}
 						uni.navigateBack({

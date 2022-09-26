@@ -51,9 +51,7 @@ button::after{
 
 /* 登录按钮 输入内容时,去掉灰色效果 */
 .login-btn {
-	background: -webkit-gradient(linear, left top, right top, from(#7BD68E), to(#65CCB9));
-	background: -webkit-linear-gradient(left, #7BD68E, #65CCB9);
-	background: linear-gradient(to right, #7BD68E, #65CCB9);
+	background: linear-gradient(to right, #3D98FF, #7A76FA);
 }
 .opatity {
 	opacity: 0.5;

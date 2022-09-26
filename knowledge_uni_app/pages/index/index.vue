@@ -2,59 +2,61 @@
 <template>
 	<!-- 外层包装 -->
 	<view class="page">
-			<uni-nav-bar status-bar="true" :border="false">
-					<view slot="left">
-						<view class="check_class">
-							<text>万岳知识付费</text>
-						</view>
+		<uni-nav-bar status-bar="true" :border="false">
+				<view slot="left">
+					<view class="check_class">
+						<text>万岳知识付费</text>
 					</view>
-			
-					<view class="search-all-wrap">
-						<view class="search-wrap" @click="search">
-							<text class="iconfont icon-faxianchaxun"></text>
-							<input disabled="true" class="uni-input" placeholder="搜索课程, 老师" placeholder-style="color:#C7C7C7; font-size:20rpx;" />
-						</view>
+				</view>
+
+				<view class="search-all-wrap">
+					<view class="search-wrap" @click="search">
+						<text class="iconfont icon-faxianchaxun"></text>
+						<input disabled="true" class="uni-input" placeholder="搜索课程, 老师" placeholder-style="color:#C7C7C7; font-size:20rpx;" />
 					</view>
-					<view @click="shopcar" slot="right" style="position: relative; right: -30rpx;">
-						<view class="new_gouwuche">
-							<image class="gowucheimage" src="../../static/gouwuche.png" mode="aspectFit">
-							</image>
-							<template v-if="nums != 0">
-								<view class="gouwunums">
-									<view class="carnums">{{nums}}</view>
-								</view>
-							</template>
-						</view>
+				</view>
+				<view @click="shopcar" slot="right" style="position: relative; right: -30rpx;">
+					<view class="new_gouwuche">
+						<image class="gowucheimage" src="../../static/gouwuche.png" mode="aspectFit">
+						</image>
+						<template v-if="nums != 0">
+							<view class="gouwunums">
+								<view class="carnums">{{nums}}</view>
+							</view>
+						</template>
 					</view>
-				</uni-nav-bar>
-				
-				
-			<scroll-view class="index-all-wrap" scroll-y="true" :style="'height:' + scrollH+'rpx;'" >	
+				</view>
+
+			</uni-nav-bar>
+
+			<scroll-view class="index-all-wrap" scroll-y="true" :style="'height:' + scrollH+'rpx;'" >
 				<!-- 轮播图 -->
+				
+
 				<view class="index-banner-wrap">
 					<swiper class="index-banner swiper" circular="false" :indicator-dots="indicatorDots" :autoplay="autoplay" :interval="interval"
 					 :duration="duration">
 						<swiper-item @click="bannerTo(item)" v-for="(item, index) in bannerList" :key="item.id">
-							<image class="index-banner-img" :src="item.image" mode="aspectFill"></image>
+							<image class="index-banner-img"  src="https://demo.sdwanyue.com/upload/admin/20220905/d21c4b1e38739f731f32f2669f2d1eb6.png" mode="aspectFill"></image>
 						</swiper-item>
 					</swiper>
 				</view>
-			
-				<!-- 课程分类 -->
-				<view class="index-course-wrap">
-						<view @click="getCourseByClass(item.id, item.name)" class="know-item course-item scroll-view-item_H" v-for="(item, index) in course_class"
-						 :key="item.id">
-							<image :src="item.thumb" mode="aspectFit"></image>
-							<text>{{item.name}}</text>
-						</view>
-					
-				</view>
 				
+
+				<!-- 课程分类 -->
+
+				<view class="index-course-wrap">
+					<view @click="getCourseByClass(item.id, item.name)" class="know-item course-item scroll-view-item_H" v-for="(item, index) in course_class"
+					 :key="item.id">
+						<image :src="item.thumb" mode="aspectFit"></image>
+						<text>{{item.name}}</text>
+					</view>
+				</view>
+
 				<!-- 新闻资讯 -->
 				<view @click="openQidai" class="news-wrap">
 					<image class="news-wrap-title-img" src="../../static/images/news_he.png" mode="aspectFit"></image>
 					<text class="news-shu">|</text>
-					
 					<swiper class="swiper-wrap" :vertical="true" :autoplay="true" :interval="3000" :duration="1000">
 						<swiper-item  v-for="(item, index) in news" :key="index" class="swiper-item">
 							<text class="news-title">{{item.name}}</text>
@@ -63,6 +65,14 @@
 					<text class="news-arow iconfont icon-jinrujiantou"></text>
 				</view>
 				
+				<!-- 广告位图片 -->
+
+				<view @click="guanggao" class="index-banner-wrap2">
+					
+					<image class="index-banner-img2"  src="../../static/images/huodong.png" mode="aspectFill"></image>
+			
+				</view>
+
 				<!-- 课程列表区 -->
 				<view class="course-list-wrap">
 					<!-- 热门精选-->
@@ -81,20 +91,20 @@
 								<image v-if="hotlist.length >= 3" class="hot-right-bottom-img" :src="hotlist[2].thumb" mode="aspectFill" @click="viewContentInfo(hotlist[2].id,hotlist[2].paytype)"></image>
 							</block>
 						</view>
-			
+
 					</view>
-			
+
 					<!-- 直播课堂 -->
 					<view class="course-list-wrap">
 						<view class="live-title-wrap live-ketang-title-wrap">
 							<!-- 标题 更多 -->
 							<view class="icon-title-wrap">
 								<image class="hot-title-img" mode="aspectFit" src="../../static/images/lve_ketang_icon.png"></image>
-								<text class="live-title live-ketang-title">直播课堂</text>
+								<text class="live-title live-ketang-title">推荐内容</text>
 							</view>
 							<text @click="coursemore" class="live-more live-ketang-more">更多&nbsp;&nbsp;<text class="iconfont icon-jinrujiantou c-more-btn-icon"></text></text>
 						</view>
-			
+
 						<!-- 直播课堂列表 -->
 						<view class="live-ketang-wrap">
 							<scroll-view class="scroll-view_H" scroll-x="true" @scroll="scroll" scroll-left="120">
@@ -102,7 +112,7 @@
 								 :key="item.id">
 									<image class="live-ketang-img" :src="item.thumb" mode="aspectFill"></image>
 									<view class="live-ketang-name">{{item.name}}</view>
-									
+
 									<view class="live-status living-status" v-if="item.islive == 1">
 										{{item.lesson}}
 									</view>
@@ -120,14 +130,14 @@
 											</text>
 										</view>
 									</view>
-									
+
 								</view>
 							</scroll-view>
 						</view>
-			
+
 					</view>
-					
-					
+
+
 				<view class="course-list-wrap content-list-wrap">
 					<!-- 精选内容 -->
 					<view class="la-wrap">
@@ -140,7 +150,7 @@
 							<text @click="contentmore" class="live-more content-more-btn">更多&nbsp;&nbsp;<text class="iconfont icon-jinrujiantou c-more-btn-icon"></text></text>
 						</view>
 					</view>
-			
+
 					<view class="course-wrap">
 						<view @click="viewContentInfo(item.id,item.paytype)" class="live-list live-list-know" v-for="(item, index) in list_info" :key="index">
 							<view class="live-list-img-wrap">
@@ -169,17 +179,17 @@
 					<template v-if="kongkong4 == true">
 						<view :class="{xiangziwrap : (kongkong4 == true)}">
 							<image class="xiangzi" src="../../static/images/xiangzi.png" mode="aspectFill"></image>
-			
+
 							<text :class="{xiangzi_txt : (kongkong4 == true)}">暂无数据</text>
 						</view>
 						<view class="xiangzispace"></view>
 					</template>
 				</view>
 			</view>
-			
+
 			</scroll-view>
-			
-	
+
+
   </view>
 </template>
 
@@ -204,7 +214,7 @@
 				scrollH: 0,
 				swiperheight: 0, //高度
 				bannerList: {},
-				// 轮播图数据 
+				// 轮播图数据
 				background: ['color1', 'color2', 'color3'],
 				indicatorDots: true,
 				autoplay: true,
@@ -258,16 +268,14 @@
 			});
 		},
 		onLoad() {
-		
+
 			var that = this;
 			that.getData();
 			that.getNews();
-	
-			this.$store.commit('changeLoginStatus', 123);
 
 			uni.getSystemInfo({
 				success: (res) => {
-					let height = res.windowHeight - uni.upx2px(100)
+					let height = res.windowHeight - uni.upx2px(100);
 					this.swiperheight = height;
 				}
 			});
@@ -314,10 +322,12 @@
 					});
 				}
 			},
-			kefubaoming() {
-				
-			},
 			openQidai() {
+				uni.navigateTo({
+					url: '../news/news',
+				});
+			},
+			guanggao() {
 				uni.navigateTo({
 					url: '../news/news',
 				});
@@ -326,7 +336,7 @@
 				this.promptType = type;
 			},
 			onConfirm: function(e) {
-			
+
 				let _cost = e;
 				if (_cost == '') {
 					uni.showToast({
@@ -345,8 +355,8 @@
 							'code': this.cost,
 						},
 						success: (res) => {
-						
-							if (parseInt(res.data.data.code) == 0) {
+
+							if (res.data.data.code == 0) {
 								this.prompt('');
 							}
 							uni.showToast({
@@ -364,7 +374,6 @@
 			},
 			getnums() {
 				if (app.globalData.userinfo == '') {
-
 					return;
 				}
 				let gData = app.globalData;
@@ -384,7 +393,7 @@
 			},
 			// 根据分类查看课程列表
 			getCourseByClass(courseCid, courseCname) {
-				
+
 				uni.navigateTo({
 					url: '../course_class_list/course_class_list?course_cid=' + courseCid + '&course_cname=' + courseCname,
 				});
@@ -397,14 +406,12 @@
 				uni.request({
 					url: gData.site_url + 'Knowledge.getNews',
 					method: 'GET',
-					data: {
-					},	
 					success: res => {
 						let data = res.data.data;
 						if(data.code == 0 && data.info.length > 0) {
 							that.news = res.data.data.info;
 						}
-						
+
 					},
 					fail: () => {
 						uni.showToast({
@@ -414,7 +421,7 @@
 						return;
 					},
 				});
-				
+
 			},
 			//获取数据
 			getData() {
@@ -443,7 +450,7 @@
 						this.live_info = data.info[0].live;
 						this.list_info = data.info[0].list;
 						this.hotlist = data.info[0].hotlist;
-						
+
 						if (this.course != undefined && this.course.length == 0) {
 							this.kongkong2 = true;
 						}
@@ -461,7 +468,7 @@
 						this.kongkong4 = true;
 					}
 				});
-				
+
 			},
 			//点击切换导航
 			tabtap(index) {
@@ -472,10 +479,10 @@
 			},
 			//官方滚动方法
 			scroll: function(e) {
-				this.old.scrollTop = e.detail.scrollTop;
+				this.old.scrollTop = e.detail.scrollTop
 			},
 			goTop: function(e) {
-				this.scrollTop = this.old.scrollTop;
+				this.scrollTop = this.old.scrollTop
 				this.$nextTick(function() {
 					this.scrollTop = 0
 				});
@@ -485,7 +492,7 @@
 				})
 			},
 			bannerTo(item) {
-				//此方法只能在真机端运行
+
 				uni.navigateTo({
 					url: '../about/banner?url=' + encodeURIComponent(JSON.stringify(item.url)) + '&title=' + item.title,
 				});
@@ -514,6 +521,7 @@
 						liveCoursetype,
 				});
 			},
+
 			viewContentInfo(contentCourseId, contentCoursetype) {
 				uni.navigateTo({
 					url: '../../packageB/pages/content-info/content-info?courseid=' + contentCourseId + '&paytype=' +
@@ -527,14 +535,16 @@
 
 				});
 			},
+
 			viewFeaturedInfo(contentCourseId) {
 				uni.navigateTo({
 					url: '../../packageB/pages/tancaninfo/taocaninfo?courseid=' + contentCourseId,
+
 				});
 			},
 			// 更多大班课
 			livemore() {
-				
+
 				uni.navigateTo({
 					url: '../live-more/live-more',
 				});
@@ -545,9 +555,10 @@
 					url: '../content-more/content-more',
 				});
 			},
-			
+
 			//好课推荐
 			coursemore() {
+
 				uni.navigateTo({
 					url: '../live-more/live-more',
 				});
@@ -560,14 +571,14 @@
 	@import url("/static/css/review.css");
 	@import url("/static/css/index.css");
 	@import url("/static/css/course_list.css");
-	
+
 	.check_class {
 		color: #2C62EF !important;
 		font-size: 34rpx;
 		font-weight: bold;
 		display: inline-block;
 		width: 230rpx;
-	}	
+	}
 	/deep/ .uni-navbar--fixed {
 		width: 96%;
 		height: 100rpx;
@@ -580,11 +591,27 @@
 		left: 6rpx;
 		z-index: 999;
 	}
-	
+
 	.index-banner-wrap {
 		overflow: hidden;
 		transform: translateY(0);
-		margin-top: 55rpx;
+		/* margin-top: 55rpx; */
+	}
+	.index-banner-wrap2 {
+		overflow: overlay;
+		transform: translateY(0);
+		margin-top: 20rpx;
+		height: 240rpx;
+		
+		
+
+	}
+	.index-banner-wrap2 .index-banner-img2  {
+	
+		height: 90%;
+		display: unset;
+		
+	
 	}
 
 	.s-all-wrap {
@@ -659,23 +686,23 @@
 		text-align: center;
 		line-height: 26rpx;
 	}
-	
+
 	.index-course-wrap .know-item {
 		width: 118rpx;
 		margin-right: 27rpx;
 	}
-	
+
 	.index-course-wrap .know-item:nth-child(5n) {
 		margin-right: 0 !important;
 	}
-	
+
 	.live-ketang-img {
 		display: inline-block;
 		width: 295rpx;
 		height: 214rpx;
 		background-color: green;
 	}
-	
+
 	/deep/.uni-scroll-view ::-webkit-scrollbar {
 		 /* 隐藏滚动条，但依旧具备可以滚动的功能 */
 		 display: none;
@@ -684,7 +711,7 @@
 		 color: transparent;
 		 background: transparent;
 	}
-	
+
 	/deep/::-webkit-scrollbar {
 		 display: none;
 		 width: 0;
@@ -692,32 +719,32 @@
 		 color: transparent;
 		 background: transparent;
 	}
-	
+
 	.price-wrap {
 		right: 10rpx !important;
 	}
-	
+
 	.live-list-know {
 		padding-left: 0 !important;
-	}	
-	
-	
+	}
+
+
 	.live-ketang-name {
 		padding-left: 0 !important;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
-	
+
 	.live-c-title {
-		line-height: 38rpx;	
+		line-height: 38rpx;
 	}
-	
+
 	.news-wrap {
 		display: flex;
 		align-items: center;
 	}
-	
+
 	.news-title {
 		display: inline-block;
 		width: 100%;
@@ -725,18 +752,18 @@
 		text-overflow: ellipsis;
 	    white-space: nowrap;
 	}
-	
+
 	.swiper-wrap {
 		width: 68%;
 		height: 70rpx;
 		line-height: 70rpx;
 	}
-	
+
 	.news-arow {
 		position: absolute !important;
 		right: 22rpx !important;
 	}
-	
-	
-			
+
+
+
 </style>

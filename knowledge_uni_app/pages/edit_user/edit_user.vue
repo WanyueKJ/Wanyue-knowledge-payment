@@ -79,20 +79,18 @@
 								if (res2.data.data != undefined && res2.data.data.code == 0) {
 									var QiNiutoken = that.decypt(res2.data.data.info[0].token);
 									var name = 'UNIAPP' + that.getTime() + 'icon.png';
-									
+
 									qiniuUploader.upload(path, res => {
 										uni.showToast({
 											title: '上传成功',
 											icon: 'none'
 										});
 										that.avatarPath = res.imageURL;
-
 									}, error => {
 										uni.showToast({
 											title: '上传失败，请重试',
 											icon: 'none'
 										});
-										
 									}, {
 										region: 'ECN',
 										domain: app.globalData.qiniuimageurl,
@@ -106,7 +104,6 @@
 									});
 								}
 							},
-
 							fail() {
 								uni.hideLoading();
 								uni.showToast({
@@ -116,19 +113,19 @@
 							},
 						});
 
-
 					},
 
 				});
 
 			},
 			getTime() {
-				let yy = new Date().getFullYear();
-				let mm = new Date().getMonth() + 1;
-				let dd = new Date().getDate();
-				let hh = new Date().getHours();
-				let mf = new Date().getMinutes() < 10 ? '0' + new Date().getMinutes() : new Date().getMinutes();
-				let ss = new Date().getSeconds() < 10 ? '0' + new Date().getSeconds() : new Date().getSeconds();
+				let dateObj = new Date();
+				let yy = dateObj.getFullYear();
+				let mm = dateObj.getMonth() + 1;
+				let dd = dateObj.getDate();
+				let hh = dateObj.getHours();
+				let mf = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+				let ss = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
 				return yy + mm + dd + hh + mf + ss;
 			},
 			decypt(code) {
@@ -164,35 +161,33 @@
 						'token': gData.userinfo.token,
 						'fields': JSON.stringify({
 							'user_nickname': this.user_nickname,
-							'avatar': this.avatarPath
+							'avatar': this.avatarPath,
 						})
 					},
 					success: res => {
 
 						if (res.data.data.code == 0) {
-							getApp().globalData.userinfo.user_nickname = res.data.data.info[0].user_nickname;
-							getApp().globalData.userinfo.avatar = res.data.data.info[0].avatar;
+							app.globalData.userinfo.user_nickname = res.data.data.info[0].user_nickname;
+							app.globalData.userinfo.avatar = res.data.data.info[0].avatar;
 							uni.setStorage({
 								key: 'userinfo',
-								data: getApp().globalData.userinfo,
+								data: app.globalData.userinfo,
 								success: function(res) {
-									
+									console.log(res);
 								}
 							});
 							setTimeout(() => {
 								uni.navigateBack({
 									delta: 1
 								});
-							}, 300);
+							}, 150);
 						}
 						uni.showToast({
 							icon: 'none',
 							title: res.data.data.msg
 						});
-						if (parseInt(res.data.data.code) !== 0) {
-							return;
-						}
-						
+
+
 					},
 					fail: () => {
 						uni.showToast({

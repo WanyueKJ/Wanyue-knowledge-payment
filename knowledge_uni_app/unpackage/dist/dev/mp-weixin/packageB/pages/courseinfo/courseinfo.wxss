@@ -24,8 +24,7 @@
 		display: inline-block;
 		width: 70rpx;
 		height: 70rpx;
-		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		border-radius: 50%;
 		position: absolute;
 		top: 38%;
 		left: 45%;
@@ -53,9 +52,7 @@
 }
 .play_tu4{
 		position: absolute;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
 		text-align: center;
 		height: 50rpx;
 		
@@ -84,8 +81,7 @@
 		line-height: 30rpx;
 		text-align: center;
 		border: 2rpx solid #969696;
-		-webkit-border-radius: 8rpx;
-		        border-radius: 8rpx;
+		border-radius: 8rpx;
 		margin-left: 10rpx;
 		font-size: smaller;
 		color: #969696;
@@ -162,8 +158,7 @@
 .ateacher-img {
 		width: 100rpx;
 		height: 100%;
-		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		border-radius: 50%;
 		float: left;
 }
 .ateacher-info {
@@ -183,14 +178,11 @@
 		color: #000000;
 }
 .teacher-arow {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
 		height: 100%;
-		padding-left: 50rpx;
+		padding-left: 35rpx;
+		color: #969696;
 }
 	
 	/* 直播介绍内容 */
@@ -208,13 +200,10 @@
 		line-height: 70rpx;
 		font-size: 28rpx;
 		color: #FFFFFF;
-		-webkit-border-radius: 8rpx;
-		        border-radius: 8rpx;
+		border-radius: 8rpx;
 		position: fixed;
 		bottom: 0;
 		left: calc(4.8%);
-		background: -webkit-gradient(linear,left top, right top,from(#3D98FF) ,to(#7A76FA) );
-		background: -webkit-linear-gradient(left,#3D98FF ,#7A76FA );
 		background: linear-gradient(to right,#3D98FF ,#7A76FA );
 }
 .extension-zhe-content-type-li-img {
@@ -225,14 +214,10 @@
 		font-size: 26rpx;
 }
 .extension-zhe-content-type-li {
-		-webkit-box-flex: 1;
-		-webkit-flex: 1;
-		        flex: 1;
+		flex: 1;
 		text-align: center;
 }
 .extension-zhe-content-type {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
 		width: 100%;
 		margin-top: 40rpx;
@@ -263,8 +248,7 @@
 		width: 100%;
 		height: 300rpx;
 		bottom: 0;
-		-webkit-border-radius: 10rpx 10rpx 0 0;
-		        border-radius: 10rpx 10rpx 0 0;
+		border-radius: 10rpx 10rpx 0 0;
 		clear: both;
 		overflow: hidden;
 }
@@ -284,8 +268,7 @@
 	font-size: small;
 	color: #2C62EF;
 	border: 2rpx solid #2C62EF;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx;
+	border-radius: 20rpx;
 	width: 110rpx;
 	height: 40rpx;
 	position: absolute;
@@ -317,12 +300,8 @@
 	
 	/**清除浮动 **/
 .com-user-star {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 	margin-top: 20rpx;
 	height: auto;
 }
@@ -337,8 +316,7 @@
 .com-user-avatar {
 	width: 86rpx;
 	height: 86rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .com-user-nickname {
 	float: left;
@@ -373,23 +351,13 @@
 	height: auto;
 }
 .new1 {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	height: auto;
 }
 .new2{
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 	height: auto;
 }
 .pinglun-icon2 {
@@ -402,26 +370,15 @@
 	position: absolute;
 	right: 10rpx;
 	float: right;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: reverse;
-	-webkit-flex-direction: row-reverse;
-	        flex-direction: row-reverse;
+	flex-direction: row-reverse;
 }
 	
 	/* 空空 */
 .kong-ping-txt {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
+	align-items: center;
+	justify-content: center;
 	min-height: 800rpx;
 }
 .kong-info {
@@ -432,13 +389,8 @@
 	margin-top: 100rpx;
 }
 .xiepingjia {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .kong-ping-img {
 	width: 100rpx;
@@ -465,8 +417,7 @@ page{
 		color: #FFFFFF;
 		height: 60rpx;
 		line-height: 60rpx;
-		-webkit-border-radius: 30rpx;
-		        border-radius: 30rpx;
+		border-radius: 30rpx;
 		background-color: #FF623E;
 }
 .item2_line {
@@ -518,8 +469,7 @@ page{
 		position: relative;
 		margin-right: 40rpx;
 		margin-left: 20rpx;
-		-webkit-border-radius: 16rpx;
-		        border-radius: 16rpx;
+		border-radius: 16rpx;
 		margin-top: 20rpx;
 }
 .lianbao_item_top {
@@ -568,18 +518,12 @@ page{
 		width: 100%;
 		height: 140rpx;
 		z-index: -1;
-		-webkit-border-radius: 16rpx;
-		        border-radius: 16rpx;
+		border-radius: 16rpx;
 		margin-top: -20rpx;
 }
 .title_des {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		        flex-direction: column;
+		flex-direction: column;
 }
 .relate_image2 {
 
@@ -591,13 +535,8 @@ page{
 		left: calc(50%);
 }
 .top_item_price {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		        flex-direction: row;
+		flex-direction: row;
 		font-size: small;
 }
 .top_price {
@@ -632,8 +571,7 @@ page{
 		height: auto;
 		left: 20rpx;
 		right: 40rpx;
-		-webkit-border-radius: 10rpx;
-		        border-radius: 10rpx;
+		border-radius: 10rpx;
 		margin-top: 20rpx;
 }
 .lianbao_title {
@@ -653,8 +591,7 @@ page{
 		bottom: 0rpx;
 		background-color: #FFFFFF;
 		height: 70%;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 }
 .packages {
 		position: absolute;
@@ -662,8 +599,7 @@ page{
 		top: 0rpx;
 		bottom: 100rpx;
 		background-color: #FFFFFF;
-		-webkit-border-radius: 40rpx;
-		        border-radius: 40rpx;
+		border-radius: 40rpx;
 }
 .sub_jifen {
 		position: absolute;
@@ -674,8 +610,7 @@ page{
 		padding-bottom: 5rpx;
 		width: 80rpx;
 		height: 30rpx;
-		-webkit-border-radius: 15rpx;
-		        border-radius: 15rpx;
+		border-radius: 15rpx;
 		font-size: 20rpx;
 		background-color: #FF3939;
 }
@@ -706,8 +641,7 @@ page{
 		background-color: white;
 		z-index: 1002;
 		overflow: auto;
-		-webkit-border-radius: 10rpx;
-		        border-radius: 10rpx;
+		border-radius: 10rpx;
 }
 .popup_title {
 		width: 100%;
@@ -737,13 +671,8 @@ page{
 		text-align: center;
 }
 .buttons {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		        flex-direction: row;
+		flex-direction: row;
 		width: 100%;
 		font-size: 32rpx;
 		margin-top: 20rpx;
@@ -759,8 +688,7 @@ page{
 		background-color: #DC2929;
 		width: 26rpx;
 		height: 26rpx;
-		-webkit-border-radius: 13rpx;
-		        border-radius: 13rpx;
+		border-radius: 13rpx;
 		margin-left: 40rpx;
 		margin-top: 10rpx;
 }
@@ -772,13 +700,8 @@ page{
 		margin-top: 10rpx;
 }
 .carView {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		        flex-direction: row;
+		flex-direction: row;
 		bottom: 0rpx;
 		background-color: #FFFFFF;
 		height: 110rpx;
@@ -795,17 +718,10 @@ page{
 }
 .car {
 		width: 30%;
-		-webkit-box-align: center;
-		-webkit-align-items: center;
-		        align-items: center;
+		align-items: center;
 		text-align: center;
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		        flex-direction: column;
+		flex-direction: column;
 }
 .cartitle {
 		color: #333333;
@@ -903,13 +819,8 @@ page{
 		height: 30rpx;
 }
 .display_row {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		        flex-direction: row;
+		flex-direction: row;
 }
 .course_tt {
 		margin-top: 35rpx;
@@ -932,8 +843,7 @@ page{
 		height: 30rpx;
 		width: 80rpx;
 		text-align: center;
-		-webkit-border-radius: 7rpx;
-		        border-radius: 7rpx;
+		border-radius: 7rpx;
 		margin-top: 37rpx;
 		margin-left: 15rpx;
 }
@@ -944,8 +854,7 @@ page{
 		height: 30rpx;
 		width: 80rpx;
 		text-align: center;
-		-webkit-border-radius: 7rpx;
-		        border-radius: 7rpx;
+		border-radius: 7rpx;
 		margin-top: 17rpx;
 		margin-left: 15rpx;
 }
