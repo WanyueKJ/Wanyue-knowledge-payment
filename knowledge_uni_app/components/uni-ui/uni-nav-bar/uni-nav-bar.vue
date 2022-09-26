@@ -75,6 +75,7 @@
 		created() {
 			const res = uni.getSystemInfoSync();
 			let weinfo = uni.getMenuButtonBoundingClientRect();
+			
 			if (this.oncheck) {
 				if (parseInt(res.safeArea.top) === 20) {
 					this.system_top = 0;

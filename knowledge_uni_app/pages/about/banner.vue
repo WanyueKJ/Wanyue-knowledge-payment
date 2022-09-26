@@ -1,8 +1,8 @@
 <template>
 	<view>
-
+		
 	<web-view :src="url"></web-view>
-
+		
 	</view>
 </template>
 
@@ -10,7 +10,7 @@
 	export default{
 		data(){
 			return{
-				url:''
+				url:''	
 			}
 		},
 		onLoad(option) {
@@ -23,5 +23,6 @@
 </script>
 
 <style>
-
+	
 </style>
+

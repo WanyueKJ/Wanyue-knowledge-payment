@@ -2,8 +2,8 @@
 .pass-login-btn {
 	width: 80%;
 	font-size: 30rpx;
-	color: #646464;
-	background-color: #65CCB9;
+	color: #FFFFFF;
+	background-color: #2C62EF;
 }
 .main {
 	width: 90%;
@@ -26,8 +26,7 @@
 .user-avatar {
 	width: 150rpx;
 	height: 150rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .tishi {
 	display: block;

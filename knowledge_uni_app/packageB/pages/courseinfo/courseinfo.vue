@@ -1,9 +1,9 @@
 <template>
 	<view class="app">
 
-		<uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="课程详情" statusBar>
+		<!-- <uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="课程详情" statusBar>
 
-		</uni-nav-bar>
+		</uni-nav-bar> -->
 		<!-- 直播背景 -->
 		<view class="live_course_bg_wrap">
 			<image class="live_course_img" :src="live_course_bg" mode="aspectFit"></image>

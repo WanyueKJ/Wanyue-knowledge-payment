@@ -210,11 +210,9 @@
 								url: "../login/login", 
 							})
 						}
-						
 						if(parseInt(res.data.data.code) !== 0) {
 							return;
 						}
-						
 						let info = res.data.data.info[0];
 						this.teacherInfo = info;
 						if(info.isattent == '1') {
@@ -231,6 +229,7 @@
 			},
 			//关注/取消老师
 			focus(touid){
+				console.log(3333);
 				let gData = app.globalData;
 				uni.request({
 					url: gData.site_url + 'User.SetAttent',
@@ -297,6 +296,7 @@
 			},
 			// 查看学员
 			viewstu(touid){
+
 				uni.navigateTo({
 					url: '../mystu/mystu?touid=' + touid,
 				});
@@ -309,7 +309,7 @@
 				});	
 			},
 			viewLiveInfo(liveCourseId,sorttype){
-					if(getApp().globalData.userinfo == '') {
+					if(app.globalData.userinfo == '') {
 						uni.navigateTo({
 							url:'../login/login'
 						})
@@ -322,7 +322,7 @@
 						url: '../../packageB/pages/taocaninfo/taocaninfo?courseid=' + liveCourseId
 					});
 				}
-				//
+
 				else if(sorttype == 0){
 					uni.navigateTo({
 						url: '../../packageB/pages/content-info/content-info?courseid=' + liveCourseId

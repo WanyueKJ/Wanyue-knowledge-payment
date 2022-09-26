@@ -15,18 +15,13 @@
 }
 .teacher-avatar-name {
 	height: 60rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 }
 .avatar-img {
 	width: 30rpx;
 	height: 30rpx;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 }
 .teacher-name {
 	font-size: 20rpx;
@@ -73,15 +68,14 @@
 .pinglun-content {
 	display: inline-block;
     width: 100%;
-	/* min-height: 800rpx; */
+	min-height: 800rpx;
 	margin-top: 40rpx;
 	height: auto;
 }
 .pinglun-textarea {
 	width: 100% !important;
-	/* height: 800rpx; */
+	height: 800rpx;
 	font-size: 28rpx;
-	height: auto;
 }
 
 /* 评价按钮 */
@@ -91,8 +85,7 @@
 	width: 90%;
 	font-size: 24rpx;
 	letter-spacing: 2rpx;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 	color: #FFFFFF;
 	text-align: center;
 	margin: 0 auto;

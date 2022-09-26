@@ -99,7 +99,7 @@
 		},
 		methods: {
 			change(result) {
-
+				
 				this.planLocate = '';
 				result.data.forEach((item, index) => {
 
@@ -121,7 +121,7 @@
 				});
 			},
 			sure() {
-
+				
 				if (this.isupdate != 1) {
 					let gData = app.globalData;
 					uni.request({
@@ -146,7 +146,7 @@
 								var that = this;
 								setTimeout(function() {
 									that.cancle();
-								}, 700);
+								}, 1000);
 
 							} else {
 								uni.showToast({

@@ -1,9 +1,10 @@
 <template>
 	<view>
 
-		<uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="内容详情" statusBar>
+		<!-- <uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="内容详情" statusBar>
 
-		</uni-nav-bar>
+		</uni-nav-bar> -->
+		
 
 
 		<!-- 直播背景 -->

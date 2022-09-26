@@ -1,6 +1,7 @@
 {
   "navigationStyle": "custom",
   "usingComponents": {
+    "my-el-table-column-default": "/pages/my/my-el-table-column-default",
     "uni-icons": "/components/uni-ui/uni-icons/uni-icons"
   }
 }

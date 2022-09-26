@@ -1,78 +1,60 @@
 <template>
 	<view class="page">
-			<view class="msg-lt-wrap" :style="'margin-top:' + system_top + 'rpx'">
-				<text class="msg-lt-title">消息</text>	
+		<view class="msg-lt-wrap" :style="'margin-top:' + system_top + 'rpx'">
+			<text class="msg-lt-title">消息</text>
+		</view>
+
+		<block v-if="userInfo != ''">
+			<view class="line2"></view>
+				<!-- 系统通知 -->
+				<view @click="msgdetail('0','系统通知')" class="msg-md-main">
+					<image src="../../static/images/system.png" mode="aspectFill" class="msg-img"></image>
+					<view class="msg-md-wrap">
+						<text class="msg-title">系统通知</text>
+						<template v-if="sys.length > 0">
+						<text class="msg-info">{{sys[0].content}}</text>
+						</template>
+						<template v-else>
+							<text class="msg-info">暂无系统消息</text>
+						</template>
+					</view>
+
+				</view>
+				<view class="line"></view>
+				<!-- 课程动态 -->
+				<view @click="msgdetail('1','课程动态')" class="msg-md-main">
+					<image src="../../static/images/class.png" mode="aspectFill" class="msg-img"></image>
+					<view class="msg-md-wrap">
+						<text class="msg-title">课程动态</text>
+						<template v-if="course.length > 0">
+						<text class="msg-info">{{course[0].content}}</text>
+						</template>
+						<template v-else>
+							<text class="msg-info">暂无相关动态</text>
+						</template>
+					</view>
+
+				</view>
+				<view class="line"></view>
+				<!-- 讲师动态 -->
+		</block>
+		<block v-else>
+			<view class="no-login-wrap">
+				<text class="no-login-txt">登录后可查看详细内容</text>
+				<text @click="openLogin" class="no-login-btn">立即登录</text>
 			</view>
-			
-			<block v-if="userInfo != ''">
-				<view class="line2"></view>
-					<!-- 系统通知 -->
-					<view @click="msgdetail('0','系统通知')" class="msg-md-main">
-						<image src="../../static/images/system.png" mode="aspectFill" class="msg-img"></image>
-						<view class="msg-md-wrap">
-							<text class="msg-title">系统通知</text>
-							<template v-if="sys.length > 0">
-							<text class="msg-info">{{sys[0].content}}</text>
-							</template>
-							<template v-else>
-								<text class="msg-info">暂无系统消息</text>
-							</template>
-						</view>
-						
-					</view>
-					<view class="line"></view>
-					<!-- 课程动态 -->
-					<view @click="msgdetail('1','课程动态')" class="msg-md-main">
-						<image src="../../static/images/class.png" mode="aspectFill" class="msg-img"></image>
-						<view class="msg-md-wrap">
-							<text class="msg-title">课程动态</text>
-							<template v-if="course.length > 0">
-							<text class="msg-info">{{course[0].content}}</text>
-							</template>
-							<template v-else>
-								<text class="msg-info">暂无相关动态</text>
-							</template>
-						</view>
-						
-					</view>
-					<view class="line"></view>
-					<!-- 讲师动态 -->
-					
-					<!-- <view @click="msgdetail('2','讲师动态')" class="msg-md-main">
-						<image src="../../static/jiangshidongtai.png" mode="aspectFill" class="msg-img"></image>
-						<view class="msg-md-wrap">
-							<text class="msg-title">讲师动态</text>
-							<template v-if="teacher.length > 0">
-							<text class="msg-info">{{teacher[0].content}}</text>
-							</template>
-							<template v-else>
-								<text class="msg-info">暂无相关动态</text>
-							</template>
-							
-						</view>
-					</view> -->
-				<!-- <view class="line"></view> -->
-				
-			</block>
-			
-			<block v-else>
-					<view class="no-login-wrap">
-						<text class="no-login-txt">登录后可查看详细内容</text>
-						<text @click="openLogin" class="no-login-btn">立即登录</text>
-					</view>
-			</block>
-			
-		
+		</block>
+
 	</view>
 </template>
 
 <script>
 	const demo = [];
-	
+
 	import noThing from '@/components/common/no-thing.vue';
 	import uniPopup from '@/components/uni-ui/uni-popup/uni-popup.vue';
 	const app = getApp();
-	
+
 	export default {
 		components:{
 			noThing,
@@ -90,13 +72,13 @@
 		},
 		//页面加载
 		onLoad() {
-			
+
 			const res = uni.getSystemInfoSync();
-			
+
 			// #ifdef MP-WEIXIN
-			this.system_top = parseInt(res.safeArea.top) + 110;
+			this.system_top = parseInt(res.safeArea.top) + 100;
 			// #endif
-			
+
 			// #ifdef H5
 			this.system_top = 10;
 			// #endif
@@ -114,11 +96,10 @@
 			this.refresh()
 		},
 		onShow() {
-		
 			if (app.globalData.userinfo != '') {
 				this.userInfo = app.globalData.userinfo;
 			}
-				
+
 		},
 		methods: {
 			openLogin() {
@@ -127,31 +108,31 @@
 				})
 			},
 			msgdetail(type,title){
-				
+
 				uni.navigateTo({
 					url: '../msg/msglist?type=' + type + '&title=' +title,
 				});
 			},
 			MessageGetNew(){
-			let gData = getApp().globalData;
-			uni.request({
-				url: gData.site_url + 'Message.GetNew',
-				method: 'GET',
-				data: {
-					'uid': gData.userinfo.id,
-					'token': gData.userinfo.token
-				},
-				success: res => {
+				let gData = app.globalData;
+				uni.request({
+					url: gData.site_url + 'Message.GetNew',
+					method: 'GET',
+					data: {
+						'uid': gData.userinfo.id,
+						'token': gData.userinfo.token
+					},
+					success: res => {
 
-					if(res.data.data.info[0] == undefined) {
-						return;
-					}
-					this.info = res.data.data.info[0];
-					this.course = this.info.course;
-					this.sys = this.info.sys;
-					this.teacher = this.info.teacher;
-				},
-			});
+						if(res.data.data.info[0] == undefined) {
+							return;
+						}
+						this.info = res.data.data.info[0];
+						this.course = this.info.course;
+						this.sys = this.info.sys;
+						this.teacher = this.info.teacher;
+					},
+				});
 			},
 			//下拉刷新
 			refresh(){
@@ -173,7 +154,7 @@
 						break;
 
 				}
-				// 关闭弹出层 
+				// 关闭弹出层
 				this.$refs.popup.close();
 			}
 		}
@@ -208,7 +189,7 @@
 		font-size: medium;
 		font-weight: bold;
 	}
-	
+
 	/* 主内容部分 */
 	.msg-md-main::after {
 		display:block;
@@ -218,11 +199,11 @@
 		visibility: hidden;
 		overflow:hidden;
 	}
-	
+
 	.msg-md-main {
 		/* margin-bottom: 40rpx; */
 		padding-left: 30rpx;
-		
+
 	}
 	/* 图片 */
 	.msg-img {
@@ -231,26 +212,26 @@
 		float: left;
 		border-radius: 20rpx;
 	}
-	
+
 	.msg-md-wrap {
-		float: left;	
+		float: left;
 		margin-left: 38rpx;
 	}
-	
+
 	.msg-md-wrap text {
 		display: block;
 	}
-	
+
 	.msg-title {
 		font-size: small;
 		font-weight: bold;
 	}
-	
+
 	.msg-info {
 		color: #969696;
 		font-size: smaller;
 	}
-	
+
 	/* 未登录提示 */
 	.no-login-wrap {
 		text-align: center;
@@ -263,13 +244,13 @@
 		top: 50%;
 		transform: translate(-50%,-50%);
 	}
-	
+
 	.no-login-txt {
 		display: block;
 		font-size: 26rpx;
 		color: #646464;
 	}
-	
+
 	.no-login-btn {
 		display: block;
 		width: 180rpx;
@@ -281,6 +262,6 @@
 		border: 2rpx solid #2C62EF;
 		border-radius: 10rpx;
 	}
-	
-	
+
+
 </style>

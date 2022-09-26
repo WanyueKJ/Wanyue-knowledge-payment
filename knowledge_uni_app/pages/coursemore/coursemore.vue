@@ -93,6 +93,8 @@
 		background-color: #F5F5F5;
 	}
 	.conetentinfo-wrap {
+		/* margin-top: 2rpx; */
+		/* padding-top: 2rpx; */
 		min-height: 1500rpx;
 		background-color: #FFFFFF;
 	}
@@ -102,6 +104,9 @@
 		width: 90%;
 		height: 190rpx;
 		margin-left: 30rpx;
+		/* margin: 30rpx auto; */
+		/* padding-top: 5rpx; */
+		/* box-shadow: 0rpx 0rpx 4rpx 2rpx rgba(0, 0, 0, 0.1); */
 		border-radius: 8rpx;
 		background-color: #FFFFFF;
 	}

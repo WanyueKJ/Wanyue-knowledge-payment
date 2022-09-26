@@ -43,12 +43,12 @@
 		methods: {
 			xieyi(){
 				uni.navigateTo({
-					url: '../login/xieyi?type=4',
+					url: '../login/xieyi?type=115',
 				});
 			},
 			zhengce(){
 				uni.navigateTo({
-					url: '../login/xieyi?type=5',
+					url: '../login/xieyi?type=123',
 				});
 			},
 			touchMe(){

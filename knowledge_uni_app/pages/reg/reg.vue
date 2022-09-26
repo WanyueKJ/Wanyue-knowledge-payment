@@ -101,6 +101,7 @@
 		},
 		methods: {
 			username_input(event) {
+
 				if (event.detail.value.length == 11) {
 					this.canshowcode = true;
 				} else {
@@ -143,7 +144,7 @@
 						type: 1, //0登录1注册2忘记密码
 						sign: sign, //加密md5串
 						// #ifdef MP-WEIXIN
-						env: 'weixin'	
+						env: 'weixin',
 						// #endif
 						// #ifdef H5
 						env: 'H5'
@@ -166,7 +167,7 @@
 						this.codeTime = 0;
 						clearInterval(timer);
 					}
-				},1000)
+				},1100)
 			},
 			//验证
 			validate(){
@@ -214,7 +215,7 @@
 						pass: this.password,
 						source: 3, //0web，1android，2ios，3小程序
 						// #ifdef MP-WEIXIN
-						env: 'weixin'	
+						env: 'weixin',
 						// #endif
 						// #ifdef H5
 						env: 'H5'
@@ -245,10 +246,9 @@
 					}, 2000);
 				    }
 				});
-				
-				
+
 			}
-			
+
 		}
 	}
 </script>

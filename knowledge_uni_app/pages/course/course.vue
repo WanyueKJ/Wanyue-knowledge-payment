@@ -222,7 +222,7 @@
 					url: app.globalData.site_url + 'Homeknowledge.GetIndex',
 					// 此处代表分类id 没有年级id
 					data: {
-						'gradeid': app.globalData.grade_class.id
+						'gradeid': getApp().globalData.grade_class.id
 					},
 					success: (res) => {
 						let data = res.data.data;
@@ -329,10 +329,10 @@
 					this.list = [...this.list, ...this.list];
 					//设置加载状态
 					this.loadmore = '上拉加载更多';
-				}, 1000)
+				}, 2000)
 			},
 			viewLiveInfo(liveCourseId, sorttype) {
-				if (app.globalData.userinfo == '') {
+				if (getApp().globalData.userinfo == '') {
 					uni.navigateTo({
 						url: '../login/login'
 					})
@@ -344,6 +344,7 @@
 						url: '../../packageB/pages/taocaninfo/taocaninfo?courseid=' + liveCourseId
 					});
 				}
+				//
 				else if (sorttype == 0) {
 					uni.navigateTo({
 						url: '../../packageB/pages/content-info/content-info?courseid=' + liveCourseId
@@ -383,7 +384,7 @@
 				})
 			},
 			shopcar() {
-				if (getApp().globalData.userinfo == '') {
+				if (app.globalData.userinfo == '') {
 					uni.navigateTo({
 						url: '../login/login'
 					})
@@ -404,8 +405,6 @@
 		overflow: hidden;
 	}
 	.page{
-		/* width: 100%;
-		height: 100%; */
 		width: 100%;
 		margin: 0 auto;
 	}

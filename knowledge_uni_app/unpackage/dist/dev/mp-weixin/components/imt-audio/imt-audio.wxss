@@ -18,37 +18,23 @@
 	/* padding: 30upx 0; */
 	background: #fff;
 	/* border-radius: 20upx; */
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 	background-color: #FAFAFA;
 	/* background-color: #007AFF; */
 }
 .audio-control-wrapper.data-v-41184438 {
 	/* margin-top: 10rpx; */
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	justify-content: center;
+	align-items: center;
 	font-family: "icon" !important;
 	float: left;
 	width: 15%;
 }
 .audio-wrapper.data-v-41184438 {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 	width: 85%;
 	float: left;
 }
@@ -60,17 +46,14 @@
 	text-align: center;
 }
 .audio-slider.data-v-41184438 {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 	margin: 0;
 }
 .audio-control-wrapper .audio-control.data-v-41184438 {
 	font-size: 20rpx !important;
 	line-height: 1;
 	border: 4rpx solid;
-	-webkit-border-radius: 50%;
-	        border-radius: 50%;
+	border-radius: 50%;
 	padding: 16rpx;
 }
 .audio-control-next.data-v-41184438 {

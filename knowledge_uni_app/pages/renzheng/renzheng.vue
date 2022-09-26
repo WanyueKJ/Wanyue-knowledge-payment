@@ -31,7 +31,7 @@
 				inputs: ['姓名', '手机号', '身份行号'],
 				livephotos: ['身份证正面照', '身份证背面照', '手持身份证照'],
 				imagegroup: [
-					'', '', ''
+					'', '', '',
 				],
 				name: '',
 				phonenumber: '',
@@ -62,11 +62,9 @@
 				uni.chooseImage({
 					count: 1,
 					success(res) {
-						// console.log(res.tempFilePaths[0]);
 						var path = res.tempFilePaths[0];
 						that.imagegroup[index] = path;
 						that.$set(that.imagegroup, index, path);
-						console.log(that.imagegroup);
 					}
 				});
 			},
@@ -110,15 +108,15 @@
 					title: '提交中...',
 					mask: false
 				});
-				let gData = getApp().globalData;
+				let gData = app.globalData;
 				var that = this;
 				uni.request({
 
 					url: gData.site_url + 'Upload.GetQiniuToken',
 					method: 'POST',
 					data: {
-						'uid': getApp().globalData.userinfo.id,
-						'token': getApp().globalData.userinfo.token
+						'uid': app.globalData.userinfo.id,
+						'token': app.globalData.userinfo.token
 					},
 					success: res2 => {
 						uni.hideLoading();
@@ -176,21 +174,15 @@
 					mask: false
 				});
 				let gData = getApp().globalData;
-				var that = this;
-
-				// this.uploadimageGroup.uid = getApp().globalData.userinfo.id;
-				// this.uploadimageGroup.token = getApp().globalData.userinfo.token;
-				// this.uploadimageGroup.name = this.name;
-				// this.uploadimageGroup.mobile = this.phonenumber;
-				// this.uploadimageGroup.cer_no = this.IDNumber;
+				let that = this;
 
 				uni.request({
 
 					url: gData.site_url + 'Auth.SetAuth',
 					method: 'POST',
 					data: {
-						'uid': getApp().globalData.userinfo.id,
-						'token': getApp().globalData.userinfo.token,
+						'uid': app.globalData.userinfo.id,
+						'token': app.globalData.userinfo.token,
 						'name': that.name,
 						'mobile': that.phonenumber,
 						'cer_no': that.IDNumber,
@@ -200,9 +192,7 @@
 					},
 					success: res => {
 						uni.hideLoading();
-						if (res.data.data.code == 0) {
-							console.log(res);
-						} else {
+						if (res.data.data.code != 0) {
 							uni.hideLoading();
 						}
 						uni.showToast({
@@ -243,12 +233,15 @@
 				return newcode;
 			},
 			getTime() {
-				let yy = new Date().getFullYear();
-				let mm = new Date().getMonth() + 1;
-				let dd = new Date().getDate();
-				let hh = new Date().getHours();
-				let mf = new Date().getMinutes() < 10 ? '0' + new Date().getMinutes() : new Date().getMinutes();
-				let ss = new Date().getSeconds() < 10 ? '0' + new Date().getSeconds() : new Date().getSeconds();
+
+				let dateObj = new Date();
+
+				let yy = dateObj.getFullYear();
+				let mm = dateObj.getMonth() + 1;
+				let dd = dateObj.getDate();
+				let hh = dateObj.getHours();
+				let mf = dateObj.getMinutes() < 10 ? '0' + dateObj.getMinutes() : dateObj.getMinutes();
+				let ss = dateObj.getSeconds() < 10 ? '0' + dateObj.getSeconds() : dateObj.getSeconds();
 				return yy + mm + dd + hh + mf + ss;
 			}
 		}

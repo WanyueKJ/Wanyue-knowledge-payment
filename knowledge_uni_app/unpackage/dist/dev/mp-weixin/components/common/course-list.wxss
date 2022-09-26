@@ -16,8 +16,7 @@
 .course-list-img {
 	width: 28%;
 	height: 220rpx;
-	-webkit-border-radius: 10rpx;
-	        border-radius: 10rpx;
+	border-radius: 10rpx;
 	float: left;
 	margin-right: 26rpx;
 }
@@ -48,18 +47,13 @@
 }
 .clm-teacher-status {
 	font-size: 20rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 }
 .clm-teacher-status image{
 	width: 40rpx;
 	height: 40rpx;
-	-webkit-border-radius: 100%;
-	        border-radius: 100%;
+	border-radius: 100%;
 	margin-right: 10rpx;
 }
 .course-pay-status {

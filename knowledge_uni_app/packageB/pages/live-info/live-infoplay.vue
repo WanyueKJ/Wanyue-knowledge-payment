@@ -1,7 +1,7 @@
 <template>
 	<view>
-		<uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="直播详情" onlive>
-		</uni-nav-bar>
+		<!-- <uni-nav-bar @clickLeft="backCourseList" left-icon="back" :border="false" title="直播详情" onlive>
+		</uni-nav-bar> -->
 		<view class="live-all-wrap">
 			<template v-if="showsmallvideo == true">
 				<view class="small-video">
@@ -289,7 +289,7 @@
 	// #ifdef MP-WEIXIN
 	import AogoraWechat from "./Agora_Miniapp_SDK_for_WeChat.js";
 	// #endif
-	import Emojy from '@/components/emojy/emojy.vue';
+	import Emojy from '@/packageB/emojy/emojy.vue';
 	const app = getApp();
 	var socket = '';
 	var wechatAgora = '';

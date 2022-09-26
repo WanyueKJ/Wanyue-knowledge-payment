@@ -99,32 +99,7 @@
 
 <script>
 	
-	const demo = [
-		{	
-			course_id: 1,
-			live_img: "/static/demo/photo4.jpg",
-			title:"高二上学期语文知识内容讲解, 重点知识串讲, 考前冲刺练习",
-			live_status: "正在直播",
-			teacher_name: "李老师",
-			price: "88.00"
-		},
-		{	
-			course_id: 2,
-			live_img: "/static/demo/photo3.jpg",
-			title:"高三数学精品冲刺课程",
-			live_status: "正在直播",
-			teacher_name: "王老师",
-			price: "868.00"
-		},
-		{
-			course_id: 3,
-			live_img: "/static/demo/photo2.png",
-			title:"高二上学期语文知识内容讲解, 重点知识串讲, 考前冲刺练习",
-			live_status: "2020-11-30",
-			teacher_name: "张二狗老师",
-			price: "免费"
-		}
-	];
+	const demo = [];
 	
 	import uniNavBar from '@/components/uni-ui/uni-nav-bar/uni-nav-bar.vue';
 	export default {
@@ -143,7 +118,6 @@
 				live_demo: [
 					
 				]
-				
 				
 			}
 		},

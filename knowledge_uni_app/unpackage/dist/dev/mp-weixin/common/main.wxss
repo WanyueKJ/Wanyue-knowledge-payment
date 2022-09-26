@@ -101,6 +101,9 @@
 
 
 
+
+
+
 /*每个页面公共css */
 @font-face {
 	font-family: uniicons;
@@ -120,30 +123,17 @@ form {
 	width: 100%;
 }
 .uni-flex {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .uni-flex-item {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 }
 .uni-row {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .uni-column {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .uni-link{
 	color:#576B95;
@@ -153,16 +143,9 @@ form {
 	text-align:center;
 }
 .uni-inline-item{
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-align:center;
-	-webkit-align-items:center;
-	        align-items:center;
+	flex-direction: row;
+	align-items:center;
 }
 .uni-inline-item text{
 	margin-right: 20rpx;
@@ -183,15 +166,12 @@ form {
 	height: 88rpx;
 	line-height: 88rpx;
 	color: #BEBEBE;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	border-bottom: 2rpx solid #D8D8D8;
 }
 .uni-page-body {
 	width: 100%;
-	-webkit-box-flex: 1;
-	-webkit-flex-grow: 1;
-	        flex-grow: 1;
+	flex-grow: 1;
 	overflow-x: hidden;
 }
 .uni-padding-wrap{
@@ -260,8 +240,6 @@ form {
 .uni-btn-v button{margin:20rpx 0;}
 /* 表单 */
 .uni-form-item{
-	display:-webkit-box;
-	display:-webkit-flex;
 	display:flex;
 	width:100%;
 	padding:10rpx 0;
@@ -281,9 +259,7 @@ form {
 	line-height:50rpx;
 	font-size:28rpx;
 	background:#FFF;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 }
 radio-group, checkbox-group{
 	width:100%;
@@ -292,19 +268,15 @@ radio-group label, checkbox-group label{
 	padding-right:20rpx;
 }
 .uni-form-item .with-fun{
-	display:-webkit-box;
-	display:-webkit-flex;
 	display:flex;
-	-webkit-flex-wrap:nowrap;
-	        flex-wrap:nowrap;
+	flex-wrap:nowrap;
 	background:#FFFFFF;
 }
 .uni-form-item .with-fun .uni-icon{
 	width:40px;
 	height:80rpx;
 	line-height:80rpx;
-	-webkit-flex-shrink:0;
-	        flex-shrink:0;
+	flex-shrink:0;
 }
 /* loadmore */
 .uni-loadmore{
@@ -322,8 +294,7 @@ radio-group label, checkbox-group label{
 	display: inline-block;
 	padding: 3px 6px;
 	color: #333;
-	-webkit-border-radius: 100px;
-	        border-radius: 100px;
+	border-radius: 100px;
 	background-color: rgba(0, 0, 0, .15);
 }
 .uni-badge.uni-badge-inverted {
@@ -392,12 +363,10 @@ radio-group label, checkbox-group label{
 /*卡片视图 */
 .uni-card {
 	background: #fff;
-	-webkit-border-radius: 8rpx;
-	        border-radius: 8rpx;
+	border-radius: 8rpx;
 	margin:20rpx 0;
 	position: relative;
-	-webkit-box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
-	        box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
+	box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, .3);
 }
 .uni-card-content {
 	font-size: 30rpx;
@@ -413,17 +382,11 @@ radio-group label, checkbox-group label{
 .uni-card-footer,
 .uni-card-header {
 	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	min-height: 50rpx;
 	padding: 20rpx 30rpx;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	justify-content: space-between;
+	align-items: center;
 }
 .uni-card-header {
 	font-size: 36rpx;
@@ -448,9 +411,7 @@ radio-group label, checkbox-group label{
 	bottom: 0;
 }
 .uni-card-media {
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	        justify-content: flex-start;
+	justify-content: flex-start;
 }
 .uni-card-media-logo {
 	height: 84rpx;
@@ -459,19 +420,10 @@ radio-group label, checkbox-group label{
 }
 .uni-card-media-body {
 	height: 84rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: start;
-	-webkit-align-items: flex-start;
-	        align-items: flex-start;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 .uni-card-media-text-top {
 	line-height: 36rpx;
@@ -490,13 +442,8 @@ radio-group label, checkbox-group label{
 	background-color: #FFFFFF;
 	position: relative;
 	width: 100%;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .uni-list:after {
 	position: absolute;
@@ -524,19 +471,10 @@ radio-group label, checkbox-group label{
 }
 .uni-list-cell {
 	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 .uni-list-cell-hover {
 	background-color: #eee;
@@ -551,9 +489,7 @@ radio-group label, checkbox-group label{
 }
 .uni-list-cell-db,
 .uni-list-cell-right {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 }
 .uni-list-cell::after {
 	position: absolute;
@@ -575,8 +511,6 @@ radio-group label, checkbox-group label{
 }
 .uni-list-cell-divider {
 	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	color: #999;
 	background-color: #f7f7f7;
@@ -609,21 +543,12 @@ radio-group label, checkbox-group label{
 	padding: 22rpx 30rpx;
 	line-height: 48rpx;
 	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	width: 100%;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
 }
 .uni-list-cell-navigate {
 	padding-right: 36rpx;
@@ -662,17 +587,13 @@ radio-group label, checkbox-group label{
 	transform: translateY(-50%);
 }
 .uni-collapse.uni-list-cell {
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .uni-list-cell-navigate.uni-active {
 	background: #eee;
 }
 .uni-list.uni-collapse {
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	height: 0;
 	overflow: hidden;
 }
@@ -687,30 +608,17 @@ radio-group label, checkbox-group label{
 }
 /* 三行列表 */
 .uni-triplex-row {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 	width: 100%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	box-sizing: border-box;
+	flex-direction: row;
 	padding: 22rpx 30rpx;
 }
 .uni-triplex-right,
 .uni-triplex-left {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex-direction: column;
 }
 .uni-triplex-left {
 	width: 84%;
@@ -726,25 +634,16 @@ radio-group label, checkbox-group label{
 /* 图文列表 */
 .uni-media-list {
 	padding: 22rpx 30rpx;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
-	display: -webkit-box;
-	display: -webkit-flex;
+	box-sizing: border-box;
 	display: flex;
 	width: 100%;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 }
 .uni-navigate-right.uni-media-list {
 	padding-right: 74rpx;
 }
 .uni-pull-right {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: reverse;
-	-webkit-flex-direction: row-reverse;
-	        flex-direction: row-reverse;
+	flex-direction: row-reverse;
 }
 .uni-pull-right>.uni-media-list-logo {
 	margin-right: 0rpx;
@@ -761,22 +660,11 @@ radio-group label, checkbox-group label{
 }
 .uni-media-list-body {
 	height: 84rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: start;
-	-webkit-align-items: flex-start;
-	        align-items: flex-start;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
 	overflow: hidden;
 }
 .uni-media-list-text-top {
@@ -794,38 +682,22 @@ radio-group label, checkbox-group label{
 .uni-grid-9 {
 	background: #f2f2f2;
 	width: 750rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-flex-wrap: wrap;
-	        flex-wrap: wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 	border-top: 2rpx solid #eee;
 }
 .uni-grid-9-item {
 	width: 250rpx;
 	height: 200rpx;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	border-bottom: 2rpx solid;
 	border-right: 2rpx solid;
 	border-color: #eee;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 }
 .no-border-right {
 	border-right: none;
@@ -846,25 +718,13 @@ radio-group label, checkbox-group label{
 }
 /* 上传 */
 .uni-uploader {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex: 1;
+	flex-direction: column;
 }
 .uni-uploader-head {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .uni-uploader-info {
 	color: #B2B2B2;
@@ -873,15 +733,9 @@ radio-group label, checkbox-group label{
 	margin-top: 16rpx;
 }
 .uni-uploader__files {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-flex-wrap: wrap;
-	        flex-wrap: wrap;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .uni-uploader__file {
 	margin: 10rpx;
@@ -936,27 +790,16 @@ radio-group label, checkbox-group label{
 }
 /*问题反馈*/
 .feedback-title {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 	padding: 20rpx;
 	color: #8f8f94;
 	font-size: 28rpx;
 }
 .feedback-star-view.feedback-title {
-	-webkit-box-pack: start;
-	-webkit-justify-content: flex-start;
-	        justify-content: flex-start;
+	justify-content: flex-start;
 	margin: 0;
 }
 .feedback-quick {
@@ -982,8 +825,7 @@ radio-group label, checkbox-group label{
 	font-size: 34rpx;
 	line-height: 50rpx;
 	width: 100%;
-	-webkit-box-sizing: border-box;
-	        box-sizing: border-box;
+	box-sizing: border-box;
 	padding: 20rpx 30rpx 0;
 }
 .feedback-input {
@@ -1049,18 +891,11 @@ radio-group label, checkbox-group label{
 }
 .uni-input-row {
 	position: relative;
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: row;
-	        flex-direction: row;
+	flex-direction: row;
 	font-size:28rpx;
 	padding: 22rpx 30rpx;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
+	justify-content: space-between;
 }
 .uni-input-group .uni-input-row:after {
 	position: absolute;
@@ -1090,16 +925,9 @@ radio-group label, checkbox-group label{
 }
 /* tab bar */
 .uni-tab-bar {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-webkit-flex-direction: column;
-	        flex-direction: column;
+	flex: 1;
+	flex-direction: column;
 	overflow: hidden;
 	height: 100%;
 }
@@ -1125,9 +953,7 @@ radio-group label, checkbox-group label{
 	color: #007AFF;
 }
 .uni-tab-bar .swiper-box {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 	width: 100%;
 	height: calc(100% - 100rpx);
 }
@@ -1135,45 +961,34 @@ radio-group label, checkbox-group label{
 	padding:20rpx 0;
 }
 /* comment */
-.uni-comment{padding:5rpx 0; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex:1; -webkit-flex-grow:1; flex-grow:1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column;}
-.uni-comment-list{-webkit-flex-wrap:nowrap;flex-wrap:nowrap; padding:10rpx 0; margin:10rpx 0; width:100%; display: -webkit-box; display: -webkit-flex; display: flex;}
-.uni-comment-face{width:70rpx; height:70rpx; -webkit-border-radius:100%; border-radius:100%; margin-right:20rpx; -webkit-flex-shrink:0; flex-shrink:0; overflow:hidden;}
-.uni-comment-face image{width:100%; -webkit-border-radius:100%; border-radius:100%;}
+.uni-comment{padding:5rpx 0; display: flex; flex-grow:1; flex-direction: column;}
+.uni-comment-list{flex-wrap:nowrap; padding:10rpx 0; margin:10rpx 0; width:100%; display: flex;}
+.uni-comment-face{width:70rpx; height:70rpx; border-radius:100%; margin-right:20rpx; flex-shrink:0; overflow:hidden;}
+.uni-comment-face image{width:100%; border-radius:100%;}
 .uni-comment-body{width:100%;}
-.uni-comment-top{line-height:1.5em; -webkit-box-pack:justify; -webkit-justify-content:space-between; justify-content:space-between;}
+.uni-comment-top{line-height:1.5em; justify-content:space-between;}
 .uni-comment-top text{color:#0A98D5; font-size:24rpx;}
-.uni-comment-date{line-height:38rpx; -webkit-box-orient:horizontal; -webkit-box-direction:normal; -webkit-flex-direction:row; flex-direction:row; -webkit-box-pack:justify; -webkit-justify-content:space-between; justify-content:space-between; display:-webkit-box !important; display:-webkit-flex !important; display:flex !important; -webkit-box-flex:1; -webkit-flex-grow:1; flex-grow:1;}
+.uni-comment-date{line-height:38rpx; flex-direction:row; justify-content:space-between; display:flex !important; flex-grow:1;}
 .uni-comment-date view{color:#666666; font-size:24rpx; line-height:38rpx;}
 .uni-comment-content{line-height:1.6em; font-size:28rpx; padding:8rpx 0;}
-.uni-comment-replay-btn{background:#FFF; font-size:24rpx; line-height:28rpx; padding:5rpx 20rpx; -webkit-border-radius:30rpx; border-radius:30rpx; color:#333 !important; margin:0 10rpx;}
+.uni-comment-replay-btn{background:#FFF; font-size:24rpx; line-height:28rpx; padding:5rpx 20rpx; border-radius:30rpx; color:#333 !important; margin:0 10rpx;}
 /* swiper msg */
-.uni-swiper-msg{width:100%; padding:12rpx 0; -webkit-flex-wrap:nowrap; flex-wrap:nowrap; display:-webkit-box; display:-webkit-flex; display:flex;}
+.uni-swiper-msg{width:100%; padding:12rpx 0; flex-wrap:nowrap; display:flex;}
 .uni-swiper-msg-icon{width:50rpx; margin-right:20rpx;}
-.uni-swiper-msg-icon image{width:100%; -webkit-flex-shrink:0; flex-shrink:0;}
+.uni-swiper-msg-icon image{width:100%; flex-shrink:0;}
 .uni-swiper-msg swiper{width:100%; height:50rpx;}
 .uni-swiper-msg swiper-item{line-height:50rpx;}
 /* product */
 .uni-product-list {
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
     width: 100%;
-    -webkit-flex-wrap: wrap;
-            flex-wrap: wrap;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-            flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .uni-product {
     padding: 20rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
 }
 .image-view {
     height: 330rpx;
@@ -1214,54 +1029,38 @@ radio-group label, checkbox-group label{
     background-color: #ff3333;
     color: #ffffff;
     padding: 0 10rpx;
-    -webkit-border-radius: 5rpx;
-            border-radius: 5rpx;
+    border-radius: 5rpx;
 }
 /* timeline */
 .uni-timeline {
 		margin: 35rpx 0;
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		        flex-direction: column;
+		flex-direction: column;
 		position: relative;
 }
 .uni-timeline-item {
-		display: -webkit-box;
-		display: -webkit-flex;
 		display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		        flex-direction: row;
+		flex-direction: row;
 		position: relative;
 		padding-bottom: 20rpx;
-		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		box-sizing: border-box;
 		overflow: hidden;
 }
 .uni-timeline-item .uni-timeline-item-keynode {
 		width: 160rpx;
-		-webkit-flex-shrink: 0;
-		        flex-shrink: 0;
-		-webkit-box-sizing: border-box;
-		        box-sizing: border-box;
+		flex-shrink: 0;
+		box-sizing: border-box;
 		padding-right: 20rpx;
 		text-align: right;
 		line-height: 65rpx;
 }
 .uni-timeline-item .uni-timeline-item-divider {
-		-webkit-flex-shrink: 0;
-		        flex-shrink: 0;
+		flex-shrink: 0;
 		position: relative;
 		width: 30rpx;
 		height: 30rpx;
 		top: 15rpx;
-		-webkit-border-radius: 50%;
-		        border-radius: 50%;
+		border-radius: 50%;
 		background-color: #bbb;
 }
 .uni-timeline-item-divider::before,
@@ -1583,15 +1382,9 @@ radio-group label, checkbox-group label{
 /* 分界线 */
 .uni-divider{
     height: 110rpx;
-    display: -webkit-box;
-    display: -webkit-flex;
     display: flex;
-    -webkit-box-align:center;
-    -webkit-align-items:center;
-            align-items:center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-            justify-content: center;
+    align-items:center;
+    justify-content: center;
     position: relative;
 }
 .uni-divider__content{
@@ -4906,7 +4699,6 @@ to {
 .animated {
     -webkit-animation-duration: 1ms !important;
     animation-duration: 1ms !important;
-    -webkit-transition-duration: 1ms !important;
     transition-duration: 1ms !important;
     -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important;
@@ -4928,59 +4720,40 @@ to {
 }
 /* flex布局 */
 .flex {
-	display: -webkit-box;
-	display: -webkit-flex;
 	display: flex;
 	/* flex-direction: row; */
 }
 .flex-column {
-	-webkit-box-orient:vertical;
-	-webkit-box-direction:normal;
-	-webkit-flex-direction:column;
-	        flex-direction:column;
+	flex-direction:column;
 }
-.flex-wrap {-webkit-flex-wrap: wrap;flex-wrap: wrap;}
+.flex-wrap {flex-wrap: wrap;}
 .text-center{
 	text-align: center;
 }
 .align-center{
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	        align-items: center;
+	align-items: center;
 }
 .align-start{
-	-webkit-box-align: start;
-	-webkit-align-items: flex-start;
-	        align-items: flex-start;
+	align-items: flex-start;
 }
 .align-stretch{
-	-webkit-box-align: stretch;
-	-webkit-align-items: stretch;
-	        align-items: stretch;
+	align-items: stretch;
 }
 .justify-between {
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
+	justify-content: space-between;
 }
 .justify-center{
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	        justify-content: center;
+	justify-content: center;
 }
 /* 圆角 */
 .rounded-circle{
-	-webkit-border-radius: 100%;
-	        border-radius: 100%;
+	border-radius: 100%;
 }
 .rounded {
-	-webkit-border-radius: 8rpx;
-	        border-radius: 8rpx;
+	border-radius: 8rpx;
 }
 .flex-1 {
-	-webkit-box-flex: 1;
-	-webkit-flex: 1;
-	        flex: 1;
+	flex: 1;
 }
 .mb-2{
 	margin-bottom: 20rpx;
@@ -5130,8 +4903,6 @@ to {
 	bottom: -4px;
 	width: 40rpx;
 	height: 6rpx;
-	background: -webkit-gradient(linear,left top, right top,from(#3D98FF) ,to(#7A76FA) );
-	background: -webkit-linear-gradient(left,#3D98FF ,#7A76FA );
 	background: linear-gradient(to right,#3D98FF ,#7A76FA );
 	margin: 0 auto;
 }
@@ -5150,8 +4921,7 @@ to {
 	width: 70rpx;
 	margin: auto;
 	border-top: 6rpx solid #FEDE33;
-	-webkit-border-radius: 20rpx;
-	        border-radius: 20rpx;
+	border-radius: 20rpx;
 }
 /* 去掉弹出层默认白色背景, 页面样式中设置无效 */
 .uni-transition .uni-popup__wrapper-box {
@@ -5161,4 +4931,20 @@ to {
 .uni-navbar {
 	margin-top: 52rpx !important;
 }
+ .uni-scroll-view ::-webkit-scrollbar {
+	 /* 隐藏滚动条，但依旧具备可以滚动的功能 */
+	 display: none;
+	 width: 0;
+	 height: 0;
+	 color: transparent;
+	 background: transparent;
+}
+ ::-webkit-scrollbar {
+	 display: none;
+	 width: 0;
+	 height: 0;
+	 color: transparent;
+	 background: transparent;
+}
+
 

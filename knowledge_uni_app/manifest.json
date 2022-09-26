@@ -1,6 +1,6 @@
 {
     "name" : "万岳知识付费",
-    "appid" : "__UNI__5122150",
+    "appid" : "__UNI__EDB6202",
     "description" : "",
     "versionName" : "1.1",
     "versionCode" : 100,
@@ -108,7 +108,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx1d83024d4e7b79b3",
+        "appid" : "wxbdd40ba5d24b67dd",
         "setting" : {
             "urlCheck" : false,
             "minified" : true,

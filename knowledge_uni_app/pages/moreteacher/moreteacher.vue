@@ -75,7 +75,7 @@
 			},
 			// 查看教师详情
 			viewTeacherInfo(touid) {
-				if (getApp().globalData.userinfo == ''){
+				if (app.globalData.userinfo == ''){
 					uni.navigateTo({
 						url: '../login/login',
 						success: res => {},

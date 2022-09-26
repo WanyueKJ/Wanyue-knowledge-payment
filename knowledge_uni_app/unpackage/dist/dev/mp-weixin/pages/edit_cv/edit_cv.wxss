@@ -90,7 +90,6 @@
 
 
 
-
 /* 占位符样式 */
 .place_zhan {
 	color:#C8C8C8;
@@ -102,7 +101,7 @@
 	margin: 0 auto;
 }
 .sub-btn {
-	color: #38DAA6;
+	color: #2C62EF;
 }
 .school {
 	height: 72rpx;

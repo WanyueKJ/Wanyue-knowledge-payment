@@ -68,7 +68,7 @@
 				tabIndex: 0,
 				tabBars: [],
 				kongkong: false,
-				currentScrollId: '', //当前选中的标签id
+				currentScrollId: '' //当前选中的标签id
 			}
 		},
 		onReady() {
@@ -130,7 +130,7 @@
 							// 空空如也
 							this.kongkong = true;
 							this.live_info = [];
-						}else{
+						} else {
 							this.kongkong = false;
 							this.live_info = res.data.data.info;
 						}
@@ -146,7 +146,6 @@
 			},
 			//切换选项卡
 			changeTab(index) {
-				
 				this.tabIndex = index;
 				this.getLiveCourseList(this.tabBars[index].id, 0);
 			},
@@ -209,15 +208,15 @@
 	}
 		
 	.courseclass-text-main::after {
-			content: "";
-			width: 35rpx;
-			height: 4rpx;
-			background: linear-gradient(to top right, #3D98FF, #7A76FA);
-			position: absolute;
-			top: 50rpx;
-			left: 55rpx;
-			line-height: 0;
-			display: inline-block;
+		content: "";
+		width: 35rpx;
+		height: 4rpx;
+		background: linear-gradient(to top right, #3D98FF, #7A76FA);
+		position: absolute;
+		top: 50rpx;
+		left: 55rpx;
+		line-height: 0;
+		display: inline-block;
 	}
 	.swiper-box {
 		margin-top: 20rpx;

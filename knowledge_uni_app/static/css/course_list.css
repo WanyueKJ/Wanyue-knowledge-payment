@@ -99,7 +99,7 @@
 	font-weight: bold;
 	overflow: hidden;
 	height: 70rpx;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	-webkit-line-clamp: 2;
 	text-overflow: ellipsis;
 	display: -webkit-box;
@@ -120,6 +120,8 @@
 	text-align: center;
 	border: 2rpx solid #969696;
 	border-radius: 8rpx;
+	position: relative;
+    top: 10rpx;
 
 }
 

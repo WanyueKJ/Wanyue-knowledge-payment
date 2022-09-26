@@ -101,7 +101,6 @@
 				loadmore: "上拉加载更多",
 				kongkong: false,
 				system_top:0,
-				
 				tabBarsCourse: [
 					{
 						name: "全部"
@@ -119,9 +118,11 @@
 			}
 		},
 		onShow() {
-
+			
+			
 		},
 		onReady() {
+		
 			let that = this;
 			uni.getSystemInfo({
 				success: function(res) {
@@ -170,6 +171,7 @@
 						'type':subIndex
 					},
 					success: res => {
+						// console.log(res);
 						if(parseInt(res.data.data.code) !== 0) {
 							uni.showToast({
 								icon: 'none',
