@@ -159,7 +159,6 @@
      * @param range
      */
     function getEchartsData(range) {
-        console.log(3333);
         $.ajax({
             url: '/admin/Main/getDealEcharts',
             type: 'POST',

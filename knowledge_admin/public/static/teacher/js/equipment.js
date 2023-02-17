@@ -3,11 +3,13 @@ var selectedCameraId=null;
 var Agorastream = null;
 var audioLevelTime = null;
 var check_index = null;
+var audioTrack_check = null;
+var videoTrack_check = null;
 
 function getDevices() {
-    AgoraRTC.getDevices(function (devices) {
-        // console.log(devices);
-    
+
+    AgoraRTC.getDevices().then(devices=>{
+        //console.log(devices);
         var options = {audiooutput: '', audioinput: '', videoinput: ''};
         for (var i = 0; i < devices.length; i++) {
             var device = devices[i];
@@ -24,16 +26,16 @@ function getDevices() {
 
         checkDevice();
     });
-};
+}
 
 
-function checkDevice() {
+async function checkDevice() {
     clearCheck();
-    
+
     var uid = Math.floor(Math.random() * 10000);
     selectedMicrophoneId = $("select[name='audioinput']").val();
     selectedCameraId = $("select[name='videoinput']").val();
-    
+
     // console.log(selectedMicrophoneId);
     // console.log(selectedCameraId);
     if(!selectedMicrophoneId || !selectedCameraId || selectedMicrophoneId=='' || selectedCameraId==''){
@@ -41,45 +43,40 @@ function checkDevice() {
         return !1;
     }
 
-    Agorastream = AgoraRTC.createStream({
-        streamID: uid,
-        audio: true,
-        microphoneId: selectedMicrophoneId,
-        video: true,
-        cameraId: selectedCameraId,
-        screen: false
+    [audioTrack_check, videoTrack_check] = await AgoraRTC.createMicrophoneAndCameraTracks({
+        audioConfig:{
+            microphoneId:selectedMicrophoneId
+        },
+        videoConfig:{
+            cameraId:selectedCameraId
+        },
     });
-    Agorastream.init(function () {
-        console.log("init local stream success");
-        Agorastream.play("device_video",{fit: "contain"},function(errState){
-            
-        });
-        
-        audioLevelTime=setInterval(function() {
-            var audioLevel = Agorastream.getAudioLevel();
-            
-            var audio_Level=audioLevel * 12;
-            $('#device_audio li').each(function(){
-                var _that=$(this);
-                var index=_that.index();
-                var nums=index+1;
-                if(nums<audio_Level){
-                    _that.addClass('on');
-                }else{
-                    _that.removeClass('on');
-                }
-            })
-    
-        }, 100)
-        
-    }, function (err) {
-        layer.msg('请检查麦克风和摄像头是否正常');
-        //console.error("init local Agorastream failed ", err);
-    })
-};
-function clearCheck(){
+
+    videoTrack_check.play('device_video',{fit: "contain"});
+
+
+    audioLevelTime = setInterval(() => {
+        let level = audioTrack_check.getVolumeLevel();
+        //console.log("local stream audio level", level);
+        let audio_Level=level * 12;
+        $('#device_audio li').each(function(){
+            let _that=$(this);
+            let index=_that.index();
+            let nums=index+1;
+            if(nums<audio_Level){
+                _that.addClass('on');
+            }else{
+                _that.removeClass('on');
+            }
+        })
+    }, 200);
+
+}
+async function clearCheck(){
     $('#device_video').html('');
-    Agorastream && Agorastream.close();
+
+    await videoTrack_check.close();
+    await audioTrack_check.close();
     audioLevelTime && clearInterval(audioLevelTime);
     audioLevelTime=null;
 }
@@ -103,7 +100,7 @@ function stratCheck(){
 (function(){
     Wind.css('layer');
     Wind.use('layer');
-    
+
     $(".js_check_camera").click(function(){
         var _that=$(this);
         if(_that.hasClass('device_btn_no')){
@@ -117,11 +114,11 @@ function stratCheck(){
         }
         $('.device_top li').eq(0).find('.device_t').text('摄像头');
         $('.device_top li').eq(1).find('.device_t').text('麦克风检测中');
-        
+
         $('.device_top li').eq(1).removeClass('ok no').addClass('on');
         $('.device_bd').hide().eq(1).show();
     })
-    
+
     $(".js_check_mic").click(function(){
         var _that=$(this);
         if(_that.hasClass('device_btn_no')){
@@ -134,23 +131,23 @@ function stratCheck(){
             $('.js_txt_mic').text('正常');
         }
         $('.device_top li').eq(1).find('.device_t').text('麦克风');
-        
+
         $('.device_top li').eq(2).removeClass('ok no').addClass('on');
         $('.device_bd').hide().eq(2).show();
-        
+
         clearCheck();
     })
-    
+
     $(".js_check_reset").click(function(){
-        
+
         $('.device_top li').eq(0).find('.device_t').text('摄像头检测中');
-        
+
         $('.device_top li').eq(0).removeClass('ok no').addClass('on');
         $('.device_bd').hide().eq(0).show();
-        
+
         getDevices();
     })
-    
+
     $(".js_check_ok").click(function(){
         closeCheck();
     })

@@ -261,12 +261,6 @@ function getConfigPri()
         }
     }
 
-    $config['sound_appid']=unsetCode($config['sound_appid']);
-    $config['agora_api_id']=unsetCode($config['agora_api_id']);
-    $config['agora_api_key']=unsetCode($config['agora_api_key']);
-//    $config['netless_sdktoken']=unsetCode($config['netless_sdktoken']);
-//    $config['netless_appid']=unsetCode($config['netless_appid']);
-
     $GLOBALS[$key]=$config;
 
     return $config;
@@ -1402,30 +1396,6 @@ function curl_get($url, $header = false)
     return json_decode($return_str, true);
 }
 
-
-/* 源码删除 */
-function unsetCode($code){
-    $str = '3:1JiIk.G6D?j-XHs4z0EQa2T_9S7moFRyWv5AKZUhc=lxY8quVrnO/NLfbPMCweptBdg';
-    $strl=strlen($str);
-
-    $len = strlen($code);
-
-    $newCode = '';
-    for($i=0;$i<$len;$i++){
-        for($j=0;$j<$strl;$j++){
-            if($str[$j]==$code[$i]){
-                if($j-1<0){
-                    $newCode.=$str[$strl-1];
-                }else{
-                    $newCode.=$str[$j-1];
-                }
-            }
-        }
-    }
-    return $newCode;
-}
-
-
 /* 处理支付订单 */
 function handelPay($where,$data=[]){
 
@@ -1578,6 +1548,15 @@ function upConsumption($uid,$money,$type=1,$actionid=0){
 
     $res=$db->inc('consumption',$money)->update();
 
+
+    //    知识付费没有积分
+    //    if($type==1){
+    //        /* 增加累计消费时处理*/
+    //        integralByFee($uid,$money,$actionid);
+    //        integralByAgent($uid,$money,$actionid);
+    //        AgentByFee($uid);
+    //    }
+
     return $res;
 
 }
@@ -1618,14 +1597,15 @@ function handelSetToStr($arr){
 
     return $str;
 }
-
-
-
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
