@@ -113,7 +113,7 @@
 									</if>
 								</td>
 	
-								<td>{$type[$vo['type']]}</td>
+								<td>{$type[$vo['type']] ?: ''}</td>
 								<td>{$status[$vo['status']]}</td>
 								<td>{:date('Y-m-d H:i:s',$vo['addtime'])}</td>
 								<td>
