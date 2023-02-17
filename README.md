@@ -7,7 +7,7 @@
  
  
  ### Demo
- ![展示图](https://images.gitee.com/uploads/images/2021/0317/115928_10d83614_8543696.png "yanshi.png")
+ ![展示图](https://raw.githubusercontent.com/WanyueKJ/Wanyue-knowledge-payment/master/demo.png "yanshi.png")
  ### The directory structure
 - Front-end code knowledge_UNI_app directory
 - Background code knowledge_admin directory
